@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SPS2025 - STEMify.props" />
+</Project>

@@ -1,0 +1,287 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\p.shuuya\\source\\repos\\SPS2025 - STEMify\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C67D77C7-5793-4BF5-BA68-1B3D44967FE2}|SPS2025 - STEMify\\SPS2025 - STEMify.csproj|c:\\users\\p.shuuya\\source\\repos\\sps2025 - stemify\\sps2025 - stemify\\services\\userauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C67D77C7-5793-4BF5-BA68-1B3D44967FE2}|SPS2025 - STEMify\\SPS2025 - STEMify.csproj|solutionrelative:sps2025 - stemify\\services\\userauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C67D77C7-5793-4BF5-BA68-1B3D44967FE2}|SPS2025 - STEMify\\SPS2025 - STEMify.csproj|c:\\users\\p.shuuya\\source\\repos\\sps2025 - stemify\\sps2025 - stemify\\services\\adminauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C67D77C7-5793-4BF5-BA68-1B3D44967FE2}|SPS2025 - STEMify\\SPS2025 - STEMify.csproj|solutionrelative:sps2025 - stemify\\services\\adminauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C67D77C7-5793-4BF5-BA68-1B3D44967FE2}|SPS2025 - STEMify\\SPS2025 - STEMify.csproj|c:\\users\\p.shuuya\\source\\repos\\sps2025 - stemify\\sps2025 - stemify\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C67D77C7-5793-4BF5-BA68-1B3D44967FE2}|SPS2025 - STEMify\\SPS2025 - STEMify.csproj|solutionrelative:sps2025 - stemify\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C67D77C7-5793-4BF5-BA68-1B3D44967FE2}|SPS2025 - STEMify\\SPS2025 - STEMify.csproj|c:\\users\\p.shuuya\\source\\repos\\sps2025 - stemify\\sps2025 - stemify\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C67D77C7-5793-4BF5-BA68-1B3D44967FE2}|SPS2025 - STEMify\\SPS2025 - STEMify.csproj|solutionrelative:sps2025 - stemify\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C67D77C7-5793-4BF5-BA68-1B3D44967FE2}|SPS2025 - STEMify\\SPS2025 - STEMify.csproj|c:\\users\\p.shuuya\\source\\repos\\sps2025 - stemify\\sps2025 - stemify\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C67D77C7-5793-4BF5-BA68-1B3D44967FE2}|SPS2025 - STEMify\\SPS2025 - STEMify.csproj|solutionrelative:sps2025 - stemify\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C67D77C7-5793-4BF5-BA68-1B3D44967FE2}|SPS2025 - STEMify\\SPS2025 - STEMify.csproj|c:\\users\\p.shuuya\\source\\repos\\sps2025 - stemify\\sps2025 - stemify\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C67D77C7-5793-4BF5-BA68-1B3D44967FE2}|SPS2025 - STEMify\\SPS2025 - STEMify.csproj|solutionrelative:sps2025 - stemify\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C67D77C7-5793-4BF5-BA68-1B3D44967FE2}|SPS2025 - STEMify\\SPS2025 - STEMify.csproj|c:\\users\\p.shuuya\\source\\repos\\sps2025 - stemify\\sps2025 - stemify\\pages\\accounts\\adminlog.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C67D77C7-5793-4BF5-BA68-1B3D44967FE2}|SPS2025 - STEMify\\SPS2025 - STEMify.csproj|solutionrelative:sps2025 - stemify\\pages\\accounts\\adminlog.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C67D77C7-5793-4BF5-BA68-1B3D44967FE2}|SPS2025 - STEMify\\SPS2025 - STEMify.csproj|c:\\users\\p.shuuya\\source\\repos\\sps2025 - stemify\\sps2025 - stemify\\pages\\accounts\\adminlog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C67D77C7-5793-4BF5-BA68-1B3D44967FE2}|SPS2025 - STEMify\\SPS2025 - STEMify.csproj|solutionrelative:sps2025 - stemify\\pages\\accounts\\adminlog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C67D77C7-5793-4BF5-BA68-1B3D44967FE2}|SPS2025 - STEMify\\SPS2025 - STEMify.csproj|c:\\users\\p.shuuya\\source\\repos\\sps2025 - stemify\\sps2025 - stemify\\pages\\accounts\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C67D77C7-5793-4BF5-BA68-1B3D44967FE2}|SPS2025 - STEMify\\SPS2025 - STEMify.csproj|solutionrelative:sps2025 - stemify\\pages\\accounts\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C67D77C7-5793-4BF5-BA68-1B3D44967FE2}|SPS2025 - STEMify\\SPS2025 - STEMify.csproj|c:\\users\\p.shuuya\\source\\repos\\sps2025 - stemify\\sps2025 - stemify\\pages\\accounts\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C67D77C7-5793-4BF5-BA68-1B3D44967FE2}|SPS2025 - STEMify\\SPS2025 - STEMify.csproj|solutionrelative:sps2025 - stemify\\pages\\accounts\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C67D77C7-5793-4BF5-BA68-1B3D44967FE2}|SPS2025 - STEMify\\SPS2025 - STEMify.csproj|c:\\users\\p.shuuya\\source\\repos\\sps2025 - stemify\\sps2025 - stemify\\pages\\accounts\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C67D77C7-5793-4BF5-BA68-1B3D44967FE2}|SPS2025 - STEMify\\SPS2025 - STEMify.csproj|solutionrelative:sps2025 - stemify\\pages\\accounts\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C67D77C7-5793-4BF5-BA68-1B3D44967FE2}|SPS2025 - STEMify\\SPS2025 - STEMify.csproj|c:\\users\\p.shuuya\\source\\repos\\sps2025 - stemify\\sps2025 - stemify\\pages\\accounts\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C67D77C7-5793-4BF5-BA68-1B3D44967FE2}|SPS2025 - STEMify\\SPS2025 - STEMify.csproj|solutionrelative:sps2025 - stemify\\pages\\accounts\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C67D77C7-5793-4BF5-BA68-1B3D44967FE2}|SPS2025 - STEMify\\SPS2025 - STEMify.csproj|c:\\users\\p.shuuya\\source\\repos\\sps2025 - stemify\\sps2025 - stemify\\data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C67D77C7-5793-4BF5-BA68-1B3D44967FE2}|SPS2025 - STEMify\\SPS2025 - STEMify.csproj|solutionrelative:sps2025 - stemify\\data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C67D77C7-5793-4BF5-BA68-1B3D44967FE2}|SPS2025 - STEMify\\SPS2025 - STEMify.csproj|c:\\users\\p.shuuya\\source\\repos\\sps2025 - stemify\\sps2025 - stemify\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C67D77C7-5793-4BF5-BA68-1B3D44967FE2}|SPS2025 - STEMify\\SPS2025 - STEMify.csproj|solutionrelative:sps2025 - stemify\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C67D77C7-5793-4BF5-BA68-1B3D44967FE2}|SPS2025 - STEMify\\SPS2025 - STEMify.csproj|c:\\users\\p.shuuya\\source\\repos\\sps2025 - stemify\\sps2025 - stemify\\pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C67D77C7-5793-4BF5-BA68-1B3D44967FE2}|SPS2025 - STEMify\\SPS2025 - STEMify.csproj|solutionrelative:sps2025 - stemify\\pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\source\\repos\\SPS2025 - STEMify\\SPS2025 - STEMify\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "SPS2025 - STEMify\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\source\\repos\\SPS2025 - STEMify\\SPS2025 - STEMify\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "SPS2025 - STEMify\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T14:34:04.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\source\\repos\\SPS2025 - STEMify\\SPS2025 - STEMify\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "SPS2025 - STEMify\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\p.shuuya\\source\\repos\\SPS2025 - STEMify\\SPS2025 - STEMify\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "SPS2025 - STEMify\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-15T14:42:24.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\source\\repos\\SPS2025 - STEMify\\SPS2025 - STEMify\\Pages\\Accounts\\Login.cshtml",
+              "RelativeDocumentMoniker": "SPS2025 - STEMify\\Pages\\Accounts\\Login.cshtml",
+              "ToolTip": "C:\\Users\\p.shuuya\\source\\repos\\SPS2025 - STEMify\\SPS2025 - STEMify\\Pages\\Accounts\\Login.cshtml",
+              "RelativeToolTip": "SPS2025 - STEMify\\Pages\\Accounts\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-15T13:18:48.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminLog.cshtml",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\source\\repos\\SPS2025 - STEMify\\SPS2025 - STEMify\\Pages\\Accounts\\AdminLog.cshtml",
+              "RelativeDocumentMoniker": "SPS2025 - STEMify\\Pages\\Accounts\\AdminLog.cshtml",
+              "ToolTip": "C:\\Users\\p.shuuya\\source\\repos\\SPS2025 - STEMify\\SPS2025 - STEMify\\Pages\\Accounts\\AdminLog.cshtml",
+              "RelativeToolTip": "SPS2025 - STEMify\\Pages\\Accounts\\AdminLog.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-15T13:19:46.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\source\\repos\\SPS2025 - STEMify\\SPS2025 - STEMify\\Program.cs",
+              "RelativeDocumentMoniker": "SPS2025 - STEMify\\Program.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\source\\repos\\SPS2025 - STEMify\\SPS2025 - STEMify\\Program.cs*",
+              "RelativeToolTip": "SPS2025 - STEMify\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T13:46:09.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\source\\repos\\SPS2025 - STEMify\\SPS2025 - STEMify\\Services\\AdminAuthService.cs",
+              "RelativeDocumentMoniker": "SPS2025 - STEMify\\Services\\AdminAuthService.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\source\\repos\\SPS2025 - STEMify\\SPS2025 - STEMify\\Services\\AdminAuthService.cs*",
+              "RelativeToolTip": "SPS2025 - STEMify\\Services\\AdminAuthService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T14:37:04.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\source\\repos\\SPS2025 - STEMify\\SPS2025 - STEMify\\Services\\UserAuthService.cs",
+              "RelativeDocumentMoniker": "SPS2025 - STEMify\\Services\\UserAuthService.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\source\\repos\\SPS2025 - STEMify\\SPS2025 - STEMify\\Services\\UserAuthService.cs*",
+              "RelativeToolTip": "SPS2025 - STEMify\\Services\\UserAuthService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T14:35:26.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\source\\repos\\SPS2025 - STEMify\\SPS2025 - STEMify\\Pages\\Accounts\\Register.cshtml",
+              "RelativeDocumentMoniker": "SPS2025 - STEMify\\Pages\\Accounts\\Register.cshtml",
+              "ToolTip": "C:\\Users\\p.shuuya\\source\\repos\\SPS2025 - STEMify\\SPS2025 - STEMify\\Pages\\Accounts\\Register.cshtml",
+              "RelativeToolTip": "SPS2025 - STEMify\\Pages\\Accounts\\Register.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAiwDAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-15T13:19:11.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\source\\repos\\SPS2025 - STEMify\\SPS2025 - STEMify\\Pages\\Accounts\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "SPS2025 - STEMify\\Pages\\Accounts\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\source\\repos\\SPS2025 - STEMify\\SPS2025 - STEMify\\Pages\\Accounts\\Login.cshtml.cs",
+              "RelativeToolTip": "SPS2025 - STEMify\\Pages\\Accounts\\Login.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T13:23:15.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\source\\repos\\SPS2025 - STEMify\\SPS2025 - STEMify\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SPS2025 - STEMify\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\p.shuuya\\source\\repos\\SPS2025 - STEMify\\SPS2025 - STEMify\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SPS2025 - STEMify\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-15T13:35:12.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\source\\repos\\SPS2025 - STEMify\\SPS2025 - STEMify\\Pages\\Accounts\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "SPS2025 - STEMify\\Pages\\Accounts\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\source\\repos\\SPS2025 - STEMify\\SPS2025 - STEMify\\Pages\\Accounts\\Register.cshtml.cs",
+              "RelativeToolTip": "SPS2025 - STEMify\\Pages\\Accounts\\Register.cshtml.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAmwA8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T13:33:16.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminLog.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\source\\repos\\SPS2025 - STEMify\\SPS2025 - STEMify\\Pages\\Accounts\\AdminLog.cshtml.cs",
+              "RelativeDocumentMoniker": "SPS2025 - STEMify\\Pages\\Accounts\\AdminLog.cshtml.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\source\\repos\\SPS2025 - STEMify\\SPS2025 - STEMify\\Pages\\Accounts\\AdminLog.cshtml.cs",
+              "RelativeToolTip": "SPS2025 - STEMify\\Pages\\Accounts\\AdminLog.cshtml.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAcwA4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T13:34:38.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\source\\repos\\SPS2025 - STEMify\\SPS2025 - STEMify\\Data\\User.cs",
+              "RelativeDocumentMoniker": "SPS2025 - STEMify\\Data\\User.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\source\\repos\\SPS2025 - STEMify\\SPS2025 - STEMify\\Data\\User.cs",
+              "RelativeToolTip": "SPS2025 - STEMify\\Data\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T14:31:48.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\source\\repos\\SPS2025 - STEMify\\SPS2025 - STEMify\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "SPS2025 - STEMify\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\p.shuuya\\source\\repos\\SPS2025 - STEMify\\SPS2025 - STEMify\\Pages\\Index.cshtml",
+              "RelativeToolTip": "SPS2025 - STEMify\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-15T13:04:04.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\source\\repos\\SPS2025 - STEMify\\SPS2025 - STEMify\\Pages\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "SPS2025 - STEMify\\Pages\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\p.shuuya\\source\\repos\\SPS2025 - STEMify\\SPS2025 - STEMify\\Pages\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "SPS2025 - STEMify\\Pages\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-15T13:37:43.958Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

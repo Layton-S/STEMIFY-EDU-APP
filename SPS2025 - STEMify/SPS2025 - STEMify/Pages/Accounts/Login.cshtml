@@ -1,0 +1,26 @@
+﻿@page
+@model SPS2025___STEMify.Pages.Accounts.LoginModel
+
+<div class="auth-container">
+    <h2>User Login</h2>
+    <form method="post">
+        <div class="form-group">
+            <label asp-for="Input.UsernameOrEmail"></label>
+            <input asp-for="Input.UsernameOrEmail" class="form-control" />
+            <span asp-validation-for="Input.UsernameOrEmail" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Input.Password"></label>
+            <input asp-for="Input.Password" type="password" class="form-control" />
+            <span asp-validation-for="Input.Password" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block">Login</button>
+    </form>
+
+    <div class="auth-links">
+        <a href="/Accounts/Register">Create new account</a>
+        <a href="/Accounts/AdminLog">Admin login</a>
+    </div>
+</div>
