@@ -1,0 +1,36 @@
+﻿@model List<UserRolesViewModel>
+
+@{
+    ViewData["Title"] = "Users and Their Roles";
+}
+
+<h2>Users and Their Roles</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>User Name</th>
+            <th>Roles</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var user in Model)
+        {
+            <tr>
+                <td>@user.UserName</td>
+                <td>
+                    @if(user.Roles.Any())
+                    {
+                        @string.Join(", ", user.Roles)
+                    }
+                    else
+                    {
+                        <span class="text-muted">No role assigned</span>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Index" class="btn btn-secondary">Back</a>

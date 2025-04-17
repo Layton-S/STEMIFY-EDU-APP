@@ -4,18 +4,17 @@ using STEMify.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ??
-    throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+// Configure connection string
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
-// Database configuration
+// Add database context
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 
-// Identity configuration - using AddIdentity instead of AddDefaultIdentity
+// Configure Identity with roles
 builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
 {
-    options.SignIn.RequireConfirmedAccount = false; // Changed to false for MVC
+    options.SignIn.RequireConfirmedAccount = false;
     options.Password.RequireDigit = true;
     options.Password.RequiredLength = 8;
     options.Password.RequireNonAlphanumeric = false;
@@ -24,8 +23,11 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
 .AddEntityFrameworkStores<ApplicationDbContext>()
 .AddDefaultTokenProviders();
 
-// Remove this line as it's for Razor Pages
-// builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+// Configure cookie settings (e.g. access denied path)
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.AccessDeniedPath = "/Account/AccessDenied";
+});
 
 // Authorization policies
 builder.Services.AddAuthorization(options =>
@@ -34,16 +36,15 @@ builder.Services.AddAuthorization(options =>
     options.AddPolicy("RequireUserRole", policy => policy.RequireRole("User"));
 });
 
+// Add MVC controllers with views
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+// HTTP request pipeline configuration
+if(app.Environment.IsDevelopment())
 {
     app.UseDeveloperExceptionPage();
-    // Remove this line as it's for Razor Pages
-    // app.UseMigrationsEndPoint();
 }
 else
 {
@@ -63,8 +64,8 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-// Seed database
-using (var scope = app.Services.CreateScope())
+// Seed roles and admin user
+using(var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
     try
@@ -73,7 +74,7 @@ using (var scope = app.Services.CreateScope())
         var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
         await SeedData.Initialize(services, "YourAdminPassword123!");
     }
-    catch (Exception ex)
+    catch(Exception ex)
     {
         var logger = services.GetRequiredService<ILogger<Program>>();
         logger.LogError(ex, "An error occurred seeding the DB.");
