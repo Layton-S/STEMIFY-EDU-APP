@@ -56,4 +56,25 @@ public class RolesController : Controller
         await _userManager.AddToRoleAsync(user, roleName);
         return RedirectToAction("Index");
     }
+
+    [HttpGet]
+    public async Task<IActionResult> UsersWithRoles()
+    {
+        var users = _userManager.Users.ToList();
+        var userRoles = new List<UserRolesViewModel>();
+
+        foreach(var user in users)
+        {
+            var roles = await _userManager.GetRolesAsync(user);
+            userRoles.Add(new UserRolesViewModel
+            {
+                UserId = user.Id,
+                UserName = user.UserName,
+                Roles = roles.ToList()
+            });
+        }
+
+        return View(userRoles);
+    }
+
 }

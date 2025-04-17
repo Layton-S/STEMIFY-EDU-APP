@@ -1,15 +1,18 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace STEMify.Controllers
 {
     public class HomeController : Controller
     {
+        [Authorize]
+
         public IActionResult Index()
         {
             return View();
         }
-
-        public IActionResult About()
+        [Authorize]
+        public IActionResult Privacy()
         {
             ViewData["Message"] = "Your application description page.";
             return View();

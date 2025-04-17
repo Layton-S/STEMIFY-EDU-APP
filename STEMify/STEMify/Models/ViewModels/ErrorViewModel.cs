@@ -1,4 +1,4 @@
-namespace STEMify.Models
+namespace STEMify.Models.ViewModels
 {
     public class ErrorViewModel
     {
