@@ -8,73 +8,120 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - STEMify</title>
+
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/STEMify.styles.css" asp-append-version="true" />
+
+    <!-- Optional Font Awesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
 </head>
 
-<body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-controller="Home" asp-action="Index">STEMify</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
-                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav me-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav">
-                        @if (SignInManager.IsSignedIn(User))
-                        {
-                            @if (User.IsInRole("Admin"))
-                            {
-                                <li class="nav-item">
-                                    <a class="nav-link" asp-controller="Admin" asp-action="Index">Admin</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" asp-controller="Roles" asp-action="Index">Roles</a>
-                                </li>
-                            }
-                            <li class="nav-item">
-                                <a class="nav-link" asp-controller="Account" asp-action="Manage">Hello @User.Identity?.Name!</a>
-                            </li>
-                            <li class="nav-item">
-                                <form asp-controller="Account" asp-action="Logout" method="post">
-                                    <button type="submit" class="nav-link btn btn-link">Logout</button>
-                                </form>
-                            </li>
-                        }
-                        else
-                        {
-                            <li class="nav-item">
-                                <a class="nav-link" asp-controller="Account" asp-action="Register">Register</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" asp-controller="Account" asp-action="Login">Login</a>
-                            </li>
-                        }
-                    </ul>
+<body class="bg-light">
+    <div class="d-flex min-vh-100">
+
+        @functions {
+            public string IsActive(string controller)
+            {
+                var current = ViewContext.RouteData.Values["controller"]?.ToString();
+                return string.Equals(current, controller, StringComparison.OrdinalIgnoreCase) ? "active" : "";
+            }
+        }
+        <nav class="bg-success sidebar text-white p-3" style="width: 250px;">
+
+                <div class="logo text-white fw-bold mb-4">
+                    <i class="fas fa-atom me-2"></i> System Name
                 </div>
-            </div>
+
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2">
+                        <a class="nav-link sidebar-link text-white @(IsActive("Home"))" asp-controller="Home" asp-action="Index">
+                            <i class="fa fa-home me-2"></i> Home
+                        </a>
+                    </li>
+                    @*<li class="nav-item mb-2">
+                        <a class="nav-link sidebar-link text-white @(IsActive("Dashboard"))" asp-controller="Dashboard" asp-action="Index">
+                            <i class="fa fa-chart-line me-2"></i> Dashboard
+                        </a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a class="nav-link sidebar-link text-white @(IsActive("Courses"))" asp-controller="Courses" asp-action="Index">
+                            <i class="fa fa-book me-2"></i> Courses
+                        </a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a class="nav-link sidebar-link text-white @(IsActive("Content"))" asp-controller="Content" asp-action="Index">
+                            <i class="fa fa-file-alt me-2"></i> Content
+                        </a>
+                    </li>*@
+
+                    @if(User.IsInRole("Admin"))
+                    {
+                        @*<li class="nav-item mb-2">
+                            <a class="nav-link sidebar-link text-white @(IsActive("Admin"))" asp-controller="Admin" asp-action="Index">
+                                <i class="fa fa-cog me-2"></i> Admin
+                            </a>
+                        </li>*@
+                        <li class="nav-item mb-2">
+                            <a class="nav-link sidebar-link text-white @(IsActive("Account"))" asp-controller="Account" asp-action="Users">
+                                <i class="fa fa-users me-2"></i> Users
+                            </a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a class="nav-link sidebar-link text-white @(IsActive("Roles"))" asp-controller="Roles" asp-action="Index">
+                                <i class="fa fa-universal-access me-2"></i> Roles
+                            </a>
+                        </li>
+                    }
+                </ul>
+
+
+                <hr class="bg-white" />
+
+                @if(SignInManager.IsSignedIn(User))
+                {
+                    <div class="mt-auto">
+                        <div class="mb-2">Hello, @User.Identity?.Name</div>
+                        <form asp-controller="Account" asp-action="Logout" method="post">
+                            <button type="submit" class="btn btn-outline-light btn-sm w-100">
+                                <i class="fa fa-sign-out-alt">Logout</i>
+                            </button>
+                        </form>
+                    </div>
+                }
+                else
+                {
+                    <a class="btn btn-outline-light btn-sm w-100 mb-2" asp-controller="Account" asp-action="Login">Login</a>
+                    <a class="btn btn-outline-light btn-sm w-100" asp-controller="Account" asp-action="Register">Register</a>
+                }
         </nav>
-    </header>
 
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - STEMify - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        <!-- Main Content -->
+        <div class="flex-grow-1 d-flex flex-column">
+            <!-- Topbar -->
+            <header class="bg-white shadow-sm p-3">
+
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <form class="d-flex" role="search">
+                        <input class="form-control" type="search" placeholder="Search" aria-label="Search" />
+                    </form> <div class="d-flex align-items-center">
+                        <div class="mb-2">Hello, @User.Identity?.Name</div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Razor Body -->
+            <main class="p-4 flex-grow-1">
+                @RenderBody()
+            </main>
+
+            <!-- Footer -->
+            <footer class="bg-white text-muted text-center p-3 border-top">
+                &copy; 2025 - STEMify - <a asp-controller="Home" asp-action="About">About</a>
+            </footer>
         </div>
-    </footer>
+    </div>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

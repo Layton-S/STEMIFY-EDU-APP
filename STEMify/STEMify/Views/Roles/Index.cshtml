@@ -6,10 +6,9 @@
 
 <h2>Roles</h2>
 
-<a class="btn btn-primary mb-3" asp-action="Create">Create New Role</a>
-<a class="btn btn-secondary mb-3" asp-action="Assign">Assign Role to User</a>
-<a class="btn btn-info" asp-action="UsersWithRoles">View User Roles</a>
-
+@Html.ActionLink("Create New Role", "Create", "Roles", null, new { @class = "btn btn-primary mb-3" })
+@Html.ActionLink("Assign Role to User", "Assign", "Roles", null, new { @class = "btn btn-secondary mb-3" })
+@Html.ActionLink("View User Roles", "UsersWithRoles", "Roles", null, new { @class = "btn btn-info mb-3" })
 
 <table class="table table-bordered">
     <thead>

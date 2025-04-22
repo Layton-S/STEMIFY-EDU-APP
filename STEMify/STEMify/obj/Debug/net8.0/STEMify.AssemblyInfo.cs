@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("STEMify")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b9454d3858c3019e4b0331a41276e7a6be6bd9c7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4458ce2a23c7c990b80d3728ca632fe27dae2eca")]
 [assembly: System.Reflection.AssemblyProductAttribute("STEMify")]
 [assembly: System.Reflection.AssemblyTitleAttribute("STEMify")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

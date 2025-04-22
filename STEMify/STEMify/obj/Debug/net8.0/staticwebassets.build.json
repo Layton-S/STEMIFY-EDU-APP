@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "p1hA4gxpoxLskhbIH35jitUHdCi2OcCrVPuzE8wUk2o=",
+  "Hash": "Zj3mflGusC9BoouYlDP3Jsz/VmjUZISyyhU8ZhUNpzo=",
   "Source": "STEMify",
   "BasePath": "_content/STEMify",
   "Mode": "Default",
@@ -1333,8 +1333,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c2tiyv64ts",
-      "Integrity": "pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=",
+      "Fingerprint": "trwv6ytyxo",
+      "Integrity": "V2pbhv64OlLRyMrfmCH8TupCV2IgpqSVS3vt3FD72ho=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -2581,51 +2581,6 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.c2tiyv64ts.css",
-      "AssetFile": "C:\\Users\\raimo\\source\\repos\\STEMify-Edu-App\\STEMify\\STEMify\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "362"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 18:01:54 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "c2tiyv64ts"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
-        }
-      ]
-    },
-    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\raimo\\source\\repos\\STEMify-Edu-App\\STEMify\\STEMify\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -2636,7 +2591,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "2236"
         },
         {
           "Name": "Content-Type",
@@ -2644,11 +2599,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"V2pbhv64OlLRyMrfmCH8TupCV2IgpqSVS3vt3FD72ho=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 18:01:54 GMT"
+          "Value": "Sun, 20 Apr 2025 10:11:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2658,7 +2613,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-V2pbhv64OlLRyMrfmCH8TupCV2IgpqSVS3vt3FD72ho="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.trwv6ytyxo.css",
+      "AssetFile": "C:\\Users\\raimo\\source\\repos\\STEMify-Edu-App\\STEMify\\STEMify\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2236"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V2pbhv64OlLRyMrfmCH8TupCV2IgpqSVS3vt3FD72ho=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 10:11:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "trwv6ytyxo"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-V2pbhv64OlLRyMrfmCH8TupCV2IgpqSVS3vt3FD72ho="
         }
       ]
     },
@@ -9743,7 +9743,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 18:01:54 GMT"
+          "Value": "Mon, 21 Apr 2025 19:21:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9788,7 +9788,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 18:01:54 GMT"
+          "Value": "Mon, 21 Apr 2025 19:21:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9833,7 +9833,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 18:01:54 GMT"
+          "Value": "Mon, 21 Apr 2025 19:21:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9870,7 +9870,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 18:01:54 GMT"
+          "Value": "Mon, 21 Apr 2025 19:21:32 GMT"
         },
         {
           "Name": "Cache-Control",
