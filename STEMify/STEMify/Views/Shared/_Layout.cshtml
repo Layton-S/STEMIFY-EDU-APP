@@ -11,7 +11,7 @@
 
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/STEMify.styles.css" asp-append-version="true" />
+    @*<link rel="stylesheet" href="~/STEMify.styles.css" asp-append-version="true" />*@
 
     <!-- Optional Font Awesome for icons -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
@@ -57,11 +57,11 @@
 
                     @if(User.IsInRole("Admin"))
                     {
-                        @*<li class="nav-item mb-2">
-                            <a class="nav-link sidebar-link text-white @(IsActive("Admin"))" asp-controller="Admin" asp-action="Index">
-                                <i class="fa fa-cog me-2"></i> Admin
+                        <li class="nav-item mb-2">
+                            <a class="nav-link sidebar-link text-white @(IsActive("Course"))" asp-controller="Course" asp-action="Index">
+                                <i class="fa fa-cog me-2"></i> Course
                             </a>
-                        </li>*@
+                        </li>
                         <li class="nav-item mb-2">
                             <a class="nav-link sidebar-link text-white @(IsActive("Account"))" asp-controller="Account" asp-action="Users">
                                 <i class="fa fa-users me-2"></i> Users

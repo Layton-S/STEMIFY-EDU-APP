@@ -1,0 +1,17 @@
+﻿@model STEMify.Models.DifficultyLevel
+
+@{
+    ViewData["Title"] = "Create Difficulty Level";
+}
+
+<h2>Add New Difficulty Level</h2>
+
+<form asp-action="CreateDifficultyLevels" method="post">
+    <div class="form-group">
+        <label asp-for="LevelName"></label>
+        <input asp-for="LevelName" class="form-control" />
+        <span asp-validation-for="LevelName" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success">Add Difficulty Level</button>
+</form>

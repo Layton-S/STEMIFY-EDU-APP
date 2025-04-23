@@ -10,5 +10,9 @@ namespace STEMify.Data.Interfaces
 
         // Add this line to include the Tests property
         //ITestRepository Tests { get; }
+        ICourseRepository Courses { get; }
+        ICategoryRepository Categories { get; }
+        IDifficultyLevelRepository DifficultyLevels { get; }
+
     }
 }

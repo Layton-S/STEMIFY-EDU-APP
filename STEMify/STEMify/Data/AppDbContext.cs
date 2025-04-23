@@ -1,6 +1,5 @@
 ﻿using STEMify.Models;
 using Microsoft.EntityFrameworkCore;
-//using static System.Net.Mime.MediaTypeNames;
 
 namespace STEMify.Data
 {
@@ -11,7 +10,9 @@ namespace STEMify.Data
         {
         }
 
-        //public DbSet<Tests> Test { get; set; }
-
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Course> Courses { get; set; }
+        public DbSet<DifficultyLevel> DifficultyLevels { get; set; }
     }
+
 }
