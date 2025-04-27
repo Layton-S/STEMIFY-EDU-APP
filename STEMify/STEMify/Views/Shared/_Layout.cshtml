@@ -11,15 +11,55 @@
 
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    @*<link rel="stylesheet" href="~/STEMify.styles.css" asp-append-version="true" />*@
-
-    <!-- Optional Font Awesome for icons -->
+    <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+
+    <style>
+
+        .sidebar {
+            min-height: 100vh;
+        }
+
+        aside {
+            min-height: 100vh;
+        }
+
+        @@media (min-width: 768px) {
+            .ms-md-250 {
+                margin-left: 250px;
+            }
+
+            .me-md-300 {
+                margin-right: 300px;
+            }
+        }
+
+        @@media (max-width: 767.98px) {
+            .shifted-right {
+                margin-right: 300px !important;
+            }
+            .position-fixed {
+                z-index: 1035 !important;
+            }
+        }
+    </style>
 </head>
 
 <body class="bg-light">
-    <div class="d-flex min-vh-100">
+    <!-- Mobile Toggle Buttons (Fixed) -->
+    <div class="d-md-none position-fixed top-0 start-0 w-100 bg-white shadow-sm p-2 z-1035 d-flex justify-content-between" style="height: 60px;">
+        <div>
+            <button id="show-sidebar" class="btn btn-success me-2">
+                <i class="fa fa-bars"></i>
+            </button>
+            <button id="show-right-sidebar" class="btn btn-success">
+                <i class="fa fa-calendar-alt"></i>
+            </button>
+        </div>
+        <div class="small align-self-center">Hello, @User.Identity?.Name</div>
+    </div>
 
+    <div class="d-flex min-vh-100">
         @functions {
             public string IsActive(string controller)
             {
@@ -27,105 +67,146 @@
                 return string.Equals(current, controller, StringComparison.OrdinalIgnoreCase) ? "active" : "";
             }
         }
-        <nav class="bg-success sidebar text-white p-3" style="width: 250px;">
 
+        <nav id="sidebar" class="bg-success sidebar text-white p-3 d-none d-md-block position-fixed" style="width: 250px; z-index: 1050; height: 100vh;">
+            <div class="d-flex justify-content-between align-items-center mb-4">
                 <div class="logo text-white fw-bold mb-4">
                     <i class="fas fa-atom me-2"></i> System Name
                 </div>
-
-                <ul class="nav flex-column">
+                <button id="hide-sidebar" class="btn btn-sm btn-light text-success d-md-none">
+                    <i class="fa fa-times"></i>
+                </button>
+            </div>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                    <a class="nav-link sidebar-link text-white @(IsActive("Home"))" asp-controller="Home" asp-action="Index">
+                        <i class="fa fa-home me-2"></i> Home
+                    </a>
+                </li>
+                @*@if(User.IsInRole("Admin"))
+                {*@
                     <li class="nav-item mb-2">
-                        <a class="nav-link sidebar-link text-white @(IsActive("Home"))" asp-controller="Home" asp-action="Index">
-                            <i class="fa fa-home me-2"></i> Home
+                        <a class="nav-link sidebar-link text-white @(IsActive("Course"))" asp-controller="Course" asp-action="Index">
+                            <i class="fa fa-cog me-2"></i> Course
                         </a>
                     </li>
-                    @*<li class="nav-item mb-2">
-                        <a class="nav-link sidebar-link text-white @(IsActive("Dashboard"))" asp-controller="Dashboard" asp-action="Index">
-                            <i class="fa fa-chart-line me-2"></i> Dashboard
+                    <li class="nav-item mb-2">
+                        <a class="nav-link sidebar-link text-white @(IsActive("Account"))" asp-controller="Account" asp-action="Users">
+                            <i class="fa fa-users me-2"></i> Users
                         </a>
                     </li>
                     <li class="nav-item mb-2">
-                        <a class="nav-link sidebar-link text-white @(IsActive("Courses"))" asp-controller="Courses" asp-action="Index">
-                            <i class="fa fa-book me-2"></i> Courses
+                        <a class="nav-link sidebar-link text-white @(IsActive("Roles"))" asp-controller="Roles" asp-action="Index">
+                            <i class="fa fa-universal-access me-2"></i> Roles
                         </a>
                     </li>
-                    <li class="nav-item mb-2">
-                        <a class="nav-link sidebar-link text-white @(IsActive("Content"))" asp-controller="Content" asp-action="Index">
-                            <i class="fa fa-file-alt me-2"></i> Content
-                        </a>
-                    </li>*@
+                @*}*@
+            </ul>
+            <hr class="bg-white" />
 
-                    @if(User.IsInRole("Admin"))
-                    {
-                        <li class="nav-item mb-2">
-                            <a class="nav-link sidebar-link text-white @(IsActive("Course"))" asp-controller="Course" asp-action="Index">
-                                <i class="fa fa-cog me-2"></i> Course
-                            </a>
-                        </li>
-                        <li class="nav-item mb-2">
-                            <a class="nav-link sidebar-link text-white @(IsActive("Account"))" asp-controller="Account" asp-action="Users">
-                                <i class="fa fa-users me-2"></i> Users
-                            </a>
-                        </li>
-                        <li class="nav-item mb-2">
-                            <a class="nav-link sidebar-link text-white @(IsActive("Roles"))" asp-controller="Roles" asp-action="Index">
-                                <i class="fa fa-universal-access me-2"></i> Roles
-                            </a>
-                        </li>
-                    }
-                </ul>
-
-
-                <hr class="bg-white" />
-
-                @if(SignInManager.IsSignedIn(User))
-                {
-                    <div class="mt-auto">
-                        <div class="mb-2">Hello, @User.Identity?.Name</div>
-                        <form asp-controller="Account" asp-action="Logout" method="post">
-                            <button type="submit" class="btn btn-outline-light btn-sm w-100">
-                                <i class="fa fa-sign-out-alt">Logout</i>
-                            </button>
-                        </form>
-                    </div>
-                }
-                else
-                {
-                    <a class="btn btn-outline-light btn-sm w-100 mb-2" asp-controller="Account" asp-action="Login">Login</a>
-                    <a class="btn btn-outline-light btn-sm w-100" asp-controller="Account" asp-action="Register">Register</a>
-                }
+            @*@if(SignInManager.IsSignedIn(User))
+            {*@
+                <div class="mt-auto">
+                    <div class="mb-2">Hello, @User.Identity?.Name</div>
+                    <form asp-controller="Account" asp-action="Logout" method="post">
+                        <button type="submit" class="btn btn-outline-light btn-sm w-100">
+                            <i class="fa fa-sign-out-alt me-1"></i> Logout
+                        </button>
+                    </form>
+                </div>
+            @*}
+            else
+            {*@
+                <a class="btn btn-outline-light btn-sm w-100 mb-2" asp-controller="Account" asp-action="Login">Login</a>
+                <a class="btn btn-outline-light btn-sm w-100" asp-controller="Account" asp-action="Register">Register</a>
+            @*}*@
         </nav>
 
-
         <!-- Main Content -->
-        <div class="flex-grow-1 d-flex flex-column">
+        <div class="flex-grow-1 d-flex flex-column ms-md-250 me-md-300 pt-5 pt-md-0">
             <!-- Topbar -->
-            <header class="bg-white shadow-sm p-3">
-
+            <header class="bg-white shadow-sm p-3 d-none d-md-block">
                 <div class="d-flex justify-content-between align-items-center mb-4">
                     <form class="d-flex" role="search">
                         <input class="form-control" type="search" placeholder="Search" aria-label="Search" />
-                    </form> <div class="d-flex align-items-center">
+                    </form>
+                    <div class="d-flex align-items-center">
                         <div class="mb-2">Hello, @User.Identity?.Name</div>
                     </div>
                 </div>
             </header>
 
-            <!-- Razor Body -->
             <main class="p-4 flex-grow-1">
                 @RenderBody()
             </main>
 
-            <!-- Footer -->
             <footer class="bg-white text-muted text-center p-3 border-top">
                 &copy; 2025 - STEMify - <a asp-controller="Home" asp-action="About">About</a>
             </footer>
         </div>
+
+        <aside id="right-sidebar" class="bg-white border-start p-3 d-none d-md-block position-fixed end-0" style="width: 300px; height: 100vh; z-index: 1050;">
+            <div class="d-flex justify-content-between mb-3">
+                <h6 class="text-secondary"><i class="fa fa-calendar-alt me-2"></i>Calendar</h6>
+                <button id="hide-right-sidebar" class="btn btn-sm btn-light d-md-none">
+                    <i class="fa fa-times"></i>
+                </button>
+            </div>
+            <div id="calendar" class="mb-4" style="height: 200px; background-color: #f8f9fa; border-radius: 8px;"></div>
+            <h6 class="text-secondary mb-3"><i class="fa fa-list-check me-2"></i>To-Do List</h6>
+            <ul id="todo-list" class="list-group mb-3">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Sample Task
+                    <button class="btn btn-sm btn-danger btn-delete"><i class="fa fa-trash"></i></button>
+                </li>
+            </ul>
+            <input id="new-task" type="text" class="form-control mb-2" placeholder="Add a new task..." />
+            <button id="add-task" class="btn btn-success w-100 btn-sm">Add</button>
+        </aside>
     </div>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script>
+
     @await RenderSectionAsync("Scripts", required: false)
+
+    <script>
+        $(document).ready(function () {
+            $('#show-sidebar').click(function () {
+                $('#sidebar').removeClass('d-none');
+            });
+
+            $('#hide-sidebar').click(function () {
+                $('#sidebar').addClass('d-none');
+            });
+
+            $('#show-right-sidebar').click(function () {
+                $('#right-sidebar').removeClass('d-none');
+                $('.flex-grow-1').addClass('shifted-right');
+            });
+
+            $('#hide-right-sidebar').click(function () {
+                $('#right-sidebar').addClass('d-none');
+                $('.flex-grow-1').removeClass('shifted-right');
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            var calendarEl = document.getElementById('calendar');
+            var calendar = new FullCalendar.Calendar(calendarEl, {
+                initialView: 'dayGridMonth',
+                height: 400,
+                events: [
+                    {
+                        title: 'Example Event',
+                        start: new Date().toISOString().split('T')[0]
+                    }
+                ]
+            });
+            calendar.render();
+        });
+    </script>
 </body>
 </html>
