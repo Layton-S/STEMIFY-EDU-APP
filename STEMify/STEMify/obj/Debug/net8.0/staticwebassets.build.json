@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "etvjmaHlXMaJ5m9IiwJbl3TLwaKVyXs+fehGpieH2jM=",
+  "Hash": "CqsgqvA2IjhO6eynzfLqJnDRvxI407ClJmfGz6gXkP0=",
   "Source": "STEMify",
   "BasePath": "_content/STEMify",
   "Mode": "Default",
@@ -1319,6 +1319,27 @@
       "OriginalItemSpec": "C:\\Users\\raimo\\source\\repos\\STEMify-Edu-App\\STEMify\\STEMify\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\STEMify.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\raimo\\source\\repos\\STEMify-Edu-App\\STEMify\\STEMify\\wwwroot\\css\\dashboard.css",
+      "SourceId": "STEMify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\raimo\\source\\repos\\STEMify-Edu-App\\STEMify\\STEMify\\wwwroot\\",
+      "BasePath": "_content/STEMify",
+      "RelativePath": "css/dashboard#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tgedlhs8th",
+      "Integrity": "g5wuLduWC4Xv7CzF+suzNCMJ8MsyXSXzBvS3vHG2ZMs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\dashboard.css"
+    },
+    {
       "Identity": "C:\\Users\\raimo\\source\\repos\\STEMify-Edu-App\\STEMify\\STEMify\\wwwroot\\css\\site.css",
       "SourceId": "STEMify",
       "SourceType": "Discovered",
@@ -2580,6 +2601,88 @@
     }
   ],
   "Endpoints": [
+    {
+      "Route": "css/dashboard.css",
+      "AssetFile": "C:\\Users\\raimo\\source\\repos\\STEMify-Edu-App\\STEMify\\STEMify\\wwwroot\\css\\dashboard.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2495"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g5wuLduWC4Xv7CzF+suzNCMJ8MsyXSXzBvS3vHG2ZMs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Apr 2025 20:53:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-g5wuLduWC4Xv7CzF+suzNCMJ8MsyXSXzBvS3vHG2ZMs="
+        }
+      ]
+    },
+    {
+      "Route": "css/dashboard.tgedlhs8th.css",
+      "AssetFile": "C:\\Users\\raimo\\source\\repos\\STEMify-Edu-App\\STEMify\\STEMify\\wwwroot\\css\\dashboard.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2495"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g5wuLduWC4Xv7CzF+suzNCMJ8MsyXSXzBvS3vHG2ZMs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Apr 2025 20:53:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tgedlhs8th"
+        },
+        {
+          "Name": "label",
+          "Value": "css/dashboard.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-g5wuLduWC4Xv7CzF+suzNCMJ8MsyXSXzBvS3vHG2ZMs="
+        }
+      ]
+    },
     {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\raimo\\source\\repos\\STEMify-Edu-App\\STEMify\\STEMify\\wwwroot\\css\\site.css",
