@@ -343,8 +343,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-28T20:29:07.599Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -357,8 +356,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAKkAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-23T18:47:15.593Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -411,8 +409,7 @@
               "RelativeToolTip": "STEMify\\Views\\Quiz\\Questions.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAIBZwBUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T20:58:46.7Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T20:58:46.7Z"
             },
             {
               "$type": "Document",
@@ -424,8 +421,7 @@
               "RelativeToolTip": "STEMify\\Models\\Quizzes\\UserAnswer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T16:03:13.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T16:03:13.453Z"
             },
             {
               "$type": "Document",
@@ -437,8 +433,7 @@
               "RelativeToolTip": "STEMify\\Views\\Quiz\\AddQuestion.cshtml",
               "ViewState": "AgIAAAUAAAAAAAAAAAAUwBwAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T12:30:29.038Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T12:30:29.038Z"
             },
             {
               "$type": "Document",
@@ -450,8 +445,7 @@
               "RelativeToolTip": "STEMify\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T14:26:02.557Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-27T14:26:02.557Z"
             },
             {
               "$type": "Document",
@@ -463,8 +457,7 @@
               "RelativeToolTip": "STEMify\\Models\\Quizzes\\QuizResult.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T16:00:42.519Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T16:00:42.519Z"
             },
             {
               "$type": "Document",
@@ -476,8 +469,7 @@
               "RelativeToolTip": "STEMify\\Models\\Quizzes\\QuizQuestion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T16:20:14.171Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T16:20:14.171Z"
             },
             {
               "$type": "Document",
@@ -489,8 +481,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\38e007a032d11800b17da1a8ff10eac80553356e12f3fc2050e854c7413ed8af\\src\\Mvc\\Mvc.Core\\src\\Infrastructure\\ResourceInvoker.cs",
               "ViewState": "AgIAAE8AAAAAAAAAAAAuwFcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T12:39:32.744Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T12:39:32.744Z"
             },
             {
               "$type": "Document",
@@ -502,8 +493,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\83e49b49b3e6d82cd99704655978bb220d223db0fe7491c69d3b3d43fca017c8\\src\\Mvc\\Mvc.Core\\src\\Infrastructure\\ActionMethodExecutor.cs",
               "ViewState": "AgIAAGgAAAAAAAAAAAAiwIMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T19:13:27.048Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T19:13:27.048Z"
             },
             {
               "$type": "Document",
@@ -515,8 +505,7 @@
               "RelativeToolTip": "STEMify\\Views\\Quiz\\EditTrueFalse.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T11:32:24.013Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T11:32:24.013Z"
             },
             {
               "$type": "Document",
@@ -528,8 +517,7 @@
               "RelativeToolTip": "STEMify\\Models\\Quizzes\\Quiz.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T16:18:51.57Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T16:18:51.57Z"
             },
             {
               "$type": "Document",
@@ -541,8 +529,7 @@
               "RelativeToolTip": "STEMify\\Models\\Quizzes\\QuestionType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T15:59:47.386Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T15:59:47.386Z"
             },
             {
               "$type": "Document",
@@ -554,8 +541,7 @@
               "RelativeToolTip": "STEMify\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAEwAAAAAAAAAAAAAwHYAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-23T20:50:47.203Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T20:50:47.203Z"
             },
             {
               "$type": "Document",
@@ -567,8 +553,7 @@
               "RelativeToolTip": "STEMify\\Views\\Quiz\\FillInTheBlank.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T10:09:59.588Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T10:09:59.588Z"
             },
             {
               "$type": "Document",
@@ -580,8 +565,7 @@
               "RelativeToolTip": "STEMify\\Views\\Quiz\\EditFillInTheBlank.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T11:33:21.162Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T11:33:21.162Z"
             },
             {
               "$type": "Document",
@@ -593,8 +577,7 @@
               "RelativeToolTip": "STEMify\\Views\\Quiz\\MultipleChoice.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T09:50:22.511Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T09:50:22.511Z"
             },
             {
               "$type": "Document",
@@ -606,8 +589,7 @@
               "RelativeToolTip": "STEMify\\Views\\Quiz\\EditMultipleChoice.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T11:33:57.135Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T11:33:57.135Z"
             },
             {
               "$type": "Document",
@@ -619,8 +601,7 @@
               "RelativeToolTip": "STEMify\\Views\\Course\\Categories.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAQwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-23T19:18:55.055Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T19:18:55.055Z"
             },
             {
               "$type": "Document",
@@ -632,8 +613,7 @@
               "RelativeToolTip": "STEMify\\Views\\Quiz\\TrueFalse.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T11:11:57.21Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T11:11:57.21Z"
             },
             {
               "$type": "Document",
@@ -645,8 +625,7 @@
               "RelativeToolTip": "STEMify\\Views\\Course\\Index.cshtml",
               "ViewState": "AgIAADgAAAAAAAAAAAAQwEUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-23T18:57:50.175Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T18:57:50.175Z"
             },
             {
               "$type": "Document",
@@ -658,8 +637,7 @@
               "RelativeToolTip": "STEMify\\Views\\Quiz\\_QuestionTypes\\_FillInTheBlank.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T21:33:17.175Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T21:33:17.175Z"
             },
             {
               "$type": "Document",
@@ -671,8 +649,7 @@
               "RelativeToolTip": "STEMify\\Views\\Quiz\\_QuestionTypes\\_TrueFalse.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T21:33:43.827Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T21:33:43.827Z"
             },
             {
               "$type": "Document",
@@ -684,8 +661,7 @@
               "RelativeToolTip": "STEMify\\Views\\Quiz\\_QuestionTypes\\_MultipleChoice.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T21:33:03.478Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T21:33:03.478Z"
             },
             {
               "$type": "Document",
@@ -697,8 +673,7 @@
               "RelativeToolTip": "STEMify\\Views\\Course\\Create.cshtml",
               "ViewState": "AgIAAAcAAAAAAAAAAAAgwCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-23T19:29:09.451Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T19:29:09.451Z"
             },
             {
               "$type": "Document",
@@ -710,8 +685,7 @@
               "RelativeToolTip": "STEMify\\Views\\Quiz\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T18:57:30.298Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T18:57:30.298Z"
             },
             {
               "$type": "Document",
@@ -723,8 +697,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\440b8f0d51df60dd635a6c69d212f275b78959305b35ade9c99228dea16fcd0c\\ViewResultExecutor.cs",
               "ViewState": "AgIAAJ0AAAAAAAAAAAAqwKsAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T09:20:34.273Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T09:20:34.273Z"
             },
             {
               "$type": "Document",
@@ -736,8 +709,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\a611fe3348ad46b6ce1eef3fbac86b25df2487668bf3a9645b7ea8838c4b9331\\ResourceInvoker.cs",
               "ViewState": "AgIAACsFAAAAAAAAAAArwDcFAAADAAAAAQAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T09:20:34.971Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T09:20:34.971Z"
             },
             {
               "$type": "Document",
@@ -749,8 +721,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\c19e97453b12fdf7cb229a32d4206b5ecbc83ec074c9e9298d066b38372e86d7\\ViewResult.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAqwB0AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T09:20:34.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T09:20:34.618Z"
             },
             {
               "$type": "Document",
@@ -762,8 +733,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\4a05b8e6420357241794c90bac01120bf8f4f2f05257fd742c4e69a3965515f0\\ViewExecutor.cs",
               "ViewState": "AgIAAEEAAAAAAAAAAAAqwE8AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T21:16:19.299Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T21:16:19.299Z"
             },
             {
               "$type": "Document",
@@ -775,8 +745,7 @@
               "RelativeToolTip": "STEMify\\Data\\Interfaces\\IQuizQuestionRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T20:27:14.715Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T20:27:14.715Z"
             },
             {
               "$type": "Document",
@@ -788,8 +757,7 @@
               "RelativeToolTip": "STEMify\\Data\\Interfaces\\IUnitOfWork.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAswBIAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T19:00:33.723Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T19:00:33.723Z"
             },
             {
               "$type": "Document",
@@ -801,8 +769,7 @@
               "RelativeToolTip": "STEMify\\Data\\Repositories\\UnitOfWork.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T19:00:38.171Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T19:00:38.171Z"
             },
             {
               "$type": "Document",
@@ -814,8 +781,7 @@
               "RelativeToolTip": "STEMify\\Views\\Quiz\\AddQuestionType.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T21:26:33.914Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T21:26:33.914Z"
             },
             {
               "$type": "Document",
@@ -827,8 +793,7 @@
               "RelativeToolTip": "STEMify\\Data\\Repositories\\TrueFalseQuestionRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T08:46:44.61Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T08:46:44.61Z"
             },
             {
               "$type": "Document",
@@ -840,8 +805,7 @@
               "RelativeToolTip": "STEMify\\Data\\Interfaces\\ITrueFalseQuestionRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T08:48:16.1Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T08:48:16.1Z"
             },
             {
               "$type": "Document",
@@ -853,8 +817,7 @@
               "RelativeToolTip": "STEMify\\Data\\Repositories\\QuizQuestionRepository.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAQwEMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T16:33:56.154Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T16:33:56.154Z"
             },
             {
               "$type": "Document",
@@ -866,8 +829,7 @@
               "RelativeToolTip": "STEMify\\Data\\Repositories\\MultipleChoiceQuestionRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T08:44:02.053Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T08:44:02.053Z"
             },
             {
               "$type": "Document",
@@ -879,8 +841,7 @@
               "RelativeToolTip": "STEMify\\Data\\Repositories\\DifficultyLevelRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T16:08:27.816Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T16:08:27.816Z"
             },
             {
               "$type": "Document",
@@ -892,8 +853,7 @@
               "RelativeToolTip": "STEMify\\Data\\Interfaces\\IQuestionTypeRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T16:04:21.79Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T16:04:21.79Z"
             },
             {
               "$type": "Document",
@@ -905,8 +865,7 @@
               "RelativeToolTip": "STEMify\\Data\\Interfaces\\IMultipleChoiceQuestionRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T08:45:32.306Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T08:45:32.306Z"
             },
             {
               "$type": "Document",
@@ -918,8 +877,7 @@
               "RelativeToolTip": "STEMify\\Data\\Interfaces\\IFillInTheBlankQuestionRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T08:27:05.143Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T08:27:05.143Z"
             },
             {
               "$type": "Document",
@@ -931,8 +889,7 @@
               "RelativeToolTip": "STEMify\\Data\\Repositories\\CourseRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T16:24:17.673Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T16:24:17.673Z"
             },
             {
               "$type": "Document",
@@ -944,8 +901,7 @@
               "RelativeToolTip": "STEMify\\Data\\Repositories\\CategoryRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T16:28:00.841Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T16:28:00.841Z"
             },
             {
               "$type": "Document",
@@ -957,8 +913,7 @@
               "RelativeToolTip": "STEMify\\Data\\Repositories\\FillInTheBlankQuestionRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T08:24:03.845Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T08:24:03.845Z"
             },
             {
               "$type": "Document",
@@ -970,8 +925,7 @@
               "RelativeToolTip": "STEMify\\Data\\Interfaces\\IDifficultyLevelRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T16:17:26.736Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T16:17:26.736Z"
             },
             {
               "$type": "Document",
@@ -983,8 +937,7 @@
               "RelativeToolTip": "STEMify\\Data\\Repositories\\TestRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T16:09:31.376Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T16:09:31.376Z"
             },
             {
               "$type": "Document",
@@ -996,8 +949,7 @@
               "RelativeToolTip": "STEMify\\Data\\Repositories\\Repository.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAAwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T20:34:21.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T20:34:21.074Z"
             },
             {
               "$type": "Document",
@@ -1009,8 +961,7 @@
               "RelativeToolTip": "STEMify\\Data\\Repositories\\QuestionTypeRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T16:06:51.786Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T16:06:51.786Z"
             },
             {
               "$type": "Document",
@@ -1022,8 +973,7 @@
               "RelativeToolTip": "STEMify\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAuwBYAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T16:14:13.198Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T16:14:13.198Z"
             },
             {
               "$type": "Document",
@@ -1035,8 +985,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\1c565a1e7ec70f2b5b4a6482c2fe5c7bd23c3ad01a1b720eda9bc16d771b9a9b\\MultiSelectList.cs",
               "ViewState": "AgIAAFEAAAAAAAAAAAAqwF8AAAADAAAAAQAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T21:17:24.779Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T21:17:24.779Z"
             },
             {
               "$type": "Document",
@@ -1048,8 +997,7 @@
               "RelativeToolTip": "STEMify\\Views\\Course\\CreateDifficultyLevels.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-23T19:27:24.838Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T19:27:24.838Z"
             },
             {
               "$type": "Document",
@@ -1061,8 +1009,7 @@
               "RelativeToolTip": "STEMify\\Views\\Course\\CreateCategory.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T20:49:11.603Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T20:49:11.603Z"
             },
             {
               "$type": "Document",
@@ -1074,8 +1021,7 @@
               "RelativeToolTip": "STEMify\\Views\\Quiz\\EditQuiz.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T20:55:27.517Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T20:55:27.517Z"
             },
             {
               "$type": "Document",
@@ -1087,8 +1033,7 @@
               "RelativeToolTip": "STEMify\\Views\\Course\\DifficultyLevels.cshtml",
               "ViewState": "AgIAAEIAAAAAAAAAAAAswFEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-23T18:48:47.719Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T18:48:47.719Z"
             },
             {
               "$type": "Document",
@@ -1100,8 +1045,7 @@
               "RelativeToolTip": "STEMify\\Views\\Quiz\\AddQuiz.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T16:43:22.19Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T16:43:22.19Z"
             },
             {
               "$type": "Document",
@@ -1113,8 +1057,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\78bdcd7e131d1ad2795a40227da45555dd99a59333741d6ee6192ddd7756c7a0\\ControllerActionInvoker.cs",
               "ViewState": "AgIAAOoBAAAAAAAAAAAQwPQBAAADAAAAAQAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T19:07:11.008Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T19:07:11.008Z"
             },
             {
               "$type": "Document",
@@ -1126,8 +1069,7 @@
               "RelativeToolTip": "STEMify\\Controllers\\RolesController.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAgwAoAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T18:50:59.874Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T18:50:59.874Z"
             },
             {
               "$type": "Document",
@@ -1139,8 +1081,7 @@
               "RelativeToolTip": "STEMify\\Data\\Interfaces\\IQuizRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T16:21:14.497Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T16:21:14.497Z"
             },
             {
               "$type": "Document",
@@ -1152,8 +1093,7 @@
               "RelativeToolTip": "STEMify\\Views\\Quiz\\SubmitAnswer.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T16:44:29.337Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T16:44:29.337Z"
             },
             {
               "$type": "Document",
@@ -1165,8 +1105,7 @@
               "RelativeToolTip": "STEMify\\Controllers\\BaseController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T14:26:39.379Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-27T14:26:39.379Z"
             },
             {
               "$type": "Document",
@@ -1178,8 +1117,7 @@
               "RelativeToolTip": "STEMify\\Views\\Quiz\\SaveResult.cshtml",
               "ViewState": "AgIAAAUAAAAAAAAAAABRwBoAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T16:44:54.154Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T16:44:54.154Z"
             },
             {
               "$type": "Document",
@@ -1191,8 +1129,7 @@
               "RelativeToolTip": "STEMify\\Models\\Quizzes\\CompletenessTracker.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T16:17:41.097Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T16:17:41.097Z"
             },
             {
               "$type": "Document",
@@ -1204,8 +1141,7 @@
               "RelativeToolTip": "STEMify\\Models\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T16:45:42.849Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-27T16:45:42.849Z"
             },
             {
               "$type": "Document",
@@ -1217,8 +1153,7 @@
               "RelativeToolTip": "STEMify\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T18:47:14.79Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T18:47:14.79Z"
             },
             {
               "$type": "Document",
@@ -1230,8 +1165,7 @@
               "RelativeToolTip": "STEMify\\Data\\Repositories\\QuizResultRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T16:21:42.735Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T16:21:42.735Z"
             },
             {
               "$type": "Document",
@@ -1243,8 +1177,7 @@
               "RelativeToolTip": "STEMify\\Data\\Interfaces\\IQuizResultRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T16:05:29.221Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T16:05:29.221Z"
             },
             {
               "$type": "Document",
@@ -1256,8 +1189,7 @@
               "RelativeToolTip": "STEMify\\Data\\Interfaces\\IRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T20:34:17.715Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T20:34:17.715Z"
             },
             {
               "$type": "Document",
@@ -1269,8 +1201,7 @@
               "RelativeToolTip": "STEMify\\Data\\Repositories\\QuizRepository.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAwwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T16:22:19.217Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T16:22:19.217Z"
             },
             {
               "$type": "Document",
@@ -1282,8 +1213,7 @@
               "RelativeToolTip": "STEMify\\Data\\Repositories\\UserAnswerRepository.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAYwAIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T16:20:26.775Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T16:20:26.775Z"
             },
             {
               "$type": "Document",
@@ -1295,8 +1225,7 @@
               "RelativeToolTip": "STEMify\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T16:30:23.465Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T16:30:23.465Z"
             },
             {
               "$type": "Document",
@@ -1308,8 +1237,7 @@
               "RelativeToolTip": "STEMify\\Data\\Interfaces\\IUserAnswerRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T16:04:48.11Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T16:04:48.11Z"
             },
             {
               "$type": "Document",
@@ -1321,8 +1249,7 @@
               "RelativeToolTip": "STEMify\\Data\\Interfaces\\ITestRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T16:05:14.167Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T16:05:14.167Z"
             },
             {
               "$type": "Document",
@@ -1334,8 +1261,7 @@
               "RelativeToolTip": "STEMify\\Data\\Interfaces\\ICourseRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T16:30:34.788Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T16:30:34.788Z"
             },
             {
               "$type": "Document",
@@ -1347,8 +1273,7 @@
               "RelativeToolTip": "STEMify\\Data\\Interfaces\\ICategoryRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T16:22:02.263Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T16:22:02.263Z"
             },
             {
               "$type": "Document",
@@ -1360,8 +1285,7 @@
               "RelativeToolTip": "STEMify\\Controllers\\AccountController.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAwwCAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T14:26:40.483Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-27T14:26:40.483Z"
             },
             {
               "$type": "Document",
@@ -1373,8 +1297,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\Downloads\\files (4)\\Repositories\\QuizRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T16:20:55.255Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T16:20:55.255Z"
             },
             {
               "$type": "Document",
@@ -1386,8 +1309,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\Downloads\\files (4)\\Repositories\\IQuizRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T16:20:54.98Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T16:20:54.98Z"
             },
             {
               "$type": "Document",
@@ -1399,8 +1321,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\Downloads\\files (4)\\Repositories\\UnitOfWork.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T16:20:55.499Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T16:20:55.499Z"
             },
             {
               "$type": "Document",
@@ -1412,8 +1333,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\Downloads\\files (4)\\Repositories\\IUnitOfWork.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T16:20:55.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T16:20:55.065Z"
             },
             {
               "$type": "Document",
@@ -1425,8 +1345,7 @@
               "RelativeToolTip": "STEMify\\wwwroot\\css\\dashboard.css",
               "ViewState": "AgIAABsAAAAAAAAAAIBJwI8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-23T20:53:05.729Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T20:53:05.729Z"
             },
             {
               "$type": "Document",
@@ -1438,8 +1357,7 @@
               "RelativeToolTip": "STEMify\\Views\\Shared\\_Layout.cshtml.css",
               "ViewState": "AgIAAAYAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-27T15:35:56.806Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-27T15:35:56.806Z"
             }
           ]
         },

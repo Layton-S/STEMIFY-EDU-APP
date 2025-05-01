@@ -333,6 +333,34 @@
           "SelectedChildIndex": 9,
           "Children": [
             {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QuizController.cs",
+              "DocumentMoniker": "C:\\Users\\raimo\\source\\repos\\STEMify-Edu-App\\STEMify\\STEMify\\Controllers\\QuizController.cs",
+              "RelativeDocumentMoniker": "STEMify\\Controllers\\QuizController.cs",
+              "ToolTip": "C:\\Users\\raimo\\source\\repos\\STEMify-Edu-App\\STEMify\\STEMify\\Controllers\\QuizController.cs",
+              "RelativeToolTip": "STEMify\\Controllers\\QuizController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T20:29:07.599Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Users\\raimo\\source\\repos\\STEMify-Edu-App\\STEMify\\STEMify\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "STEMify\\Controllers\\CourseController.cs",
+              "ToolTip": "C:\\Users\\raimo\\source\\repos\\STEMify-Edu-App\\STEMify\\STEMify\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "STEMify\\Controllers\\CourseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T18:47:15.593Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{65ddf8c3-8f89-4077-a6c6-dbb8853aab13}"
             },
@@ -362,41 +390,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "QuizController.cs",
-              "DocumentMoniker": "C:\\Users\\raimo\\source\\repos\\STEMify-Edu-App\\STEMify\\STEMify\\Controllers\\QuizController.cs",
-              "RelativeDocumentMoniker": "STEMify\\Controllers\\QuizController.cs",
-              "ToolTip": "C:\\Users\\raimo\\source\\repos\\STEMify-Edu-App\\STEMify\\STEMify\\Controllers\\QuizController.cs",
-              "RelativeToolTip": "STEMify\\Controllers\\QuizController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T20:29:07.599Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CourseController.cs",
-              "DocumentMoniker": "C:\\Users\\raimo\\source\\repos\\STEMify-Edu-App\\STEMify\\STEMify\\Controllers\\CourseController.cs",
-              "RelativeDocumentMoniker": "STEMify\\Controllers\\CourseController.cs",
-              "ToolTip": "C:\\Users\\raimo\\source\\repos\\STEMify-Edu-App\\STEMify\\STEMify\\Controllers\\CourseController.cs",
-              "RelativeToolTip": "STEMify\\Controllers\\CourseController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKkAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T18:47:15.593Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\raimo\\source\\repos\\STEMify-Edu-App\\STEMify\\STEMify\\appsettings.json",
               "RelativeDocumentMoniker": "STEMify\\appsettings.json",
               "ToolTip": "C:\\Users\\raimo\\source\\repos\\STEMify-Edu-App\\STEMify\\STEMify\\appsettings.json",
               "RelativeToolTip": "STEMify\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-04-27T14:25:11.087Z",
               "EditorCaption": ""
