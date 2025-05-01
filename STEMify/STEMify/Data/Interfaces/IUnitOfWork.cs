@@ -1,5 +1,7 @@
-﻿using System;
+﻿using STEMify.Data.Repositories;
+using System;
 using System.Threading.Tasks;
+using static STEMify.Data.Repositories.FillInTheBlankQuestionRepository;
 
 namespace STEMify.Data.Interfaces
 {
@@ -13,6 +15,14 @@ namespace STEMify.Data.Interfaces
         ICourseRepository Courses { get; }
         ICategoryRepository Categories { get; }
         IDifficultyLevelRepository DifficultyLevels { get; }
+        IQuizRepository Quizzes { get; }
+        IQuizQuestionRepository QuizQuestions { get; }
+        IQuestionTypeRepository QuestionTypes { get; }
+        IUserAnswerRepository UserAnswers { get; }
+        IQuizResultRepository QuizResults { get; }
+        IMultipleChoiceQuestionRepository MultipleChoiceQuestions { get; }
+        IFillInTheBlankQuestionRepository FillInTheBlankQuestions { get; }
+        ITrueFalseQuestionRepository TrueFalseQuestions { get; }
 
     }
 }

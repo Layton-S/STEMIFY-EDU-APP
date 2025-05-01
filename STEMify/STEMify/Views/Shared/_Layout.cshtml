@@ -84,41 +84,49 @@
                     </a>
                 </li>
                 @*@if(User.IsInRole("Admin"))
-                {*@
-                    <li class="nav-item mb-2">
-                        <a class="nav-link sidebar-link text-white @(IsActive("Course"))" asp-controller="Course" asp-action="Index">
-                            <i class="fa fa-cog me-2"></i> Course
-                        </a>
-                    </li>
-                    <li class="nav-item mb-2">
-                        <a class="nav-link sidebar-link text-white @(IsActive("Account"))" asp-controller="Account" asp-action="Users">
-                            <i class="fa fa-users me-2"></i> Users
-                        </a>
-                    </li>
-                    <li class="nav-item mb-2">
-                        <a class="nav-link sidebar-link text-white @(IsActive("Roles"))" asp-controller="Roles" asp-action="Index">
-                            <i class="fa fa-universal-access me-2"></i> Roles
-                        </a>
-                    </li>
+            {*@
+                <li class="nav-item mb-2">
+                    <a class="nav-link sidebar-link text-white @(IsActive("Course"))" asp-controller="Course" asp-action="Index">
+                        <i class="fa fa-cog me-2"></i> Course
+                    </a>
+                </li>
+                <li class="nav-item mb-2">
+                    <a class="nav-link sidebar-link text-white @(IsActive("Account"))" asp-controller="Account" asp-action="Users">
+                        <i class="fa fa-users me-2"></i> Users
+                    </a>
+                </li>
+                <li class="nav-item mb-2">
+                    <a class="nav-link sidebar-link text-white @(IsActive("Roles"))" asp-controller="Roles" asp-action="Index">
+                        <i class="fa fa-universal-access me-2"></i> Roles
+                    </a>
+                </li>
                 @*}*@
             </ul>
             <hr class="bg-white" />
 
+            <ul>
+                <li>@Html.ActionLink("All Quizzes", "Index", "Quiz")</li>
+                <li>@Html.ActionLink("Add Quiz", "AddQuiz", "Quiz")</li>
+                <li>@Html.ActionLink("Add Question", "AddQuestion", "Quiz")</li>
+
+            </ul>
+
+
             @*@if(SignInManager.IsSignedIn(User))
-            {*@
-                <div class="mt-auto">
-                    <div class="mb-2">Hello, @User.Identity?.Name</div>
-                    <form asp-controller="Account" asp-action="Logout" method="post">
-                        <button type="submit" class="btn btn-outline-light btn-sm w-100">
-                            <i class="fa fa-sign-out-alt me-1"></i> Logout
-                        </button>
-                    </form>
-                </div>
+        {*@
+            <div class="mt-auto">
+                <div class="mb-2">Hello, @User.Identity?.Name</div>
+                <form asp-controller="Account" asp-action="Logout" method="post">
+                    <button type="submit" class="btn btn-outline-light btn-sm w-100">
+                        <i class="fa fa-sign-out-alt me-1"></i> Logout
+                    </button>
+                </form>
+            </div>
             @*}
-            else
-            {*@
-                <a class="btn btn-outline-light btn-sm w-100 mb-2" asp-controller="Account" asp-action="Login">Login</a>
-                <a class="btn btn-outline-light btn-sm w-100" asp-controller="Account" asp-action="Register">Register</a>
+        else
+        {*@
+            <a class="btn btn-outline-light btn-sm w-100 mb-2" asp-controller="Account" asp-action="Login">Login</a>
+            <a class="btn btn-outline-light btn-sm w-100" asp-controller="Account" asp-action="Register">Register</a>
             @*}*@
         </nav>
 

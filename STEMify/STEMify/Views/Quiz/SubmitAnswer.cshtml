@@ -1,0 +1,22 @@
+﻿@model UserAnswer
+
+<h2>Submit an Answer</h2>
+
+<form asp-action="SubmitAnswer" method="post">
+    <div class="form-group">
+        <label asp-for="QuizId">Quiz ID</label>
+        <input asp-for="QuizId" class="form-control" />
+        <span asp-validation-for="QuizId" class="text-danger"></span>
+    </div>
+    <div class="form-group mt-2">
+        <label asp-for="QuestionId">Question ID</label>
+        <input asp-for="QuestionId" class="form-control" />
+        <span asp-validation-for="QuestionId" class="text-danger"></span>
+    </div>
+    <div class="form-group mt-2">
+        <label asp-for="SelectedAnswer">Your Answer</label>
+        <textarea asp-for="SelectedAnswer" class="form-control"></textarea>
+        <span asp-validation-for="SelectedAnswer" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary mt-3">Submit Answer</button>
+</form>

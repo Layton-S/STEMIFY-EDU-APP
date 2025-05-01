@@ -14,6 +14,8 @@ namespace STEMify.Data.Repositories
             _context = context;
             _dbSet = context.Set<TEntity>();
         }
+
+        // Synchronous methods
         public TEntity Get(int id) => _dbSet.Find(id);
 
         public IEnumerable<TEntity> GetAll() => _dbSet.ToList();
@@ -26,5 +28,15 @@ namespace STEMify.Data.Repositories
         public void Update(TEntity entity) => _context.Entry(entity).State = EntityState.Modified;
 
         public void Remove(TEntity entity) => _dbSet.Remove(entity);
+
+        // Asynchronous methods
+        public async Task<TEntity> GetAsync(int id) => await _dbSet.FindAsync(id);
+
+        public async Task<IEnumerable<TEntity>> GetAllAsync() => await _dbSet.ToListAsync();
+
+        public async Task<IEnumerable<TEntity>> FindAsync(Expression<Func<TEntity, bool>> predicate) =>
+            await _dbSet.Where(predicate).ToListAsync();
+
+        public async Task AddAsync(TEntity entity) => await _dbSet.AddAsync(entity);
     }
 }
