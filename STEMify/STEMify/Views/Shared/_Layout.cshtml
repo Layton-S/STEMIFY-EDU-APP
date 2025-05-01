@@ -13,39 +13,63 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
 
     <style>
 
         .sidebar {
-            min-height: 100vh;
+        min-height: 100vh;
         }
 
         aside {
-            min-height: 100vh;
+        min-height: 100vh;
         }
 
         @@media (min-width: 768px) {
-            .ms-md-250 {
-                margin-left: 250px;
-            }
+        .ms-md-250 {
+        margin-left: 250px;
+        }
 
-            .me-md-300 {
-                margin-right: 300px;
-            }
+        .me-md-300 {
+        margin-right: 300px;
+        }
         }
 
         @@media (max-width: 767.98px) {
-            .shifted-right {
-                margin-right: 300px !important;
-            }
-            .position-fixed {
-                z-index: 1035 !important;
-            }
+        .shifted-right {
+        margin-right: 300px !important;
         }
+
+        .position-fixed {
+        z-index: 1035 !important;
+        }
+        }
+
+        #calendar {
+        font-size: 10px;
+        overflow: hidden;
+        }
+
+
+        #calendar td,
+        #calendar th {
+        padding: 2px !important;
+        height: 20px !important;
+        width: 20px !important;
+        line-height: 1.2;
+        }
+
     </style>
 </head>
 
 <body class="bg-light">
+    @{
+        var controller = ViewContext.RouteData.Values["controller"]?.ToString();
+        var action = ViewContext.RouteData.Values["action"]?.ToString();
+        var isIndexPage = controller == "Home" && action == "Index"; // Adjust this if your landing action/controller is different
+    }
+
     <!-- Mobile Toggle Buttons (Fixed) -->
     <div class="d-md-none position-fixed top-0 start-0 w-100 bg-white shadow-sm p-2 z-1035 d-flex justify-content-between" style="height: 60px;">
         <div>
@@ -67,12 +91,18 @@
                 return string.Equals(current, controller, StringComparison.OrdinalIgnoreCase) ? "active" : "";
             }
         }
-
-        <nav id="sidebar" class="bg-success sidebar text-white p-3 d-none d-md-block position-fixed" style="width: 250px; z-index: 1050; height: 100vh;">
-            <div class="d-flex justify-content-between align-items-center mb-4">
-                <div class="logo text-white fw-bold mb-4">
-                    <i class="fas fa-atom me-2"></i> System Name
+        @if (!isIndexPage)
+        {
+            <nav id="sidebar" class="bg-success sidebar text-white p-3 d-none d-md-block position-fixed" style="width: 250px; z-index: 1050; height: 100vh;">
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <div class="logo text-white fw-bold mb-4">
+                        <i class="fas fa-atom me-2"></i> System Name
+                    </div>
+                    <button id="hide-sidebar" class="btn btn-sm btn-light text-success d-md-none">
+                        <i class="fa fa-times"></i>
+                    </button>
                 </div>
+<<<<<<< Updated upstream
                 <button id="hide-sidebar" class="btn btn-sm btn-light text-success d-md-none">
                     <i class="fa fa-times"></i>
                 </button>
@@ -129,10 +159,60 @@
             <a class="btn btn-outline-light btn-sm w-100" asp-controller="Account" asp-action="Register">Register</a>
             @*}*@
         </nav>
+=======
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2">
+                        <a class="nav-link sidebar-link text-white @(IsActive("Home"))" asp-controller="Home" asp-action="Dashboard">
+                            <i class="fa fa-home me-2"></i> Home
+                        </a>
+                    </li>
+                    @*@if(User.IsInRole("Admin"))
+                {*@
+                    <li class="nav-item mb-2">
+                        <a class="nav-link sidebar-link text-white @(IsActive("Course"))" asp-controller="Course" asp-action="Index">
+                            <i class="fa fa-cog me-2"></i> Course
+                        </a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a class="nav-link sidebar-link text-white @(IsActive("Account"))" asp-controller="Account" asp-action="Users">
+                            <i class="fa fa-users me-2"></i> Users
+                        </a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a class="nav-link sidebar-link text-white @(IsActive("Roles"))" asp-controller="Roles" asp-action="Index">
+                            <i class="fa fa-universal-access me-2"></i> Roles
+                        </a>
+                    </li>
+                    @*}*@
+                </ul>
+                <hr class="bg-white" />
 
+                @*@if(SignInManager.IsSignedIn(User))
+            {*@
+                <div class="mt-auto">
+                    <div class="mb-2">Hello, @User.Identity?.Name</div>
+                    <form asp-controller="Account" asp-action="Logout" method="post">
+                        <button type="submit" class="btn btn-outline-light btn-sm w-100">
+                            <i class="fa fa-sign-out-alt me-1"></i> Logout
+                        </button>
+                    </form>
+                </div>
+                @*}
+            else
+            {*@
+                <a class="btn btn-outline-light btn-sm w-100 mb-2" asp-controller="Account" asp-action="Login">Login</a>
+                <a class="btn btn-outline-light btn-sm w-100" asp-controller="Account" asp-action="Register">Register</a>
+                @*}*@
+            </nav>
+        }
+>>>>>>> Stashed changes
+
+       
+        
         <!-- Main Content -->
         <div class="flex-grow-1 d-flex flex-column ms-md-250 me-md-300 pt-5 pt-md-0">
             <!-- Topbar -->
+        
             <header class="bg-white shadow-sm p-3 d-none d-md-block">
                 <div class="d-flex justify-content-between align-items-center mb-4">
                     <form class="d-flex" role="search">
@@ -147,33 +227,57 @@
             <main class="p-4 flex-grow-1">
                 @RenderBody()
             </main>
-
+           
+            
             <footer class="bg-white text-muted text-center p-3 border-top">
                 &copy; 2025 - STEMify - <a asp-controller="Home" asp-action="About">About</a>
             </footer>
         </div>
+        
 
-        <aside id="right-sidebar" class="bg-white border-start p-3 d-none d-md-block position-fixed end-0" style="width: 300px; height: 100vh; z-index: 1050;">
-            <div class="d-flex justify-content-between mb-3">
-                <h6 class="text-secondary"><i class="fa fa-calendar-alt me-2"></i>Calendar</h6>
-                <button id="hide-right-sidebar" class="btn btn-sm btn-light d-md-none">
-                    <i class="fa fa-times"></i>
-                </button>
+
+        
+
+        @if (!isIndexPage)
+        {
+            <aside id="right-sidebar" class="bg-white border-start p-3 d-none d-md-block position-fixed end-0" style="width: 300px; height: 100vh; z-index: 1050;">
+                <div class="d-flex justify-content-between mb-3">
+
+
+                    <!--CALENDAR-->
+                    <h6 class="text-secondary"><i class="fa fa-calendar-alt me-2"></i>Calendar</h6>
+                    <button id="hide-right-sidebar" class="btn btn-sm btn-light d-md-none">
+                        <i class="fa fa-times"></i>
+                    </button>
+                </div>
+                <div id="calendar" class="mb-4" style="height: 180px; background-color: #f8f9fa; border-radius: 8px;"></div>
+
+                <!--To do list-->
+                <h6 class="text-secondary mb-3">
+                    <i class="fa fa-list-check me-2"></i>To-Do List
+                </h6>
+                <!-- Task List -->
+                <ul id="todo-list" class="list-group mb-3">
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        TASK/S OF THE DAY
+                        <button class="btn btn-sm btn-danger btn-delete"><i class="fa fa-trash"></i></button>
+                    </li>
+                </ul>
+                <!-- Buttons -->
+                <div class="d-flex gap-2 mb-3">
+                    <button class="btn btn-primary btn-sm w-50" data-bs-toggle="modal" data-bs-target="#upcomingTasksModal">
+                        Upcoming Tasks
+                    </button>
+                    <button class="btn btn-primary btn-sm w-50" data-bs-toggle="modal" data-bs-target="#addTaskModal">
+                        Add Task
+                    </button>
+                </div>
+
+            </aside>
+            }
             </div>
-            <div id="calendar" class="mb-4" style="height: 200px; background-color: #f8f9fa; border-radius: 8px;"></div>
-            <h6 class="text-secondary mb-3"><i class="fa fa-list-check me-2"></i>To-Do List</h6>
-            <ul id="todo-list" class="list-group mb-3">
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                    Sample Task
-                    <button class="btn btn-sm btn-danger btn-delete"><i class="fa fa-trash"></i></button>
-                </li>
-            </ul>
-            <input id="new-task" type="text" class="form-control mb-2" placeholder="Add a new task..." />
-            <button id="add-task" class="btn btn-success w-100 btn-sm">Add</button>
-        </aside>
-    </div>
-
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script>
@@ -201,20 +305,87 @@
             });
         });
 
-        document.addEventListener('DOMContentLoaded', function () {
+                document.addEventListener('DOMContentLoaded', function () {
             var calendarEl = document.getElementById('calendar');
             var calendar = new FullCalendar.Calendar(calendarEl, {
                 initialView: 'dayGridMonth',
-                height: 400,
+                height: 300,
+                fixedWeekCount: false,
+                showNonCurrentDates: true,
                 events: [
                     {
-                        title: 'Example Event',
+                        title: 'Today',
                         start: new Date().toISOString().split('T')[0]
                     }
                 ]
             });
             calendar.render();
         });
+                document.addEventListener('DOMContentLoaded', function () {
+            const upcomingTasks = [
+                { title: "Submit xxxxxxxxxx", due: "2025-05-02" },
+                { title: "Do homework for xxxxxx", due: "2025-05-03" },
+                { title: "Prepare for xxxx test", due: "2025-05-04" },
+                { title: "Attend revision class", due: "2025-05-05" }
+            ];
+
+            const taskContainer = document.getElementById('upcoming-tasks-body');
+            taskContainer.innerHTML = '';
+
+            upcomingTasks.forEach(task => {
+                const taskItem = document.createElement('div');
+                taskItem.className = 'd-flex justify-content-between align-items-center border-bottom py-2';
+
+                taskItem.innerHTML = `
+                    <div>
+                        <strong>${task.title}</strong><br>
+                        <small class="text-muted">${task.due}</small>
+                    </div>
+                    <button class="btn btn-sm btn-outline-danger" title="Delete Task">
+                        <i class="fa fa-trash"></i>
+                    </button>
+                `;
+
+                taskContainer.appendChild(taskItem);
+            });
+        });
+
     </script>
+
+    <!-- Add Task Modal -->
+    <div class="modal fade" id="addTaskModal" tabindex="-1" aria-labelledby="addTaskModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="addTaskModalLabel">Add New Task</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <input id="new-task-text" type="text" class="form-control mb-2" placeholder="Task description" />
+                    <input id="new-task-date" type="date" class="form-control" />
+                </div>
+                <div class="modal-footer">
+                    <button id="save-task" class="btn btn-success">Save Task</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Upcoming Tasks Modal -->
+    <div class="modal fade" id="upcomingTasksModal" tabindex="-1" aria-labelledby="upcomingTasksModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="upcomingTasksModalLabel">Upcoming Tasks</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body" id="upcoming-tasks-body">
+                    <!-- Filled dynamically -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 </body>
 </html>
