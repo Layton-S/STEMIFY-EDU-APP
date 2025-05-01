@@ -1,11 +1,19 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = STEMify
 build_property.RootNamespace = STEMify
@@ -28,6 +36,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/raimo/source/repos/STEMify-Edu-App/STEMify/STEMify/Views/Account/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/raimo/source/repos/STEMify-Edu-App/STEMify/STEMify/Views/Account/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/raimo/source/repos/STEMify-Edu-App/STEMify/STEMify/Views/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/raimo/source/repos/STEMify-Edu-App/STEMify/STEMify/Views/Account/ForgotPasswordConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/raimo/source/repos/STEMify-Edu-App/STEMify/STEMify/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -36,12 +60,108 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/raimo/source/repos/STEMify-Edu-App/STEMify/STEMify/Views/Account/Users.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxVc2Vycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/raimo/source/repos/STEMify-Edu-App/STEMify/STEMify/Views/Course/Categories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXENhdGVnb3JpZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/raimo/source/repos/STEMify-Edu-App/STEMify/STEMify/Views/Course/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/raimo/source/repos/STEMify-Edu-App/STEMify/STEMify/Views/Course/CreateCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXENyZWF0ZUNhdGVnb3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/raimo/source/repos/STEMify-Edu-App/STEMify/STEMify/Views/Course/CreateDifficultyLevels.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXENyZWF0ZURpZmZpY3VsdHlMZXZlbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/raimo/source/repos/STEMify-Edu-App/STEMify/STEMify/Views/Course/DifficultyLevels.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXERpZmZpY3VsdHlMZXZlbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/raimo/source/repos/STEMify-Edu-App/STEMify/STEMify/Views/Course/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/raimo/source/repos/STEMify-Edu-App/STEMify/STEMify/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/raimo/source/repos/STEMify-Edu-App/STEMify/STEMify/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/raimo/source/repos/STEMify-Edu-App/STEMify/STEMify/Views/Quiz/AddQuestion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelxBZGRRdWVzdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/raimo/source/repos/STEMify-Edu-App/STEMify/STEMify/Views/Quiz/AddQuestionType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelxBZGRRdWVzdGlvblR5cGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/raimo/source/repos/STEMify-Edu-App/STEMify/STEMify/Views/Quiz/AddQuiz.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelxBZGRRdWl6LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/raimo/source/repos/STEMify-Edu-App/STEMify/STEMify/Views/Quiz/EditFillInTheBlank.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelxFZGl0RmlsbEluVGhlQmxhbmsuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/raimo/source/repos/STEMify-Edu-App/STEMify/STEMify/Views/Quiz/EditMultipleChoice.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelxFZGl0TXVsdGlwbGVDaG9pY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/raimo/source/repos/STEMify-Edu-App/STEMify/STEMify/Views/Quiz/EditQuiz.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelxFZGl0UXVpei5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/raimo/source/repos/STEMify-Edu-App/STEMify/STEMify/Views/Quiz/EditTrueFalse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelxFZGl0VHJ1ZUZhbHNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/raimo/source/repos/STEMify-Edu-App/STEMify/STEMify/Views/Quiz/FillInTheBlank.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelxGaWxsSW5UaGVCbGFuay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/raimo/source/repos/STEMify-Edu-App/STEMify/STEMify/Views/Quiz/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/raimo/source/repos/STEMify-Edu-App/STEMify/STEMify/Views/Quiz/MultipleChoice.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelxNdWx0aXBsZUNob2ljZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/raimo/source/repos/STEMify-Edu-App/STEMify/STEMify/Views/Quiz/Questions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelxRdWVzdGlvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/raimo/source/repos/STEMify-Edu-App/STEMify/STEMify/Views/Quiz/SaveResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelxTYXZlUmVzdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/raimo/source/repos/STEMify-Edu-App/STEMify/STEMify/Views/Quiz/SubmitAnswer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelxTdWJtaXRBbnN3ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/raimo/source/repos/STEMify-Edu-App/STEMify/STEMify/Views/Quiz/TrueFalse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelxUcnVlRmFsc2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/raimo/source/repos/STEMify-Edu-App/STEMify/STEMify/Views/Quiz/_QuestionTypes/_FillInTheBlank.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelxfUXVlc3Rpb25UeXBlc1xfRmlsbEluVGhlQmxhbmsuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/raimo/source/repos/STEMify-Edu-App/STEMify/STEMify/Views/Quiz/_QuestionTypes/_MultipleChoice.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelxfUXVlc3Rpb25UeXBlc1xfTXVsdGlwbGVDaG9pY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/raimo/source/repos/STEMify-Edu-App/STEMify/STEMify/Views/Quiz/_QuestionTypes/_TrueFalse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelxfUXVlc3Rpb25UeXBlc1xfVHJ1ZUZhbHNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/raimo/source/repos/STEMify-Edu-App/STEMify/STEMify/Views/Roles/Assign.cshtml]

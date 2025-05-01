@@ -1,0 +1,61 @@
+﻿@model STEMify.Models.QuizQuestion
+
+<h2>Add a Question to Quiz</h2>
+
+<form asp-action="AddQuestion" method="post">
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.QuizId, "QuizId")
+        @Html.DropDownListFor(model => model.QuizId, (SelectList)ViewBag.Quizes, "-- Select Quiz --", new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.QuizId)
+    </div>
+    @if(ViewBag.QuestionType == null)
+    {
+
+
+        <div class="alert alert-danger">QuestionTypes list not loaded.</div>
+    }
+    else
+    {
+        <div class="form-group">
+            @Html.LabelFor(model => model.QuestionType, "QuestionType")
+            @Html.DropDownListFor(model => model.QuestionType, (SelectList)ViewBag.QuestionType, "-- Select QuestionType --", new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.QuestionType)
+        </div>
+    }
+
+
+
+    <div id="question-type-container" class="mt-3">
+        <!-- AJAX content will be injected here -->
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-3">Add Question</button>
+</form>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#QuestionType').change(function () {
+                var selectedType = $(this).val();
+                if (selectedType) {
+                    $.ajax({
+                        url: '@Url.Action("LoadQuestionTypeForm", "Quiz")',
+                        type: 'GET',
+                        data: { typeId: selectedType },
+                        success: function (result) {
+                            $('#question-type-container').html(result);
+                        },
+                        error: function () {
+                            alert("Failed to load form section.");
+                        }
+                    });
+                } else {
+                    $('#question-type-container').empty();
+                }
+            });
+        });
+    </script>
+}

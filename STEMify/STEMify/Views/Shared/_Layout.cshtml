@@ -8,77 +8,213 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - STEMify</title>
+
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/STEMify.styles.css" asp-append-version="true" />
+    <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+
+    <style>
+
+        .sidebar {
+            min-height: 100vh;
+        }
+
+        aside {
+            min-height: 100vh;
+        }
+
+        @@media (min-width: 768px) {
+            .ms-md-250 {
+                margin-left: 250px;
+            }
+
+            .me-md-300 {
+                margin-right: 300px;
+            }
+        }
+
+        @@media (max-width: 767.98px) {
+            .shifted-right {
+                margin-right: 300px !important;
+            }
+            .position-fixed {
+                z-index: 1035 !important;
+            }
+        }
+    </style>
 </head>
 
-<body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-controller="Home" asp-action="Index">STEMify</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
-                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav me-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav">
-                        @if (SignInManager.IsSignedIn(User))
-                        {
-                            @if (User.IsInRole("Admin"))
-                            {
-                                <li class="nav-item">
-                                    <a class="nav-link" asp-controller="Admin" asp-action="Index">Admin</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" asp-controller="Roles" asp-action="Index">Roles</a>
-                                </li>
-                            }
-                            <li class="nav-item">
-                                <a class="nav-link" asp-controller="Account" asp-action="Manage">Hello @User.Identity?.Name!</a>
-                            </li>
-                            <li class="nav-item">
-                                <form asp-controller="Account" asp-action="Logout" method="post">
-                                    <button type="submit" class="nav-link btn btn-link">Logout</button>
-                                </form>
-                            </li>
-                        }
-                        else
-                        {
-                            <li class="nav-item">
-                                <a class="nav-link" asp-controller="Account" asp-action="Register">Register</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" asp-controller="Account" asp-action="Login">Login</a>
-                            </li>
-                        }
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+<body class="bg-light">
+    <!-- Mobile Toggle Buttons (Fixed) -->
+    <div class="d-md-none position-fixed top-0 start-0 w-100 bg-white shadow-sm p-2 z-1035 d-flex justify-content-between" style="height: 60px;">
+        <div>
+            <button id="show-sidebar" class="btn btn-success me-2">
+                <i class="fa fa-bars"></i>
+            </button>
+            <button id="show-right-sidebar" class="btn btn-success">
+                <i class="fa fa-calendar-alt"></i>
+            </button>
+        </div>
+        <div class="small align-self-center">Hello, @User.Identity?.Name</div>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - STEMify - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <div class="d-flex min-vh-100">
+        @functions {
+            public string IsActive(string controller)
+            {
+                var current = ViewContext.RouteData.Values["controller"]?.ToString();
+                return string.Equals(current, controller, StringComparison.OrdinalIgnoreCase) ? "active" : "";
+            }
+        }
+
+        <nav id="sidebar" class="bg-success sidebar text-white p-3 d-none d-md-block position-fixed" style="width: 250px; z-index: 1050; height: 100vh;">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <div class="logo text-white fw-bold mb-4">
+                    <i class="fas fa-atom me-2"></i> System Name
+                </div>
+                <button id="hide-sidebar" class="btn btn-sm btn-light text-success d-md-none">
+                    <i class="fa fa-times"></i>
+                </button>
+            </div>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                    <a class="nav-link sidebar-link text-white @(IsActive("Home"))" asp-controller="Home" asp-action="Index">
+                        <i class="fa fa-home me-2"></i> Home
+                    </a>
+                </li>
+                @*@if(User.IsInRole("Admin"))
+            {*@
+                <li class="nav-item mb-2">
+                    <a class="nav-link sidebar-link text-white @(IsActive("Course"))" asp-controller="Course" asp-action="Index">
+                        <i class="fa fa-cog me-2"></i> Course
+                    </a>
+                </li>
+                <li class="nav-item mb-2">
+                    <a class="nav-link sidebar-link text-white @(IsActive("Account"))" asp-controller="Account" asp-action="Users">
+                        <i class="fa fa-users me-2"></i> Users
+                    </a>
+                </li>
+                <li class="nav-item mb-2">
+                    <a class="nav-link sidebar-link text-white @(IsActive("Roles"))" asp-controller="Roles" asp-action="Index">
+                        <i class="fa fa-universal-access me-2"></i> Roles
+                    </a>
+                </li>
+                @*}*@
+            </ul>
+            <hr class="bg-white" />
+
+            <ul>
+                <li>@Html.ActionLink("All Quizzes", "Index", "Quiz")</li>
+                <li>@Html.ActionLink("Add Quiz", "AddQuiz", "Quiz")</li>
+                <li>@Html.ActionLink("Add Question", "AddQuestion", "Quiz")</li>
+
+            </ul>
+
+
+            @*@if(SignInManager.IsSignedIn(User))
+        {*@
+            <div class="mt-auto">
+                <div class="mb-2">Hello, @User.Identity?.Name</div>
+                <form asp-controller="Account" asp-action="Logout" method="post">
+                    <button type="submit" class="btn btn-outline-light btn-sm w-100">
+                        <i class="fa fa-sign-out-alt me-1"></i> Logout
+                    </button>
+                </form>
+            </div>
+            @*}
+        else
+        {*@
+            <a class="btn btn-outline-light btn-sm w-100 mb-2" asp-controller="Account" asp-action="Login">Login</a>
+            <a class="btn btn-outline-light btn-sm w-100" asp-controller="Account" asp-action="Register">Register</a>
+            @*}*@
+        </nav>
+
+        <!-- Main Content -->
+        <div class="flex-grow-1 d-flex flex-column ms-md-250 me-md-300 pt-5 pt-md-0">
+            <!-- Topbar -->
+            <header class="bg-white shadow-sm p-3 d-none d-md-block">
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <form class="d-flex" role="search">
+                        <input class="form-control" type="search" placeholder="Search" aria-label="Search" />
+                    </form>
+                    <div class="d-flex align-items-center">
+                        <div class="mb-2">Hello, @User.Identity?.Name</div>
+                    </div>
+                </div>
+            </header>
+
+            <main class="p-4 flex-grow-1">
+                @RenderBody()
+            </main>
+
+            <footer class="bg-white text-muted text-center p-3 border-top">
+                &copy; 2025 - STEMify - <a asp-controller="Home" asp-action="About">About</a>
+            </footer>
         </div>
-    </footer>
+
+        <aside id="right-sidebar" class="bg-white border-start p-3 d-none d-md-block position-fixed end-0" style="width: 300px; height: 100vh; z-index: 1050;">
+            <div class="d-flex justify-content-between mb-3">
+                <h6 class="text-secondary"><i class="fa fa-calendar-alt me-2"></i>Calendar</h6>
+                <button id="hide-right-sidebar" class="btn btn-sm btn-light d-md-none">
+                    <i class="fa fa-times"></i>
+                </button>
+            </div>
+            <div id="calendar" class="mb-4" style="height: 200px; background-color: #f8f9fa; border-radius: 8px;"></div>
+            <h6 class="text-secondary mb-3"><i class="fa fa-list-check me-2"></i>To-Do List</h6>
+            <ul id="todo-list" class="list-group mb-3">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Sample Task
+                    <button class="btn btn-sm btn-danger btn-delete"><i class="fa fa-trash"></i></button>
+                </li>
+            </ul>
+            <input id="new-task" type="text" class="form-control mb-2" placeholder="Add a new task..." />
+            <button id="add-task" class="btn btn-success w-100 btn-sm">Add</button>
+        </aside>
+    </div>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script>
+
     @await RenderSectionAsync("Scripts", required: false)
+
+    <script>
+        $(document).ready(function () {
+            $('#show-sidebar').click(function () {
+                $('#sidebar').removeClass('d-none');
+            });
+
+            $('#hide-sidebar').click(function () {
+                $('#sidebar').addClass('d-none');
+            });
+
+            $('#show-right-sidebar').click(function () {
+                $('#right-sidebar').removeClass('d-none');
+                $('.flex-grow-1').addClass('shifted-right');
+            });
+
+            $('#hide-right-sidebar').click(function () {
+                $('#right-sidebar').addClass('d-none');
+                $('.flex-grow-1').removeClass('shifted-right');
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            var calendarEl = document.getElementById('calendar');
+            var calendar = new FullCalendar.Calendar(calendarEl, {
+                initialView: 'dayGridMonth',
+                height: 400,
+                events: [
+                    {
+                        title: 'Example Event',
+                        start: new Date().toISOString().split('T')[0]
+                    }
+                ]
+            });
+            calendar.render();
+        });
+    </script>
 </body>
 </html>

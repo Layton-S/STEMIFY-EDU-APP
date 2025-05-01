@@ -1,0 +1,26 @@
+﻿@model STEMify.Models.MultipleChoiceQuestion
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Question</th>
+            <th>OptionA</th>
+            <th>OptionB</th>
+            <th>OptionC</th>
+            <th>OptionD</th>
+            <th>CorrectAnswer</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@Model.QuestionText</td>
+            <td>@Model.OptionA</td>
+            <td>@Model.OptionB</td>
+            <td>@Model.OptionC</td>
+            <td>@Model.OptionD</td>
+            <td>@Model.CorrectAnswer</td>
+        </tr>
+    </tbody>
+</table>
+
+<a asp-action="Index">Back to List</a>

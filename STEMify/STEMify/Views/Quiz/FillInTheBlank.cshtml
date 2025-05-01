@@ -1,0 +1,23 @@
+﻿@model STEMify.Models.FillInTheBlankQuestion
+
+
+<div>
+    <a asp-action="Questions" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="QuestionText">Back to List</a>
+</div>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Statement</th>
+            <th>CorrectAnswer</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@Model.StatementText</td>
+            <td>@Model.CorrectAnswer</td>
+        </tr>
+    </tbody>
+</table>
+
+<a asp-action="Questions">Back to List</a>

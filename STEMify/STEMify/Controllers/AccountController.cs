@@ -3,107 +3,202 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 using STEMify.Controllers;
+using STEMify.Models.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 
-public class AccountController : Controller
+namespace STEMify.Controllers
 {
-    private readonly SignInManager<IdentityUser> _signInManager;
-    private readonly UserManager<IdentityUser> _userManager;
-
-    public AccountController(
-        SignInManager<IdentityUser> signInManager,
-        UserManager<IdentityUser> userManager)
+    //[Authorize]
+    public class AccountController : Controller
     {
-        _signInManager = signInManager;
-        _userManager = userManager;
-    }
+        private readonly SignInManager<IdentityUser> _signInManager;
+        private readonly UserManager<IdentityUser> _userManager;
 
-    [HttpGet]
-    public IActionResult Register()
-    {
-        return View(new RegisterViewModel()); // Initialize empty model
-    }
-
-    [HttpPost]
-    public async Task<IActionResult> Register(RegisterViewModel model)
-    {
-        if(ModelState.IsValid)
+        public AccountController(
+            SignInManager<IdentityUser> signInManager,
+            UserManager<IdentityUser> userManager)
         {
-            // Only using Email and Password from the model
-            var user = new IdentityUser
-            {
-                UserName = model.Email, // Using email as username
-                Email = model.Email
-            };
-
-            var result = await _userManager.CreateAsync(user, model.Password);
-
-            if(result.Succeeded)
-            {
-                await _signInManager.SignInAsync(user, isPersistent: false);
-                return RedirectToAction("Index", "Home");
-            }
-
-            foreach(var error in result.Errors)
-            {
-                ModelState.AddModelError(string.Empty, error.Description);
-            }
+            _signInManager = signInManager;
+            _userManager = userManager;
         }
 
-        // Return the view with the model to show validation errors
-        return View(model);
-    }
-
-    /* Keep all your existing Login/Logout methods exactly as they are */
-    [HttpGet]
-    public IActionResult Login(string returnUrl = null)
-    {
-        ViewData["ReturnUrl"] = returnUrl;
-        return View();
-    }
-
-    [HttpPost]
-    public async Task<IActionResult> Login(LoginViewModel model, string returnUrl = null)
-    {
-        ViewData["ReturnUrl"] = returnUrl;
-        if(ModelState.IsValid)
+        [HttpGet]
+        public IActionResult Register()
         {
-            var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, lockoutOnFailure: false);
+            return View(new RegisterViewModel()); // Initialize empty model
+        }
 
-            if(result.Succeeded)
+        [HttpPost]
+        public async Task<IActionResult> Register(RegisterViewModel model)
+        {
+            if(ModelState.IsValid)
             {
-                return RedirectToLocal(returnUrl);
+                // Only using Email and Password from the model
+                var user = new IdentityUser
+                {
+                    UserName = model.Email, // Using email as username
+                    Email = model.Email
+                };
+
+                var result = await _userManager.CreateAsync(user, model.Password);
+
+                if(result.Succeeded)
+                {
+                    await _signInManager.SignInAsync(user, isPersistent: false);
+                    return RedirectToAction("Index", "Home");
+                }
+
+                foreach(var error in result.Errors)
+                {
+                    ModelState.AddModelError(string.Empty, error.Description);
+                }
             }
 
-            ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+            // Return the view with the model to show validation errors
+            return View(model);
         }
 
-        return View(model);
-    }
-
-    [HttpPost]
-    [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Logout()
-    {
-        await _signInManager.SignOutAsync();
-        return RedirectToAction(nameof(HomeController.Index), "Home");
-    }
-
-    private IActionResult RedirectToLocal(string returnUrl)
-    {
-        if(Url.IsLocalUrl(returnUrl))
+        /* Keep all your existing Login/Logout methods exactly as they are */
+        [HttpGet]
+        public IActionResult Login(string returnUrl = null)
         {
-            return Redirect(returnUrl);
+            ViewData["ReturnUrl"] = returnUrl;
+            return View();
         }
-        else
+
+        [HttpPost]
+        public async Task<IActionResult> Login(LoginViewModel model, string returnUrl = null)
         {
+            ViewData["ReturnUrl"] = returnUrl;
+            if(ModelState.IsValid)
+            {
+                var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, lockoutOnFailure: false);
+
+                if(result.Succeeded)
+                {
+                    return RedirectToLocal(returnUrl);
+                }
+
+                ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+            }
+
+            return View(model);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Logout()
+        {
+            await _signInManager.SignOutAsync();
             return RedirectToAction(nameof(HomeController.Index), "Home");
         }
+
+        private IActionResult RedirectToLocal(string returnUrl)
+        {
+            if(Url.IsLocalUrl(returnUrl))
+            {
+                return Redirect(returnUrl);
+            }
+            else
+            {
+                return RedirectToAction(nameof(HomeController.Index), "Home");
+            }
+        }
+
+        [HttpGet]
+        public IActionResult AccessDenied(string returnUrl)
+        {
+            ViewBag.ReturnUrl = returnUrl;
+            return View();
+        }
+
+        [HttpGet]
+        public ActionResult Users()
+        {
+            // Retrieve all users using the UserManager
+            var users = _userManager.Users.ToList();
+
+            // Pass the list of users to the view
+            return View(users);
+        }
+
+        // Edit user
+        [HttpGet]
+        public async Task<IActionResult> Edit(string id)
+        {
+            var user = await _userManager.FindByIdAsync(id);
+            if(user == null)
+            {
+                return NotFound();
+            }
+
+            // Populate a view model if needed
+            return View(user);
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(IdentityUser user)
+        {
+            if(ModelState.IsValid)
+            {
+                var existingUser = await _userManager.FindByIdAsync(user.Id);
+                if(existingUser != null)
+                {
+                    existingUser.UserName = user.UserName;
+                    existingUser.Email = user.Email;
+
+                    var result = await _userManager.UpdateAsync(existingUser);
+
+                    if(result.Succeeded)
+                    {
+                        return RedirectToAction(nameof(Users));
+                    }
+
+                    foreach(var error in result.Errors)
+                    {
+                        ModelState.AddModelError(string.Empty, error.Description);
+                    }
+                }
+            }
+
+            return View(user);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Delete(string id)
+        {
+            var user = await _userManager.FindByIdAsync(id);
+            if(user == null)
+            {
+                return NotFound();
+            }
+
+            return View(user);
+        }
+
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(string id)
+        {
+            var user = await _userManager.FindByIdAsync(id);
+            if(user != null)
+            {
+                var result = await _userManager.DeleteAsync(user);
+                if(result.Succeeded)
+                {
+                    return RedirectToAction(nameof(Users));
+                }
+
+                foreach(var error in result.Errors)
+                {
+                    ModelState.AddModelError(string.Empty, error.Description);
+                }
+            }
+
+            return RedirectToAction(nameof(Users));
+        }
+
+
     }
 
-    [HttpGet]
-    public IActionResult AccessDenied(string returnUrl)
-    {
-        ViewBag.ReturnUrl = returnUrl;
-        return View();
-    }
 }

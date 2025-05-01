@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\raimo\\source\\repos\\STEMify-Edu-App\\STEMify\\STEMify\\STEMify.csproj": {}
+    "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\STEMify.csproj": {}
   },
   "projects": {
-    "C:\\Users\\raimo\\source\\repos\\STEMify-Edu-App\\STEMify\\STEMify\\STEMify.csproj": {
+    "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\STEMify.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\raimo\\source\\repos\\STEMify-Edu-App\\STEMify\\STEMify\\STEMify.csproj",
+        "projectUniqueName": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\STEMify.csproj",
         "projectName": "STEMify",
-        "projectPath": "C:\\Users\\raimo\\source\\repos\\STEMify-Edu-App\\STEMify\\STEMify\\STEMify.csproj",
-        "packagesPath": "C:\\Users\\raimo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\raimo\\source\\repos\\STEMify-Edu-App\\STEMify\\STEMify\\obj\\",
+        "projectPath": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\STEMify.csproj",
+        "packagesPath": "C:\\Users\\p.shuuya\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\raimo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\p.shuuya\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -51,6 +51,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.66, )"
+            },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.14, )"
@@ -63,6 +67,10 @@
               "target": "Package",
               "version": "[8.0.14, )"
             },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.14, )"
@@ -70,6 +78,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[8.0.14, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.7, )"
             }
           },
           "imports": [

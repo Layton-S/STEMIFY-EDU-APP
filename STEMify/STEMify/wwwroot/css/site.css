@@ -1,22 +1,158 @@
-html {
-  font-size: 14px;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
+/* General reset */
 body {
-  margin-bottom: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
 }
+
+/* Headings */
+h1, h2, h3, h4, h5 {
+    font-weight: 600;
+    color: #222;
+}
+
+a {
+    color: #34a853;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #34a853;
+    border-color: #34a853;
+}
+
+.btn-primary:hover {
+    background-color: #2f974e;
+    border-color: #2f974e;
+}
+
+.btn-outline-secondary {
+    border-color: #ccc;
+    color: #333;
+    background-color: white;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #f5f5f5;
+}
+
+/* Forms */
+.form-control {
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    border-color: #34a853;
+    box-shadow: 0 0 0 0.2rem rgba(52, 168, 83, 0.25);
+}
+
+input::placeholder {
+    color: #bbb;
+}
+
+/* Validation messages */
+.text-danger {
+    font-size: 0.9rem;
+}
+
+/* Layout containers */
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+/* Cards (optional) */
+.card {
+    border-radius: 10px;
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.05);
+    border: none;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-weight: bold;
+    color: #34a853 ;
+}
+
+.nav-link {
+    color: #ffffff !important;
+}
+
+.nav-link:hover {
+    color: #34a853 !important;
+}
+.active-link
+/* Footer */
+footer.footer {
+    background-color: #f1f1f1;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+    text-align: center;
+    color: #777;
+}
+
+/* Utility spacing */
+.mt-1 { margin-top: 0.25rem; }
+.mt-2 { margin-top: 0.5rem; }
+.mt-3 { margin-top: 1rem; }
+.mt-4 { margin-top: 1.5rem; }
+
+.mb-1 { margin-bottom: 0.25rem; }
+.mb-2 { margin-bottom: 0.5rem; }
+.mb-3 { margin-bottom: 1rem; }
+.mb-4 { margin-bottom: 1.5rem; }
+
+/* Shadows */
+.shadow-sm {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+/* Quote styling */
+blockquote {
+    font-style: italic;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Custom brand color for reuse */
+.text-success-custom {
+    color: #34a853;
+}
+.sidebar {
+    background-color: #D3D3D3;
+    width: 250px;
+    padding: 20px;
+    min-height: 100vh;
+    border-right: 1px solid #ddd;
+}
+
+.sidebar-link {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    color: #4c4c4c;
+    border-radius: 8px;
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+    .sidebar-link:hover {
+        background-color: #e6f4ea;
+        color: #148000;
+    }
+
+    .sidebar-link.active {
+        background-color: #148000;
+        color: white !important;
+        font-weight: bold;
+    }
