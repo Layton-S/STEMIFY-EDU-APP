@@ -16,11 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("STEMify")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< Updated upstream
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f1d8ab7113be687917ce08bb96c90c83ed43687")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a06ee6b40e9cb3365cf4e8a5e6e8d6d0e1b9c5ca")]
->>>>>>> Stashed changes
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a032e47fc613baa6bc6b441c2b20cd77fe4722da")]
 [assembly: System.Reflection.AssemblyProductAttribute("STEMify")]
 [assembly: System.Reflection.AssemblyTitleAttribute("STEMify")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
