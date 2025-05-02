@@ -17,11 +17,13 @@ namespace STEMify.Models
 
         [Required]
         public int CategoryID { get; set; }
+        public virtual Category Category { get; set; }
 
         [Required]
         public int DifficultyLevelID { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime LastUpdated { get; set; }
-        public bool IsActive { get; set; } 
+        public bool IsActive { get; set; }
+        public string ImageUrl { get; set; }
     }
 }

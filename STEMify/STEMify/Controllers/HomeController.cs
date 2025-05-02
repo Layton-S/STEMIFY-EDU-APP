@@ -11,13 +11,19 @@ namespace STEMify.Controllers
         {
         }
 
-        //[Authorize]
 
+        [Authorize]
         public IActionResult Index()
         {
-            return View();
+            if(User.IsInRole("Admin")) { 
+            return View("IndexAdmin");
+            }
+            else
+            {
+                return View();
+            }
         }
-        //[Authorize]
+        [Authorize]
         public ActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
