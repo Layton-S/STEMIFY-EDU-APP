@@ -1,45 +1,75 @@
 ﻿@{
 
     ViewData["Title"] = "Landing Page";
-    
+    ViewData["IsLandingPage"] = true;
 }
 
 
+<!-- Techy, Minimal Green Theme -->
+<div class="container-fluid py-5 text-center text-white" style="
+    background: url('your-background-image.jpg') no-repeat center center/cover;
+    background-size: cover;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+   ">
 
-<div class="container py-5 text-center">
-    <!-- Welcome Section -->
-    <div class="mb-5">
-        <h1 class="display-4" style="color: green;">Welcome to <strong>STEMify</strong></h1>
-        <p class="lead text-muted">Your journey to mastering STEM begins here.</p>
-        <a href="/Course" class="btn btn-success btn-lg mt-3 px-5">Explore Courses</a>
+    <!-- Subtle Green Overlay -->
+    <div style="
+        background: rgba(34, 197, 94, 0.7);
+        padding: 3rem;
+        border-radius: 1rem;
+        backdrop-filter: blur(5px);
+        box-shadow: 0 4px 15px rgba(34, 197, 94, 0.2);
+    ">
+
+        <!-- Welcome Section -->
+        <div class="mb-5">
+            <h2 class="display-4 fw-bold mb-4" style="color: #bbf7d0; letter-spacing: 1px;">
+                About <span style="color: #065f46;">STEMify</span> 🚀
+            </h2>
+            <p class="lead" style="color: #e0fcef; max-width: 850px; margin: 0 auto;">
+                A modern digital platform designed for curious minds. Learn programming, web development, and much more — with hands-on activities and progress tracking.
+            </p>
+        </div>
+
+        <!-- Features Section -->
+        <div class="row mt-5 justify-content-center">
+            <!-- Feature 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="p-4 shadow-lg rounded-4 h-100 border" style="
+                    background-color: #047857;
+                    transition: transform 0.3s ease, box-shadow 0.3s ease;
+                " onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.15)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'">
+                    <i class="fa fa-book fa-2x mb-3" style="color: #baf7d9;"></i>
+                    <h5 class="text-white">Interactive Learning</h5>
+                    <p class="text-light">Dive into coding challenges and quizzes that keep you engaged and learning.</p>
+                </div>
+            </div>
+
+            <!-- Feature 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="p-4 shadow-lg rounded-4 h-100 border" style="
+                    background-color: #065f46;
+                    transition: transform 0.3s ease, box-shadow 0.3s ease;
+                " onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.15)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'">
+                    <i class="fa fa-chart-line fa-2x mb-3" style="color: #a7f3d0;"></i>
+                    <h5 class="text-white">Track Your Progress</h5>
+                    <p class="text-light">Monitor your learning milestones with dynamic visual dashboards.</p>
+                </div>
+            </div>
+
+            <!-- Feature 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="p-4 shadow-lg rounded-4 h-100 border" style="
+                    background-color: #0d4e3c;
+                    transition: transform 0.3s ease, box-shadow 0.3s ease;
+                " onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.15)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'">
+                    <i class="fa fa-users fa-2x mb-3" style="color: #facc15;"></i>
+                    <h5 class="text-white">Community Support</h5>
+                    <p class="text-light">Collaborate with a community of learners, mentors, and tech explorers.</p>
+                </div>
+            </div>
+        </div>
+
     </div>
-
-    <!-- Features Section -->
-    <div class="row mt-5">
-        <div class="col-md-4 mb-4">
-            <div class="p-4 shadow-sm rounded" style="background-color: #e8f5e9;">
-                <i class="fa fa-book fa-2x text-success mb-3"></i>
-                <h5>Interactive Learning</h5>
-                <p class="text-muted">Engage with hands-on activities, quizzes, and practical projects.</p>
-            </div>
-        </div>
-        <div class="col-md-4 mb-4">
-            <div class="p-4 shadow-sm rounded" style="background-color: #e8f5e9;">
-                <i class="fa fa-chart-line fa-2x text-success mb-3"></i>
-                <h5>Track Your Progress</h5>
-                <p class="text-muted">Monitor your quiz results, time stats, and course completions.</p>
-            </div>
-        </div>
-        <div class="col-md-4 mb-4">
-            <div class="p-4 shadow-sm rounded" style="background-color: #e8f5e9;">
-                <i class="fa fa-users fa-2x text-success mb-3"></i>
-                <h5>Community Support</h5>
-                <p class="text-muted">Connect with peers, join discussions, and grow together.</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Call to Action -->
-    <div class="mt-5">
-        <a asp-controller="Account" asp-action="Login" class="btn btn-outline-success mt-3">Join Now</a>
 </div>
