@@ -95,7 +95,7 @@
 
                 <ul class="nav flex-column">
                     <li class="nav-item mb-2">
-                        <a class="nav-link sidebar-link text-white @(IsActive("Home"))" asp-controller="Home" asp-action="Index">
+                        <a class="nav-link sidebar-link text-white @(IsActive("Home"))" asp-controller="Home" asp-action="Dashboard">
                             <i class="fa fa-home me-2"></i> Home
                         </a>
                     </li>
@@ -220,6 +220,69 @@
             });
             calendar.render();
         });
+        //UPCOMING TASK DUMMY DATA
+            document.addEventListener('DOMContentLoaded', function () {
+            const upcomingTasks = [
+                { title: "Submit xxxxxxxxxx", due: "2025-05-02" },
+                { title: "Do homework for xxxxxx", due: "2025-05-03" },
+                { title: "Prepare for xxxx test", due: "2025-05-04" },
+                { title: "Attend revision class", due: "2025-05-05" }
+            ];
+
+            const taskContainer = document.getElementById('upcoming-tasks-body');
+            taskContainer.innerHTML = '';
+
+            upcomingTasks.forEach(task => {
+                const taskItem = document.createElement('div');
+                taskItem.className = 'd-flex justify-content-between align-items-center border-bottom py-2';
+
+                taskItem.innerHTML = `
+                    <div>
+                        <strong>${task.title}</strong><br>
+                        <small class="text-muted">${task.due}</small>
+                    </div>
+                    <button class="btn btn-sm btn-outline-danger" title="Delete Task">
+                        <i class="fa fa-trash"></i>
+                    </button>
+                `;
+
+                taskContainer.appendChild(taskItem);
+            });
+        });
+
     </script>
+    <!-- Add Task Modal -->
+    <div class="modal fade" id="addTaskModal" tabindex="-1" aria-labelledby="addTaskModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="addTaskModalLabel">Add New Task</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <input id="new-task-text" type="text" class="form-control mb-2" placeholder="Task description" />
+                    <input id="new-task-date" type="date" class="form-control" />
+                </div>
+                <div class="modal-footer">
+                    <button id="save-task" class="btn btn-success">Save Task</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Upcoming Tasks Modal -->
+    <div class="modal fade" id="upcomingTasksModal" tabindex="-1" aria-labelledby="upcomingTasksModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="upcomingTasksModalLabel">Upcoming Tasks</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body" id="upcoming-tasks-body">
+                    <!-- Filled dynamically -->
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
