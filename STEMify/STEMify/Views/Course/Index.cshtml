@@ -3,82 +3,108 @@
 @{
     ViewData["Title"] = "Courses";
     var defaultImage = "https://cdn1.expresscomputer.in/wp-content/uploads/2023/09/29160907/EC_Gen_AI_09_Technology_750.jpg";
+    var userCourseIds = ViewBag.UserCourseIds as List<int> ?? new List<int>();
 
-    // Function to get background class based on DifficultyLevelID
     Func<int?, string> getBackgroundClass = id => id switch
     {
-        2 => "bg-info text-white",   // Blue for Difficulty 2
-        3 => "bg-danger text-white",    // Red for Difficulty 3
-        4 => "bg-purple text-white",    // Purple for Difficulty 4 (Custom)
-        _ => "bg-light"                 // Default light background for other difficulties
+        2 => "bg-primary",   // Easy – Blue
+        3 => "bg-danger",    // Hard – Red
+        4 => "bg-dark",      // Expert – Black
+        _ => "bg-light"      // Default
     };
 
-    // Function to return a label for the difficulty level
     Func<int?, string> getDifficultyLabel = id => id switch
     {
-        2 => "Easy",   // Medium difficulty
-        3 => "Hard",     // Hard difficulty
-        4 => "Expert",   // Expert difficulty
-        _ => ""      // Default to Easy for other difficulties
+        2 => "Easy",
+        3 => "Hard",
+        4 => "Expert",
+        _ => "Unknown"
     };
-    
-    ViewData["IsCourses"] = true; //RIGHT SIDEBAR VALIDATION
+
+    Func<int?, bool> isDarkBackground = id => id is 2 or 3 or 4;
+
+    ViewData["IsCourses"] = true;
 }
 
 <a href="@Url.Action("Create")" class="btn btn-primary mb-3">Add New Course</a>
-<a href="@Url.Action("DifficultyLevels")" class="btn btn-success mb-3">View DifficultyLevels</a>
+<a href="@Url.Action("DifficultyLevels")" class="btn btn-success mb-3">View Difficulty Levels</a>
 
 <h2 class="mb-4 text-success">Courses <a href="#" class="float-end text-decoration-none">View All</a></h2>
 
-<div class="row">
-    @foreach(var course in Model)
-    {
-        var bgClass = getBackgroundClass(course.DifficultyLevelID);
-        var difficultyLabel = getDifficultyLabel(course.DifficultyLevelID);
-        <div class="col-md-4 mb-4">
-            <div class="card shadow-sm border-0 @bgClass">
-                <!-- Course Image -->
-                <a href="@Url.Action("Details", "Course", new { id = course.CourseID })" class="ratio ratio-16x9">
-                    <img src="@(string.IsNullOrEmpty(course.ImageUrl) ? defaultImage : course.ImageUrl)"
-                         class="img-fluid rounded-top object-fit-cover"
-                         alt="Course Image"
-                         data-bs-toggle="tooltip"
-                         data-bs-placement="top"
-                         title="@course.Description ?? " Course Description here"" />
-                </a>
-                <div class="card-body">
-                    <!-- Difficulty Label -->
-                    <span class="badge rounded-pill bg-secondary mb-2">@difficultyLabel</span>
-                    <h5 class="card-title">
-                        <a href="@Url.Action("Details", "Course", new { id = course.CourseID })" class="text-decoration-none text-white">
-                            @course.CourseName
-                        </a>
-                    </h5>
-                    <p class="text-muted">Category: @course.Category?.CategoryName</p>
-                    <p class="text-muted small text-white">Course ID: @course.CourseID</p>
-                    <a href="#" class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#deleteModal"
-                       data-id="@course.CourseID" data-name="@course.CourseName">Delete</a>                        
-                    <a href="@Url.Action("FavoriteCourse", "Home", new { id = course.CourseID })" class="text-decoration-none text-white">
-                        Add to favourite
+@if(!Model.Any())
+{
+    <div class="alert alert-info">No courses available at the moment.</div>
+}
+else
+{
+    <div class="row">
+        @foreach(var course in Model)
+        {
+            var bgClass = getBackgroundClass(course.DifficultyLevelID);
+            var difficultyLabel = getDifficultyLabel(course.DifficultyLevelID);
+            var isDark = isDarkBackground(course.DifficultyLevelID);
+
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm border-0 @bgClass text-@(isDark ? "white" : "dark")">
+                    <!-- Course Image -->
+                    <a href="@Url.Action("Details", "Course", new { id = course.CourseID })" class="ratio ratio-16x9">
+                        <img src="@(string.IsNullOrEmpty(course.ImageUrl) ? defaultImage : course.ImageUrl)"
+                             class="img-fluid rounded-top object-fit-cover"
+                             alt="Course Image"
+                             data-bs-toggle="tooltip"
+                             data-bs-placement="top"
+                             title="@(!string.IsNullOrEmpty(course.Description) ? course.Description : "Course description not available")" />
                     </a>
+
+                    <div class="card-body">
+                        <span class="badge bg-secondary mb-2">@difficultyLabel</span>
+
+                        <h5 class="card-title">
+                            <a href="@Url.Action("Details", "Course", new { id = course.CourseID })"
+                               class="text-decoration-none text-@(isDark ? "white" : "dark")">
+                                @course.CourseName
+                            </a>
+                        </h5>
+
+                        <p class="mb-1">Category: @course.Category?.CategoryName</p>
+                        <p class="small mb-2">Course ID: @course.CourseID</p>
+
+                        <a href="#" class="btn btn-sm btn-outline-light @(isDark ? "" : "text-dark border-dark")"
+                           data-bs-toggle="modal" data-bs-target="#deleteModal"
+                           data-id="@course.CourseID" data-name="@course.CourseName">
+                            🗑 Delete
+                        </a>
+
+                        @if(userCourseIds.Contains(course.CourseID))
+                        {
+                            <span class="badge bg-success ms-2">✔ Added to favorites</span>
+                        }
+                        else
+                        {
+                            <a href="@Url.Action("FavoriteCourse", "Home", new { id = course.CourseID })"
+                               class="btn btn-sm btn-outline-light @(isDark ? "" : "text-dark border-dark") ms-2">
+                                ❤ Add to favorites
+                            </a>
+                        }
+                    </div>
                 </div>
             </div>
-        </div>
-    }
-</div>
+        }
+    </div>
+}
 
 <!-- Delete Modal -->
 <div class="modal fade" id="deleteModal" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content" id="deleteModalContent">
             <div class="modal-header">
-                <h5 class="modal-title text-danger">Delete Text</h5>
+                <h5 class="modal-title text-danger">Delete Course</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <form id="deleteForm" method="post">
                 @Html.AntiForgeryToken()
                 <div class="modal-body">
-                    <p>Are you sure you want to delete the text <strong id="deleteItemName"></strong>?</p>
+                    <p>Are you sure you want to delete the course <strong id="deleteItemName"></strong>?</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
@@ -91,21 +117,21 @@
 
 @section Scripts {
     <script>
-        // Modal setup
+        // Handle delete modal behavior
         var deleteModal = document.getElementById('deleteModal');
         deleteModal.addEventListener('show.bs.modal', function (event) {
             var button = event.relatedTarget;
-            var levelId = button.getAttribute('data-id');
-            var levelName = button.getAttribute('data-name');
+            var courseId = button.getAttribute('data-id');
+            var courseName = button.getAttribute('data-name');
 
             var form = deleteModal.querySelector('form');
-            form.action = '/Course/DeleteCourses/' + levelId;
+            form.action = '/Course/DeleteCourses/' + courseId;
 
-            var modalText = deleteModal.querySelector('.modal-body p');
-            modalText.innerHTML = 'Are you sure you want to delete the text <strong>' + levelName + '</strong>?';
+            var modalText = deleteModal.querySelector('#deleteItemName');
+            modalText.textContent = courseName;
         });
 
-        // Enable all tooltips
+        // Activate all tooltips
         var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
         var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
             return new bootstrap.Tooltip(tooltipTriggerEl);

@@ -11,9 +11,7 @@ namespace STEMify.Controllers
         public HomeController(IUnitOfWork unitOfWork) : base(unitOfWork)
         {
         }
-
         //[Authorize]
-
         public IActionResult Index()
         {
             return View();
@@ -36,38 +34,70 @@ namespace STEMify.Controllers
             return View();
         }
 
-        public ActionResult Courses()
+        public IActionResult Courses()
         {
             var AvailableCourses = UnitOfWork.Courses.GetAll().ToList();
+
+            var currentUser = User.Identity?.Name;
+
+            // If user is authenticated, get their favorited courses
+            if(!string.IsNullOrEmpty(currentUser))
+            {
+                var favoriteIds = UnitOfWork.UserCourses
+                    .GetAll()
+                    .Where(x => x.User == currentUser)
+                    .Select(x => x.CourseID)
+                    .ToList();
+
+                ViewBag.UserCourseIds = favoriteIds;
+            }
+            else
+            {
+                ViewBag.UserCourseIds = new List<int>();
+            }
+
             return View("AvailableCourses", AvailableCourses);
         }
 
-        //Added user access to all courses aswell as favorite functionality
-        public ActionResult FavoriteCourse(int id)
+
+        // FavoriteCourse - Adds course to user favorites if not already added
+        public async Task<IActionResult> FavoriteCourse(int id)
         {
-            var course = UnitOfWork.Courses.Get(id);
+            var course = await UnitOfWork.Courses.GetAsync(id); 
 
-            var userCourse = new UserCourses
+            if(course == null)
             {
-                CourseID = course.CourseID,
-                User = User.Identity.Name
-            };
+                return NotFound();
+            }
 
-            UnitOfWork.UserCourses.Add(userCourse);
-            UnitOfWork.Complete();
-            return View("UserCourses");
+            var existingEntry = UnitOfWork.UserCourses
+                .GetAll()
+                .FirstOrDefault(x => x.User == User.Identity.Name && x.CourseID == id);
+
+            if(existingEntry == null)
+            {
+                var userCourse = new UserCourses
+                {
+                    CourseID = course.CourseID,
+                    User = User.Identity.Name
+                };
+
+                UnitOfWork.UserCourses.Add(userCourse);
+                UnitOfWork.Complete();
+            }
+
+            return RedirectToAction("Courses");
         }
 
+        // Displays all user-favorited courses
         public IActionResult UserCourses()
         {
-            // Get the list of course IDs the current user is enrolled in
             var userCourseIds = UnitOfWork.UserCourses
                 .GetAll()
                 .Where(x => x.User == User.Identity.Name)
                 .Select(x => x.CourseID)
                 .ToList();
 
-            // Get the actual Course objects based on those IDs
             var courses = UnitOfWork.Courses
                 .GetAll()
                 .Where(x => userCourseIds.Contains(x.CourseID))
@@ -75,10 +105,29 @@ namespace STEMify.Controllers
 
             return View(courses);
         }
+        // RemoveFavoriteCourse - Removes a course from user favorites
+        [HttpPost]
+        public IActionResult RemoveFavoriteCourse(int id)
+        {
+            var favorite = UnitOfWork.UserCourses
+                .GetAll()
+                .FirstOrDefault(x => x.User == User.Identity.Name && x.CourseID == id);
+
+            if(favorite == null)
+            {
+                return NotFound();
+            }
+
+            UnitOfWork.UserCourses.Remove(favorite);
+            UnitOfWork.Complete();
+
+            return RedirectToAction("UserCourses");
+        }
 
         public IActionResult Error()
         {
             return View();
         }
+
     }
 }

@@ -7,58 +7,76 @@
     // Function to get background class based on DifficultyLevelID
     Func<int?, string> getBackgroundClass = id => id switch
     {
-        2 => "bg-info text-white",   // Blue for Difficulty 2
-        3 => "bg-danger text-white",    // Red for Difficulty 3
-        4 => "bg-purple text-white",    // Purple for Difficulty 4 (Custom)
-        _ => "bg-light"                 // Default light background for other difficulties
+        2 => "bg-info text-white",      // Easy – Blue
+        3 => "bg-danger text-white",    // Hard – Red
+        4 => "bg-purple text-white",    // Expert – Custom Purple (define in CSS if needed)
+        _ => "bg-light"                 // Default – Light background
     };
 
     // Function to return a label for the difficulty level
     Func<int?, string> getDifficultyLabel = id => id switch
     {
-        2 => "Easy",   // Medium difficulty
-        3 => "Hard",     // Hard difficulty
-        4 => "Expert",   // Expert difficulty
-        _ => ""      // Default to Easy for other difficulties
+        2 => "Easy",
+        3 => "Hard",
+        4 => "Expert",
+        _ => "Unknown"
     };
 
-    ViewData["IsCourses"] = true; //RIGHT SIDEBAR VALIDATION
+    ViewData["IsCourses"] = true; // Enables right sidebar section
 }
 
 <h2 class="mb-4 text-success">Fav Courses</h2>
-
-<a href="#" class="float-end text-decoration-none">View All</a>
+<a href="@Url.Action("Index", "Course")" class="float-end text-decoration-none">View All</a>
 
 <div class="row">
     @foreach(var course in Model)
     {
         var bgClass = getBackgroundClass(course.DifficultyLevelID);
         var difficultyLabel = getDifficultyLabel(course.DifficultyLevelID);
+
         <div class="col-md-4 mb-4">
             <div class="card shadow-sm border-0 @bgClass">
                 <!-- Course Image -->
-                <a href="@Url.Action("Details", "Course", new { id = course.CourseID })" class="ratio ratio-16x9">
+                <a href="@Url.Action("Details", "Course", new { id = course.CourseID })" class="ratio ratio-16x9 d-block">
                     <img src="@(string.IsNullOrEmpty(course.ImageUrl) ? defaultImage : course.ImageUrl)"
                          class="img-fluid rounded-top object-fit-cover"
                          alt="Course Image"
                          data-bs-toggle="tooltip"
                          data-bs-placement="top"
-                         title="@course.Description ?? " Course Description here"" />
+                         title="@(string.IsNullOrEmpty(course.Description) ? "Course description not available" : course.Description)" />
                 </a>
+
                 <div class="card-body">
                     <!-- Difficulty Label -->
                     <span class="badge rounded-pill bg-secondary mb-2">@difficultyLabel</span>
+
+                    <!-- Course Title -->
                     <h5 class="card-title">
-                        <a href="@Url.Action("Details", "Course", new { id = course.CourseID })" class="text-decoration-none text-white">
+                        <a href="@Url.Action("Details", "Course", new { id = course.CourseID })"
+                           class="text-decoration-none text-white">
                             @course.CourseName
                         </a>
                     </h5>
-                    <p class="text-muted">Category: @course.Category?.CategoryName</p>
-                    <p class="text-muted small text-white">Course ID: @course.CourseID</p>
 
-                    <a href="@Url.Action("FavoriteCourse", "Home", new { id = course.CourseID })" class="text-decoration-none text-white">
-                        Add to favourite
+                    <!-- Course Info -->
+                    <p class="text-white-50 mb-1">Category: @course.Category?.CategoryName</p>
+                    <p class="text-white-50 small mb-3">Course ID: @course.CourseID</p>
+
+                    <!-- Favorite Controls -->
+                    <a href="@Url.Action("FavoriteCourse", "Home", new { id = course.CourseID })"
+                       class="btn btn-outline-light btn-sm me-2">
+                        ❤ Add to Favorite
                     </a>
+
+                    <form asp-action="RemoveFavoriteCourse"
+                          asp-controller="Home"
+                          asp-route-id="@course.CourseID"
+                          method="post"
+                          class="d-inline">
+                        <button type="submit" class="btn btn-sm btn-danger">
+                            Remove
+                        </button>
+                    </form>
                 </div>
             </div>
         </div>
