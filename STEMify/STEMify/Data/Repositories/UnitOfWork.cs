@@ -1,6 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using STEMify.Data.Interfaces;
 using STEMify.Models;
+using STEMify.Models.Quizzes;
+using STEMify.Models.User;
 
 namespace STEMify.Data.Repositories
 {
@@ -23,6 +25,9 @@ namespace STEMify.Data.Repositories
             MultipleChoiceQuestions = new MultipleChoiceQuestionRepository(_context);
             TrueFalseQuestions = new TrueFalseQuestionRepository(_context);
             UserCourses = new UserCoursesRepository(_context);
+            UserTasks = new UserTaskRepository(_context);
+            QuizAnswers = new Repository<QuizAnswer>(_context);
+            QuizAttempts = new Repository<QuizAttempt>(_context);
         }
 
         //public ITestRepository Tests { get; private set; }
@@ -38,6 +43,10 @@ namespace STEMify.Data.Repositories
         public IFillInTheBlankQuestionRepository FillInTheBlankQuestions { get; }
         public ITrueFalseQuestionRepository TrueFalseQuestions { get; }
         public IUserCoursesRepository UserCourses { get; }
+        public IUserTaskRepository UserTasks { get; }
+        public IRepository<QuizAnswer> QuizAnswers { get; private set; }
+        public IRepository<QuizAttempt> QuizAttempts { get; private set; }
+
         public int Complete()
         {
             return _context.SaveChanges();

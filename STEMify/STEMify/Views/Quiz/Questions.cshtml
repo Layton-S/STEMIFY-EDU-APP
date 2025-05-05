@@ -6,9 +6,9 @@
 <table class="table">
     <thead>
         <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.QuizId)
-            </th>
+            @*<th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>*@
             <th>
                 @Html.DisplayNameFor(model => model.QuestionText)
             </th>
@@ -20,11 +20,12 @@
     </thead>
     <tbody>
         @foreach(var item in Model)
-        {
+                {
+                    var yt = item.QuizId = 7;
             <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.QuizId)
-                </td>
+                @*<td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>*@
                 <td>
                     @Html.DisplayFor(modelItem => item.QuestionText)
                 </td>

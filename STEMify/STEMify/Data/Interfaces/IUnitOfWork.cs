@@ -1,4 +1,6 @@
 ﻿using STEMify.Data.Repositories;
+using STEMify.Models.Quizzes;
+using STEMify.Models;
 using System;
 using System.Threading.Tasks;
 using static STEMify.Data.Repositories.FillInTheBlankQuestionRepository;
@@ -24,6 +26,9 @@ namespace STEMify.Data.Interfaces
         IFillInTheBlankQuestionRepository FillInTheBlankQuestions { get; }
         ITrueFalseQuestionRepository TrueFalseQuestions { get; }
         IUserCoursesRepository UserCourses { get; }
+        IUserTaskRepository UserTasks { get; }
+        IRepository<QuizAnswer> QuizAnswers { get; }
+        IRepository<QuizAttempt> QuizAttempts { get; }
 
     }
 }

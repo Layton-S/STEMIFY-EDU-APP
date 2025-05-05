@@ -352,12 +352,13 @@ namespace STEMify.Controllers
         {
             if(!ModelState.IsValid)
                 return View(model);
-
+            var quizQuestion = UnitOfWork.QuizQuestions.Get(model.QuizQuestionId);
             var existing = UnitOfWork.MultipleChoiceQuestions.Get(model.Id);
             if(existing == null)
                 return NotFound();
 
             existing.QuestionText = model.QuestionText;
+            quizQuestion.QuestionText = model.QuestionText;
             existing.OptionA = model.OptionA;
             existing.OptionB = model.OptionB;
             existing.OptionC = model.OptionC;

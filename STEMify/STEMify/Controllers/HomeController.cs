@@ -11,7 +11,8 @@ namespace STEMify.Controllers
         public HomeController(IUnitOfWork unitOfWork) : base(unitOfWork)
         {
         }
-        //[Authorize]
+
+        [Authorize]
         public IActionResult Index()
         {
             return View();
