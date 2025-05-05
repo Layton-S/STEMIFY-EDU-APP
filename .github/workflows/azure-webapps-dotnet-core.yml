@@ -1,9 +1,9 @@
 name: Build and deploy ASP.Net Core app to an Azure Web App
 
 env:
-  AZURE_WEBAPP_NAME: STEMify                # Name of your Azure Web App
-  AZURE_WEBAPP_PACKAGE_PATH: 'STEMIFY/STEMify'  # Adjust this path to match your web app project folder
-  DOTNET_VERSION: '9.0'                     # .NET version (adjust to your actual version)
+  AZURE_WEBAPP_NAME: STEMify               # Name of your Azure Web App
+  AZURE_WEBAPP_PACKAGE_PATH: 'STEMIFY/STEMify'  # Path to your project directory
+  DOTNET_VERSION: '9.0'                    # .NET version (adjust to your actual version)
 
 on:
   push:
@@ -33,17 +33,14 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-nuget-
 
-      - name: Change directory to the solution folder
-        run: cd STEMIFY/STEMify
-
       - name: Restore dependencies
-        run: dotnet restore STEMIFY.sln
+        run: dotnet restore STEMIFY/STEMify/STEMify.sln
 
       - name: Build with dotnet
-        run: dotnet build STEMIFY.sln --configuration Release
+        run: dotnet build STEMIFY/STEMify/STEMify.sln --configuration Release
 
       - name: dotnet publish
-        run: dotnet publish STEMIFY.sln -c Release -o ${{env.DOTNET_ROOT}}/myapp
+        run: dotnet publish STEMIFY/STEMIFY/STEMify.sln -c Release -o ${{env.DOTNET_ROOT}}/myapp
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
