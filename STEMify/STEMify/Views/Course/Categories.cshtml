@@ -1,7 +1,7 @@
 ﻿@model IEnumerable<STEMify.Models.Category>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="CreateCategory">Create New</a>
 </p>
 <table class="table">
     <thead>
@@ -53,3 +53,22 @@
         </div>
     </div>
 </div>
+
+@section Scripts {
+    <script>
+        // Modal setup
+        var deleteModal = document.getElementById('deleteModal');
+        deleteModal.addEventListener('show.bs.modal', function (event) {
+            var button = event.relatedTarget;
+            var levelId = button.getAttribute('data-id');
+            var levelName = button.getAttribute('data-name');
+
+            var form = deleteModal.querySelector('form');
+            form.action = '/Course/DeleteCategory/' + levelId;
+
+            var modalText = deleteModal.querySelector('.modal-body p');
+            modalText.innerHTML = 'Are you sure you want to delete the text <strong>' + levelName + '</strong>?';
+        });
+
+    </script>
+}

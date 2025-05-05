@@ -1,67 +1,137 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    Layout = null;
 }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>STEMify Landing Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<div class="container mt-5">
-    <!-- User Info Section -->
-    <div class="d-flex align-items-center mb-4">
-        <img src="https://via.placeholder.com/80" class="rounded-circle" alt="Profile Picture" />
-        <div class="ms-3">
-            <h2 class="mb-0" style="color: green;">John Doe</h2>
-            <div class="d-flex mt-2">
-                <div class="me-4">
-                    <strong>27</strong><br />
-                    <small>Quiz Passed</small>
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        header {
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            padding: 1rem 2rem;
+        }
+
+        .btn-custom {
+            border-radius: 30px;
+            color: green;
+            border: 2px solid green;
+            padding: 8px 20px;
+            transition: all 0.3s ease;
+            background-color: transparent;
+        }
+
+            .btn-custom:hover {
+                background-color: green;
+                color: #bbf7d9;
+            }
+
+        .hero {
+            background: url('your-background-image.jpg') no-repeat center center/cover;
+            min-height: 100vh;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 4rem 2rem;
+            position: relative;
+        }
+
+        .hero-overlay {
+            background: rgba(34, 197, 94, 0.75);
+            padding: 3rem;
+            border-radius: 1rem;
+            backdrop-filter: blur(5px);
+            width: 100%;
+            max-width: 1200px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+        }
+
+        .feature-card {
+            background-color: #047857;
+            border: none;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+            .feature-card:hover {
+                transform: scale(1.05);
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+            }
+
+            .feature-card h5, .feature-card p {
+                color: #f0fdf4;
+            }
+
+            .feature-card i {
+                color: #bbf7d9;
+            }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="d-none d-md-flex justify-content-between align-items-center">
+        <h1 class="display-5 mb-0 text-success mx-auto text-center">Welcome to <strong>STEMify</strong></h1>
+        <div class="ml-auto">
+            <a asp-controller="Account" asp-action="Register" class="btn btn-custom mx-2">Register</a>
+            <a asp-controller="Account" asp-action="Login" class="btn btn-custom mx-2">Login</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="hero-overlay text-center text-white">
+            <p class="lead mx-auto mb-5" style="max-width: 850px;">
+                A modern digital platform designed for curious minds. Learn programming, web development, and more — with hands-on activities and progress tracking.
+            </p>
+
+            <div class="row justify-content-center">
+                <!-- Feature 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card feature-card p-4 rounded-4 h-100">
+                        <i class="fa fa-book fa-2x mb-3"></i>
+                        <h5>Interactive Learning</h5>
+                        <p>Dive into coding challenges and quizzes that keep you engaged and learning.</p>
+                    </div>
                 </div>
-                <div class="me-4">
-                    <strong>27min</strong><br />
-                    <small>Fastest Time</small>
+
+                <!-- Feature 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card feature-card p-4 rounded-4 h-100" style="background-color: #065f46;">
+                        <i class="fa fa-chart-line fa-2x mb-3" style="color: #a7f3d0;"></i>
+                        <h5>Track Your Progress</h5>
+                        <p>Monitor your learning milestones with dynamic visual dashboards.</p>
+                    </div>
                 </div>
-                <div>
-                    <strong>200</strong><br />
-                    <small>Correct Answers</small>
+
+                <!-- Feature 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card feature-card p-4 rounded-4 h-100" style="background-color: #0d4e3c;">
+                        <i class="fa fa-users fa-2x mb-3" style="color: #facc15;"></i>
+                        <h5>Community Support</h5>
+                        <p>Collaborate with a community of learners, mentors, and tech explorers.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <footer class="bg-white text-muted text-center p-3 border-top">
+        &copy; 2025 - STEMify - <a asp-controller="Home" asp-action="About">About</a>
+    </footer>
 
-    <!-- Available Courses Section -->
-    <div class="d-flex justify-content-between align-items-center mb-3">
-        <h3 style="color: green;">Available Courses</h3>
-        <a href="#" style="color: green;">View All</a>
-    </div>
-
-    <!-- Courses Grid -->
-    <div class="row">
-        <div class="col-md-4 mb-4">
-            <div style="background-color: #4CAF50; height: 150px; display: flex; align-items: center; justify-content: center; border-radius: 10px; color: white;">
-                <h5>Course Title 1</h5>
-            </div>
-        </div>
-        <div class="col-md-4 mb-4">
-            <div style="background-color: #4CAF50; height: 150px; display: flex; align-items: center; justify-content: center; border-radius: 10px; color: white;">
-                <h5>Course Title 2</h5>
-            </div>
-        </div>
-        <div class="col-md-4 mb-4">
-            <div style="background-color: #4CAF50; height: 150px; display: flex; align-items: center; justify-content: center; border-radius: 10px; color: white;">
-                <h5>Course Title 3</h5>
-            </div>
-        </div>
-        <div class="col-md-4 mb-4">
-            <div style="background-color: #4CAF50; height: 150px; display: flex; align-items: center; justify-content: center; border-radius: 10px; color: white;">
-                <h5>Course Title 4</h5>
-            </div>
-        </div>
-        <div class="col-md-4 mb-4">
-            <div style="background-color: #4CAF50; height: 150px; display: flex; align-items: center; justify-content: center; border-radius: 10px; color: white;">
-                <h5>Course Title 5</h5>
-            </div>
-        </div>
-        <div class="col-md-4 mb-4">
-            <div style="background-color: #4CAF50; height: 150px; display: flex; align-items: center; justify-content: center; border-radius: 10px; color: white;">
-                <h5>Course Title 6</h5>
-            </div>
-        </div>
-    </div>
-</div>
+</body>
+</html>

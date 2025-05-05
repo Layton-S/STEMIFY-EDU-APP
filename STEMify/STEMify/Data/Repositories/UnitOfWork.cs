@@ -22,6 +22,7 @@ namespace STEMify.Data.Repositories
             FillInTheBlankQuestions = new FillInTheBlankQuestionRepository(_context);
             MultipleChoiceQuestions = new MultipleChoiceQuestionRepository(_context);
             TrueFalseQuestions = new TrueFalseQuestionRepository(_context);
+            UserCourses = new UserCoursesRepository(_context);
         }
 
         //public ITestRepository Tests { get; private set; }
@@ -36,6 +37,7 @@ namespace STEMify.Data.Repositories
         public IMultipleChoiceQuestionRepository MultipleChoiceQuestions { get; }
         public IFillInTheBlankQuestionRepository FillInTheBlankQuestions { get; }
         public ITrueFalseQuestionRepository TrueFalseQuestions { get; }
+        public IUserCoursesRepository UserCourses { get; }
         public int Complete()
         {
             return _context.SaveChanges();

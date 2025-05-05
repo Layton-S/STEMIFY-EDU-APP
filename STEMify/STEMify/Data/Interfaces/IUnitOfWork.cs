@@ -23,6 +23,7 @@ namespace STEMify.Data.Interfaces
         IMultipleChoiceQuestionRepository MultipleChoiceQuestions { get; }
         IFillInTheBlankQuestionRepository FillInTheBlankQuestions { get; }
         ITrueFalseQuestionRepository TrueFalseQuestions { get; }
+        IUserCoursesRepository UserCourses { get; }
 
     }
 }

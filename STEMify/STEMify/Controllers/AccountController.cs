@@ -21,6 +21,38 @@ namespace STEMify.Controllers
             _signInManager = signInManager;
             _userManager = userManager;
         }
+        [HttpGet]
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Login(LoginViewModel model)
+        {
+            
+
+            if (ModelState.IsValid)
+            {
+                var result = await _signInManager.PasswordSignInAsync(
+                    model.Email,
+                    model.Password,
+                    model.RememberMe,  // Optional "Remember me" checkbox
+                    lockoutOnFailure: false);
+
+                if (result.Succeeded)
+                {
+                    // Redirect to Dashboard (or returnUrl if provided)
+                    return RedirectToAction("Dashboard", "Home");
+                }
+                else
+                {
+                    ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+                    return View(model);
+                }
+            }
+            return View(model);
+        }
 
         [HttpGet]
         public IActionResult Register()
@@ -44,8 +76,10 @@ namespace STEMify.Controllers
 
                 if(result.Succeeded)
                 {
+                    await _userManager.AddToRoleAsync(user, "User");
+
                     await _signInManager.SignInAsync(user, isPersistent: false);
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToAction("Dashboard", "Home");
                 }
 
                 foreach(var error in result.Errors)
@@ -58,32 +92,7 @@ namespace STEMify.Controllers
             return View(model);
         }
 
-        /* Keep all your existing Login/Logout methods exactly as they are */
-        [HttpGet]
-        public IActionResult Login(string returnUrl = null)
-        {
-            ViewData["ReturnUrl"] = returnUrl;
-            return View();
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> Login(LoginViewModel model, string returnUrl = null)
-        {
-            ViewData["ReturnUrl"] = returnUrl;
-            if(ModelState.IsValid)
-            {
-                var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, lockoutOnFailure: false);
-
-                if(result.Succeeded)
-                {
-                    return RedirectToLocal(returnUrl);
-                }
-
-                ModelState.AddModelError(string.Empty, "Invalid login attempt.");
-            }
-
-            return View(model);
-        }
+      
 
         [HttpPost]
         [ValidateAntiForgeryToken]

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
@@ -7,7 +8,7 @@ using STEMify.Models;
 
 namespace STEMify.Controllers
 {
-
+    [Authorize(Roles = "Admin")]
     public class CourseController : BaseController
     {
         public CourseController(IUnitOfWork unitOfWork) : base(unitOfWork)
@@ -18,7 +19,7 @@ namespace STEMify.Controllers
         /// 
         public ActionResult Index()
         {
-            var courses = UnitOfWork.Courses.GetAll().ToList();
+            var courses = UnitOfWork.Courses.GetAllWithIncludes(c => c.Category).ToList();
             return View(courses);
         }
         public IActionResult Edit(int id)
@@ -80,10 +81,11 @@ namespace STEMify.Controllers
             var categoryPrefix = category.CategoryName.Substring(0, 4).ToUpper();
             course.CourseCode = $"CRS-{categoryPrefix}";
             ModelState.Remove("CourseCode");
+            ModelState.Remove("Category");
             if(ModelState.IsValid)
             {
 
-
+             
                 course.CreatedAt = DateTime.UtcNow;
                 course.LastUpdated = DateTime.UtcNow;
                 course.IsActive = true;
@@ -173,7 +175,7 @@ namespace STEMify.Controllers
             {
                 UnitOfWork.Categories.Add(model);
                 UnitOfWork.CompleteAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(Categories));
             }
 
             return View(model);

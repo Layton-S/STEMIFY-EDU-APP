@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.EntityFrameworkCore;
@@ -9,6 +10,7 @@ using System.Threading.Tasks;
 
 namespace STEMify.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class QuizController : BaseController
     {
         public QuizController(IUnitOfWork unitOfWork) : base(unitOfWork)
@@ -129,6 +131,7 @@ namespace STEMify.Controllers
                 var mc = new MultipleChoiceQuestion
                 {
                     QuizQuestionId = question.Id,
+                    QuestionText = Request.Form["QuestionText"],
                     OptionA = Request.Form["OptionA"],
                     OptionB = Request.Form["OptionB"],
                     OptionC = Request.Form["OptionC"],
