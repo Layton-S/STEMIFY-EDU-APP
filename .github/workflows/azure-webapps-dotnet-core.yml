@@ -1,36 +1,31 @@
 name: Build and deploy ASP.Net Core app to an Azure Web App
-
 env:
   AZURE_WEBAPP_NAME: STEMify                # Name of your Azure Web App
   AZURE_WEBAPP_PACKAGE_PATH: '.'            # Assuming this is the correct path for your app
   DOTNET_VERSION: '9.0'                     # .NET version (adjust to your actual version)
-
 on:
   push:
     branches: [ "main" ]
   workflow_dispatch:
-
 permissions:
   contents: read
-
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
-
+      
       # Debugging step to list files in the repository to confirm the solution file path
       - name: List all files in the repository (for debugging)
         run: |
           echo "Listing all files in the repository..."
-          ls -R
-
+          find . -name "*.sln" | sort
+      
       - name: Set up .NET Core
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: ${{ env.DOTNET_VERSION }}
-
+      
       - name: Set up dependency caching for faster builds
         uses: actions/cache@v3
         with:
@@ -38,19 +33,41 @@ jobs:
           key: ${{ runner.os }}-nuget-${{ hashFiles('**/packages.lock.json') }}
           restore-keys: |
             ${{ runner.os }}-nuget-
-
-      # Restore dependencies with the correct path to your solution file
+      
+      # Find and restore dependencies for the solution file
       - name: Restore dependencies
         run: |
           echo "Restoring dependencies..."
-          dotnet restore STEMIFY/STEMify/STEMify.sln  # Adjusted path based on your repository structure
-
+          # Look for the solution file without case sensitivity
+          SOLUTION_PATH=$(find . -name "*.sln" -type f | grep -i stemify | head -n 1)
+          if [ -z "$SOLUTION_PATH" ]; then
+            echo "Error: No solution file found!"
+            exit 1
+          else
+            echo "Found solution at: $SOLUTION_PATH"
+            dotnet restore "$SOLUTION_PATH"
+          fi
+      
       - name: Build with dotnet
-        run: dotnet build STEMIFY/STEMify/STEMify.sln --configuration Release  # Adjusted path
-
+        run: |
+          SOLUTION_PATH=$(find . -name "*.sln" -type f | grep -i stemify | head -n 1)
+          if [ -n "$SOLUTION_PATH" ]; then
+            dotnet build "$SOLUTION_PATH" --configuration Release
+          else
+            echo "Error: No solution file found!"
+            exit 1
+          fi
+      
       - name: dotnet publish
-        run: dotnet publish STEMIFY/STEMify/STEMify.sln -c Release -o ${{env.DOTNET_ROOT}}/myapp
-
+        run: |
+          SOLUTION_PATH=$(find . -name "*.sln" -type f | grep -i stemify | head -n 1)
+          if [ -n "$SOLUTION_PATH" ]; then
+            dotnet publish "$SOLUTION_PATH" -c Release -o ${{env.DOTNET_ROOT}}/myapp
+          else
+            echo "Error: No solution file found!"
+            exit 1
+          fi
+      
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
@@ -65,13 +82,12 @@ jobs:
     environment:
       name: 'Development'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
-
     steps:
       - name: Download artifact from build job
         uses: actions/download-artifact@v4
         with:
           name: .net-app
-
+      
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
