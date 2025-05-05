@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-STEMify-3b9af288-6d46-41c4-a7c4-f5d4faef9b5a")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("STEMify")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f9778f8c15fc897b7be96a0966de5abe462e33d5")]
 [assembly: System.Reflection.AssemblyProductAttribute("STEMify")]
