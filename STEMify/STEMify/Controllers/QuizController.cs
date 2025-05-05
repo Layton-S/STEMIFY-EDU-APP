@@ -129,6 +129,7 @@ namespace STEMify.Controllers
                 var mc = new MultipleChoiceQuestion
                 {
                     QuizQuestionId = question.Id,
+                    QuestionText = Request.Form["QuestionText"],
                     OptionA = Request.Form["OptionA"],
                     OptionB = Request.Form["OptionB"],
                     OptionC = Request.Form["OptionC"],
