@@ -34,13 +34,13 @@ jobs:
             ${{ runner.os }}-nuget-
 
       - name: Restore dependencies
-        run: dotnet restore STEMIFY/STEMify/STEMify.sln
+        run: dotnet restore STEMIFY/STEMify.sln  # Corrected path to the solution file
 
       - name: Build with dotnet
-        run: dotnet build STEMIFY/STEMify/STEMify.sln --configuration Release
+        run: dotnet build STEMIFY/STEMify.sln --configuration Release  # Corrected path
 
       - name: dotnet publish
-        run: dotnet publish STEMIFY/STEMIFY/STEMify.sln -c Release -o ${{env.DOTNET_ROOT}}/myapp
+        run: dotnet publish STEMIFY/STEMify.sln -c Release -o ${{env.DOTNET_ROOT}}/myapp
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
