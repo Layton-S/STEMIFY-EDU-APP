@@ -12,11 +12,12 @@ namespace STEMify.Controllers
         {
         }
 
-        [Authorize]
+
         public IActionResult Index()
         {
             return View();
         }
+        [Authorize]
         public IActionResult Dashboard() 
         {
             return View();
@@ -28,13 +29,13 @@ namespace STEMify.Controllers
             ViewData["Message"] = "Your application description page.";
             return View();
         }
-
+        [Authorize]
         public IActionResult Contact()
         {
             ViewData["Message"] = "Your contact page.";
             return View();
         }
-
+        [Authorize]
         public IActionResult Courses()
         {
             var AvailableCourses = UnitOfWork.Courses.GetAll().ToList();
@@ -60,7 +61,7 @@ namespace STEMify.Controllers
             return View("AvailableCourses", AvailableCourses);
         }
 
-
+        [Authorize]
         // FavoriteCourse - Adds course to user favorites if not already added
         public async Task<IActionResult> FavoriteCourse(int id)
         {
@@ -89,7 +90,7 @@ namespace STEMify.Controllers
 
             return RedirectToAction("Courses");
         }
-
+        [Authorize]
         // Displays all user-favorited courses
         public IActionResult UserCourses()
         {
@@ -108,6 +109,7 @@ namespace STEMify.Controllers
         }
         // RemoveFavoriteCourse - Removes a course from user favorites
         [HttpPost]
+        [Authorize]
         public IActionResult RemoveFavoriteCourse(int id)
         {
             var favorite = UnitOfWork.UserCourses
