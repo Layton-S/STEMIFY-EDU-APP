@@ -211,13 +211,11 @@
 
 
         @{
-            //GRACE COURSES PAGE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-      //     var IsList = ViewData["IsList"] as bool? ?? false;
-      // }
-      //  @if (!IsList)
-      // { !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-
+            //GRACE COURSES PAGE HIDE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+           var IsCourses = ViewData["IsCourses"] as bool? ?? false;
+       }
+        @if (!IsCourses)
+      { 
             @if(!isIndexPage)
             {
                 <aside id="right-sidebar" class="bg-white border-start p-3 d-none d-md-block position-fixed end-0" style="width: 300px; height: 100vh; z-index: 1050;">
@@ -240,10 +238,11 @@
                     </div>
                 </aside>
             }
-       // }
+        }
 
-        <!--GRACE COURSES PAGE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
-        <!--
+        <!--GRACE COURSES PAGE RIGHT SIDEBAR!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+        @if (ViewData["IsCourses"] as bool? == true)
+        {
         <aside id="right-sidebar" class="bg-white border-start p-3 d-none d-md-block position-fixed end-0" style="width: 300px; height: 100vh; z-index: 1050;">
             <h4 class="text-center fw-bold text-success mb-4">Tutorials</h4>
 
@@ -256,9 +255,6 @@
                 <button class="btn btn-success w-100" data-bs-toggle="modal" data-bs-target="#linkModal">Button 6</button>
             </div>
         </aside>
-        -->
-        <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
-            
         }
     </div>
 
@@ -322,26 +318,26 @@
                 taskContainer.appendChild(taskItem);
             });
         });
-        //GRACE COURSES PAGE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-           //  function showPopup() {
-           // const popup = document.getElementById("popup");
-           // popup.style.display = "block";
-           //   }
+        //GRACE COURSES PAGE POP UP ON CLICK!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+             function showPopup() {
+            const popup = document.getElementById("popup");
+            popup.style.display = "block";
+              }
 
-       // function hidePopup() {
-       //     const popup = document.getElementById("popup");
-       //      popup.style.display = "none";
-       // }
+        function hidePopup() {
+            const popup = document.getElementById("popup");
+             popup.style.display = "none";
+        }
 
       
-      // document.addEventListener("click", function (e) {
-      //     const popup = document.getElementById("popup");
-      //     const sidebar = document.getElementById("right-sidebar");
-      //     if (!popup.contains(e.target) && !sidebar.contains(e.target)) {
-      //          hidePopup();
-      //      }
-      //  });
-      //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+       document.addEventListener("click", function (e) {
+           const popup = document.getElementById("popup");
+           const sidebar = document.getElementById("right-sidebar");
+           if (!popup.contains(e.target) && !sidebar.contains(e.target)) {
+                hidePopup();
+            }
+        });
+      
 
     </script>
     <!-- Add Task Modal -->
@@ -378,22 +374,20 @@
         </div>
     </div>
    
-    <!--GRACE COURSES PAGE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+    <!--GRACE COURSES PAGE POP UP DATA!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
     <!-- Link Modal -->
-    <!-- <div class="modal fade" id="linkModal" tabindex="-1" aria-labelledby="linkModalLabel" aria-hidden="true">
-    <!--    <div class="modal-dialog">
-    <!--        <div class="modal-content">
-    <!--            <div class="modal-header">
-    <!--                <h5 class="modal-title" id="linkModalLabel">Link</h5> -->
-    <!--                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
-    <!--            </div>
-    <!--            <div class="modal-body">
+     <div class="modal fade" id="linkModal" tabindex="-1" aria-labelledby="linkModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+           <div class="modal-content">
+               <div class="modal-header">
+                    <h5 class="modal-title" id="linkModalLabel">Link</h5> 
+                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
+                <div class="modal-body">
                     link
-                    <!-- You can replace this with: <a href="your-link" target="_blank">Go to link</a> -->
-    <!--            </div>
-    <!--        </div>
-    <!--    </div>
-    <!-- </div>
-    <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+               </div>
+           </div>
+        </div>
+     </div>
 </body>
 </html>

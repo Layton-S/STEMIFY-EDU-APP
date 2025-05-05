@@ -21,6 +21,8 @@
         4 => "Expert",   // Expert difficulty
         _ => ""      // Default to Easy for other difficulties
     };
+    
+    ViewData["IsCourses"] = true; //RIGHT SIDEBAR VALIDATION
 }
 
 <a href="@Url.Action("Create")" class="btn btn-primary mb-3">Add New Course</a>
