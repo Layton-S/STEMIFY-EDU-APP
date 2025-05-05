@@ -34,14 +34,44 @@
         }
 
         @@media (max-width: 767.98px) {
-        .shifted-right {
+        .shifted {
         margin-right: 300px !important;
         }
 
         .position-fixed {
         z-index: 1035 !important;
         }
+
+            #sidebar {
+                width: 200px !important;
+                font-size: 14px;
+                padding: 10px !important;
+            }
+
+                #sidebar .nav-link {
+                    font-size: 13px;
+                    padding: 6px 10px;
+                }
+
+                #sidebar .logo {
+                    font-size: 16px;
+                }
+
+                #sidebar .btn,
+                #sidebar .form-control {
+                    font-size: 12px;
+                    padding: 6px;
+                }
+
+                #sidebar .text-white {
+                    font-size: 12px;
+                }
+
+                #sidebar .btn-outline-light {
+                    padding: 4px 8px;
+                }
         }
+
 
         #calendar {
         font-size: 10px;
@@ -93,6 +123,9 @@
                         <i class="fas fa-atom me-2"></i> STEMify
                     </div>
                 </div>
+            <!-- Mobile Close Button -->
+            <button id="hide-sidebar" class="btn btn-sm btn-light d-md-none mb-3"><i class="fa fa-times"></i></button>
+
 
                 <ul class="nav flex-column mb-4">
                     <li class="nav-item mb-2">
@@ -220,8 +253,8 @@
         <!--GRACE COURSES PAGE RIGHT SIDEBAR!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
         @if (ViewData["IsCourses"] as bool? == true)
         {
-        <aside id="right-sidebar" class="bg-white border-start p-3 d-none d-md-block position-fixed end-0" style="width: 300px; height: 100vh; z-index: 1050;">
-            <h4 class="text-center fw-bold text-success mb-4">Tutorials</h4>
+            <aside id="right-sidebar" class="bg-white border-start p-3 d-none d-md-block position-fixed end-0" style="width: 300px; height: 100vh; z-index: 1050;">
+                <h4 class="text-center fw-bold text-success mb-4">Tutorials</h4>
 
             <div class="d-grid gap-3">
                 <button class="btn btn w-100" style="background-color:  #008080; color: white;" data-bs-toggle="modal" data-bs-target="#linkModal">Button 1</button>
@@ -243,18 +276,33 @@
     @await RenderSectionAsync("Scripts", required: false)
 
     <script>
-        $(function () {
-            $('#show-sidebar').click(() => $('#sidebar').removeClass('d-none'));
-            $('#hide-sidebar').click(() => $('#sidebar').addClass('d-none'));
-            $('#show-right-sidebar').click(() => {
-                $('#right-sidebar').removeClass('d-none');
-                $('.flex-grow-1').addClass('shifted-right');
+                $(function () {
+            const $sidebar = $('#sidebar');
+            const $rightSidebar = $('#right-sidebar');
+            const $mainContent = $('.flex-grow-1');
+
+            $('#show-sidebar').click(() => {
+                $rightSidebar.addClass('d-none');
+                $mainContent.removeClass('shifted-right');
+                $sidebar.removeClass('d-none');
             });
+
+            $('#hide-sidebar').click(() => {
+                $sidebar.addClass('d-none');
+            });
+
+            $('#show-right-sidebar').click(() => {
+                $sidebar.addClass('d-none');
+                $rightSidebar.removeClass('d-none');
+                $mainContent.addClass('shifted-right');
+            });
+
             $('#hide-right-sidebar').click(() => {
-                $('#right-sidebar').addClass('d-none');
-                $('.flex-grow-1').removeClass('shifted-right');
+                $rightSidebar.addClass('d-none');
+                $mainContent.removeClass('shifted-right');
             });
         });
+
 
         document.addEventListener('DOMContentLoaded', function () {
             const calendar = new FullCalendar.Calendar(document.getElementById('calendar'), {
@@ -294,6 +342,16 @@
 
                 taskContainer.appendChild(taskItem);
             });
+
+                    const calendar = new FullCalendar.Calendar(document.getElementById('calendar'), {
+            initialView: 'dayGridMonth',
+            height: 'auto', // Let it grow
+            contentHeight: 'auto',
+            fixedWeekCount: false,
+            showNonCurrentDates: true,
+            events: [{ title: 'Today', start: new Date().toISOString().split('T')[0] }]
+        });
+
         });
         //GRACE COURSES PAGE POP UP ON CLICK!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
              function showPopup() {
