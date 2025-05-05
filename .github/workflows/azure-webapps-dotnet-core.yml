@@ -2,8 +2,8 @@ name: Build and deploy ASP.Net Core app to an Azure Web App
 
 env:
   AZURE_WEBAPP_NAME: STEMify                # Name of your Azure Web App
-  AZURE_WEBAPP_PACKAGE_PATH: '.'            # Assuming this is the correct path
-  DOTNET_VERSION: '9.0'                    # .NET version (adjust to your actual version)
+  AZURE_WEBAPP_PACKAGE_PATH: '.'            # Assuming this is the correct path for your app
+  DOTNET_VERSION: '9.0'                     # .NET version (adjust to your actual version)
 
 on:
   push:
@@ -20,6 +20,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # Debugging step to list files in the repository to confirm the solution file path
       - name: List all files in the repository (for debugging)
         run: |
           echo "Listing all files in the repository..."
@@ -38,14 +39,17 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-nuget-
 
+      # Restore dependencies with the correct path to your solution file
       - name: Restore dependencies
-        run: dotnet restore STEMIFY/STEMify.sln  # Correct path to the solution file
+        run: |
+          echo "Restoring dependencies..."
+          dotnet restore STEMIFY/STEMify/STEMify.sln  # Adjusted path based on your repository structure
 
       - name: Build with dotnet
-        run: dotnet build STEMIFY/STEMify.sln --configuration Release  # Correct path
+        run: dotnet build STEMIFY/STEMify/STEMify.sln --configuration Release  # Adjusted path
 
       - name: dotnet publish
-        run: dotnet publish STEMIFY/STEMify.sln -c Release -o ${{env.DOTNET_ROOT}}/myapp
+        run: dotnet publish STEMIFY/STEMify/STEMify.sln -c Release -o ${{env.DOTNET_ROOT}}/myapp
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
