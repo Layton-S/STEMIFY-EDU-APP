@@ -4,16 +4,15 @@
     ViewData["Title"] = "Courses";
     var defaultImage = "https://cdn1.expresscomputer.in/wp-content/uploads/2023/09/29160907/EC_Gen_AI_09_Technology_750.jpg";
 
-    // Function to get background class based on DifficultyLevelID
+    // Helpers
     Func<int?, string> getBackgroundClass = id => id switch
     {
-        2 => "bg-info text-white",      // Easy – Blue
-        3 => "bg-danger text-white",    // Hard – Red
-        4 => "bg-purple text-white",    // Expert – Custom Purple (define in CSS if needed)
-        _ => "bg-light"                 // Default – Light background
+        2 => "bg-info text-white",      // Easy
+        3 => "bg-danger text-white",    // Hard
+        4 => "bg-dark text-white",    // Expert
+        _ => "bg-light"
     };
 
-    // Function to return a label for the difficulty level
     Func<int?, string> getDifficultyLabel = id => id switch
     {
         2 => "Easy",
@@ -22,7 +21,10 @@
         _ => "Unknown"
     };
 
-    ViewData["IsCourses"] = true; // Enables right sidebar section
+    var isDark = ViewBag.IsDark as bool? ?? false;
+    var userCourseIds = ViewBag.UserCourseIds as List<int> ?? new List<int>();
+
+    ViewData["IsCourses"] = true;
 }
 
 <h2 class="mb-4 text-success">Fav Courses</h2>
@@ -33,24 +35,26 @@
     {
         var bgClass = getBackgroundClass(course.DifficultyLevelID);
         var difficultyLabel = getDifficultyLabel(course.DifficultyLevelID);
-
+        var imageUrl = string.IsNullOrEmpty(course.ImageUrl) ? defaultImage : course.ImageUrl;
+        var description = string.IsNullOrEmpty(course.Description) ? "Course description not available" : course.Description;
+        var isFavorite = userCourseIds.Contains(course.CourseID);
         <div class="col-md-4 mb-4">
             <div class="card shadow-sm border-0 @bgClass">
                 <!-- Course Image -->
                 <a href="@Url.Action("Details", "Course", new { id = course.CourseID })" class="ratio ratio-16x9 d-block">
-                    <img src="@(string.IsNullOrEmpty(course.ImageUrl) ? defaultImage : course.ImageUrl)"
+                    <img src="@imageUrl"
                          class="img-fluid rounded-top object-fit-cover"
                          alt="Course Image"
                          data-bs-toggle="tooltip"
                          data-bs-placement="top"
-                         title="@(string.IsNullOrEmpty(course.Description) ? "Course description not available" : course.Description)" />
+                         title="@description" />
                 </a>
 
                 <div class="card-body">
-                    <!-- Difficulty Label -->
+                    <!-- Difficulty -->
                     <span class="badge rounded-pill bg-secondary mb-2">@difficultyLabel</span>
 
-                    <!-- Course Title -->
+                    <!-- Title -->
                     <h5 class="card-title">
                         <a href="@Url.Action("Details", "Course", new { id = course.CourseID })"
                            class="text-decoration-none text-white">
@@ -58,25 +62,29 @@
                         </a>
                     </h5>
 
-                    <!-- Course Info -->
-                    <p class="text-white-50 mb-1">Category: @course.Category?.CategoryName</p>
+                    <!-- Metadata -->
+                    <p class="text-white-50 mb-1">Category: @(course.Category?.CategoryName ?? "Uncategorized")</p>
                     <p class="text-white-50 small mb-3">Course ID: @course.CourseID</p>
 
                     <!-- Favorite Controls -->
-                    <a href="@Url.Action("FavoriteCourse", "Home", new { id = course.CourseID })"
-                       class="btn btn-outline-light btn-sm me-2">
-                        ❤ Add to Favorite
-                    </a>
-
-                    <form asp-action="RemoveFavoriteCourse"
-                          asp-controller="Home"
-                          asp-route-id="@course.CourseID"
-                          method="post"
-                          class="d-inline">
-                        <button type="submit" class="btn btn-sm btn-danger">
-                            Remove
-                        </button>
-                    </form>
+                    @if(isFavorite)
+                    {
+                        <span class="badge bg-success">✔ Added to favorites</span>
+                        <form asp-action="RemoveFavoriteCourse"
+                              asp-controller="Home"
+                              asp-route-id="@course.CourseID"
+                              method="post"
+                              class="d-inline">
+                            <button type="submit" class="btn btn-sm btn-danger mt-2">Remove</button>
+                        </form>
+                    }
+                    else
+                    {
+                        <a href="@Url.Action("FavoriteCourse", "Home", new { id = course.CourseID })"
+                           class="btn btn-sm btn-outline-light  mt-2">
+                            ❤ Add to favorites
+                        </a>
+                    }
                 </div>
             </div>
         </div>

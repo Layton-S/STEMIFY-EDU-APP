@@ -1,0 +1,55 @@
+﻿@model STEMify.Models.User.UserTask
+
+<form id="create-task-form" asp-controller="UserTask" asp-action="Creates" method="post">
+    @Html.AntiForgeryToken()
+
+    <div class="mb-3">
+        <label asp-for="Description" class="form-label">Task Description</label>
+        <input asp-for="Description" class="form-control" placeholder="e.g., Finish project report" />
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="DueDate" class="form-label">Due Date</label>
+        <input asp-for="DueDate" type="datetime-local" class="form-control" />
+        <span asp-validation-for="DueDate" class="text-danger"></span>
+    </div>
+
+    <div class="form-check mb-3">
+        <input asp-for="IsCompleted" class="form-check-input" />
+        <label asp-for="IsCompleted" class="form-check-label">Completed</label>
+    </div>
+
+    <button type="submit" class="btn btn-success w-100">Save Task</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+
+    <script>
+        $('#create-task-form').on('submit', function (e) {
+            e.preventDefault();
+
+            const form = $(this);
+            const actionUrl = form.attr('action');
+            const formData = form.serialize();
+
+            $.ajax({
+                url: actionUrl,
+                type: 'POST',
+                data: formData,
+                success: function (result) {
+                    if (result.success) {
+                        $('#addTaskModal').modal('hide');
+                        location.reload(); // Or use AJAX to update sidebar
+                    } else {
+                        $('#add-task-body').html(result); // Replace with validation error view
+                    }
+                },
+                error: function (xhr) {
+                    alert('Something went wrong. Please try again.');
+                }
+            });
+        });
+    </script>
+}

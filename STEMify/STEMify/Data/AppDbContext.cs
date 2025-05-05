@@ -24,6 +24,8 @@ namespace STEMify.Data
         public DbSet<UserAnswer> UserAnswers { get; set; }
         public DbSet<QuizResult> QuizResults { get; set; }
         public DbSet<UserCourses> UserCourses { get; set; }
+        public DbSet<UserTask> UserTasks { get; set; }
+
 
     }
 
