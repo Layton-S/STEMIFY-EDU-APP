@@ -65,11 +65,7 @@
 </head>
 
 <body class="bg-light">
-    @{
-        var controller = ViewContext.RouteData.Values["controller"]?.ToString();
-        var action = ViewContext.RouteData.Values["action"]?.ToString();
-        var isIndexPage = controller == "Home" && action == "Index";
-    }
+    
 
     <!-- Mobile Toggle -->
     <div class="d-md-none position-fixed top-0 start-0 w-100 bg-white shadow-sm p-2 z-1035 d-flex justify-content-between" style="height: 60px;">
@@ -90,8 +86,7 @@
         }  <!-- <<< This closing brace was missing -->
 
 
-        @if(!isIndexPage)
-        {
+        
             <nav id="sidebar" class="bg-white sidebar text-dark p-3 d-none d-md-block position-fixed" style="width: 250px; height: 100vh; z-index: 1050; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
                 <div class="d-flex justify-content-between align-items-center mb-4">
                     <div class="logo text-success fw-bold">
@@ -154,16 +149,11 @@
                     </form>
             </nav>
 
-        }
+        
 
         <!-- Main Content -->
 
         <div class="flex-grow-1 d-flex flex-column ms-md-250 me-md-300 pt-5 pt-md-0">
-            @{
-                var IsIndexPage = ViewData["IsIndexPage"] as bool? ?? false;
-            }
-            @if (!isIndexPage)
-            {
                 <header class="bg-white shadow-sm p-3 d-none d-md-block">
                     <div class="d-flex justify-content-between align-items-center mb-4">
                         <form class="d-flex" role="search">
@@ -172,42 +162,7 @@
                         <div class="mb-2">Hello, @User.Identity?.Name</div>
                     </div>
                 </header>
-            }
-
-            @if (ViewData["IsLandingPage"] as bool? == true)
-            {
-                <header class="bg-white shadow-sm p-4 d-none d-md-block" style="width: 100%; margin: 0;">
-                    <div class="d-flex justify-content-between align-items-center" style="width: 100%; max-width: 100%;">
-                        <h1 class="display-4 mx-auto" style="color: green; text-align: center; flex-grow: 1;">Welcome to <strong>STEMify</strong></h1>
-                        <div class="ml-auto">
-
-                            <a asp-controller="Account" asp-action="Register" class="btn btn-light mx-2 mt-3" style="
-                             border-radius: 30px;
-                             color: green;
-                             border: 2px solid green;
-                             padding: 8px 20px;
-                             transition: all 0.3s ease;
-                            " onmouseover="this.style.backgroundColor='green'; this.style.color='#bbf7d9';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='green';">
-                                Register
-                            </a>
-
-                            <a asp-controller="Account" asp-action="Login" class="btn btn-outline-light mx-2 mt-3" style="
-                             border-radius: 30px;
-                             color: green;
-                             border: 2px solid green;
-                             padding: 8px 20px;
-                             transition: all 0.3s ease;
-                            " onmouseover="this.style.backgroundColor='green'; this.style.color='#bbf7d9';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='green';">
-                                Login
-                            </a>
-
-                        </div>
-                    </div>
-                </header>
-
-
-            }
-
+            
             <main class="p-4 flex-grow-1">
                 @RenderBody()
             </main>
@@ -227,8 +182,6 @@
        }
         @if (!IsCourses)
       { 
-            @if(!isIndexPage)
-            {
                 <aside id="right-sidebar" class="bg-white border-start p-3 d-none d-md-block position-fixed end-0" style="width: 300px; height: 100vh; z-index: 1050;">
                     <div class="d-flex justify-content-between mb-3">
                         <h6 class="text-secondary"><i class="fa fa-calendar-alt me-2"></i>Calendar</h6>
@@ -263,7 +216,6 @@
 
                 </aside>
             }
-        }
 
         <!--GRACE COURSES PAGE RIGHT SIDEBAR!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
         @if (ViewData["IsCourses"] as bool? == true)
