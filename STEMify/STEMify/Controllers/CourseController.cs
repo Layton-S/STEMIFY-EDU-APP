@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
@@ -7,7 +8,7 @@ using STEMify.Models;
 
 namespace STEMify.Controllers
 {
-
+    [Authorize(Roles = "Admin")]
     public class CourseController : BaseController
     {
         public CourseController(IUnitOfWork unitOfWork) : base(unitOfWork)
