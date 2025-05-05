@@ -14,42 +14,51 @@
         body, html {
             height: 100%;
             font-family: 'Segoe UI', sans-serif;
+            margin: 0;
         }
 
+        /* Mobile-first: single-column layout */
         .login-container {
             display: flex;
-            height: 100vh;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .login-left,
+        .login-right {
+            width: 100%;
+            padding: 1.5rem;
         }
 
         .login-left {
-            flex: 1;
             background: linear-gradient(to right, #0f9d58, #34a853);
             color: white;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 2rem;
             text-align: center;
         }
 
+            .login-left .quote-icon {
+                font-size: 2rem;
+                display: block;
+                margin-bottom: 1rem;
+            }
+
             .login-left blockquote {
-                font-size: 1.2rem;
+                font-size: 1rem;
                 font-style: italic;
-                line-height: 1.6;
+                line-height: 1.4;
             }
 
         .login-right {
-            flex: 1;
             background: #fff;
+            flex: 1;
             display: flex;
             align-items: center;
             justify-content: center;
-            padding: 2rem;
         }
 
         .login-form {
-            max-width: 400px;
             width: 100%;
+            max-width: 360px;
         }
 
         .form-control::placeholder {
@@ -70,21 +79,49 @@
             margin-left: 0.3rem;
         }
 
-        .quote-icon {
-            font-size: 2rem;
-            display: block;
-            margin-bottom: 1rem;
+        .forgot-password {
+            font-size: 0.85rem;
+            color: #34a853;
         }
 
-        .forgot-password {
-            font-size: 0.9rem;
-            color: #34a853;
+        /* Larger screens: two-column side-by-side */
+        @@media (min-width: 768px) {
+            .login-container
+
+        {
+            flex-direction: row;
+        }
+
+        .login-left, .login-right {
+            padding: 2rem;
+        }
+
+        .login-left {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+            .login-left blockquote {
+                font-size: 1.2rem;
+                line-height: 1.6;
+            }
+
+        .login-right {
+            flex: 1;
+        }
+
+        .login-form {
+            max-width: 400px;
+        }
+
         }
     </style>
 </head>
 <body>
     <div class="login-container">
-        <!-- Left Section -->
+        <!-- Quote Section -->
         <div class="login-left">
             <div>
                 <span class="quote-icon">“</span>
@@ -95,13 +132,12 @@
             </div>
         </div>
 
-        <!-- Right Section -->
+        <!-- Form Section -->
         <div class="login-right">
             <div class="login-form">
                 <div class="text-center mb-4">
                     <h2 class="fw-bold text-success">STEMify</h2>
                 </div>
-
                 <h5 class="fw-bold text-dark mb-1">Login to your Account</h5>
                 <p class="text-muted mb-4" style="font-size: 0.9rem;">
                     with your registered Email Address
@@ -135,7 +171,6 @@
 
                     <div class="d-grid mb-3">
                         @Html.ActionLink("Register", "Register", "Account", null, new { @class = "btn btn-outline-secondary" })
-
                     </div>
                 </form>
             </div>
