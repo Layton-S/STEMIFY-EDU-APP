@@ -1,0 +1,52 @@
+﻿@model STEMify.Models.Quizzes.QuizSessionViewModel
+
+<h1>@Model.QuizTitle</h1>
+
+<form method="post" asp-controller="QuizSession" asp-action="SubmitAnswers">
+    <input type="hidden" name="quizId" value="@Model.QuizId" />
+    <input type="hidden" name="AttemptId" value="@Model.AttemptId" />
+
+    @for(int i = 0; i < Model.Questions.Count; i++)
+    {
+        var question = Model.Questions[i];
+        <div class="card my-3">
+            <div class="card-header">
+                <strong>Question @(i + 1):</strong> @question.QuestionText
+            </div>
+            <div class="card-body">
+                @if(question.QuestionType == 2) // Multiple Choice
+                {
+                    foreach(var option in question.Options)
+                    {
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="answers[@i].SelectedAnswer" value="@option.Key" id="q@question.QuestionId_@option.Key" />
+                            <label class="form-check-label" for="q@question.QuestionId_@option.Key">@option.Value</label>
+                        </div>
+                    }
+                }
+                else if(question.QuestionType == 3) // Fill in the Blank
+                {
+                    <input class="form-control" type="text" name="answers[@i].SelectedAnswer" />
+                }
+                else if(question.QuestionType == 4) // True/False
+                {
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="answers[@i].SelectedAnswer" value="True" id="q@question.QuestionId_True" />
+                        <label class="form-check-label" for="q@question.QuestionId_True">True</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="answers[@i].SelectedAnswer" value="False" id="q@question.QuestionId_False" />
+                        <label class="form-check-label" for="q@question.QuestionId_False">False</label>
+                    </div>
+                }
+
+                <!-- Hidden input for the Question ID -->
+                <input type="hidden" name="answers[@i].QuestionId" value="@question.QuestionId" />
+            </div>
+        </div>
+    }
+
+    <div class="text-center mt-4">
+        <button type="submit" class="btn btn-success">Submit Quiz</button>
+    </div>
+</form>
