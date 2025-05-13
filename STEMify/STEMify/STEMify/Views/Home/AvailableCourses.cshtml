@@ -1,0 +1,90 @@
+﻿@model IEnumerable<STEMify.Models.Course>
+
+@{
+    ViewData["Title"] = "Available Courses";
+    var defaultImage = "https://cdn1.expresscomputer.in/wp-content/uploads/2023/09/29160907/EC_Gen_AI_09_Technology_750.jpg";
+    var userCourseIds = ViewBag.UserCourseIds as List<int> ?? new List<int>();
+
+    // Set card background colors based on difficulty
+    Func<int?, string> getBackgroundClass = id => id switch
+    {
+        2 => "bg-primary",  // Easy – Blue
+        3 => "bg-danger",   // Hard – Red
+        4 => "bg-dark",     // Expert – Black
+        _ => "bg-light"     // Unknown/Default – Light
+    };
+
+    Func<int?, string> getDifficultyLabel = id => id switch
+    {
+        2 => "Easy",
+        3 => "Hard",
+        4 => "Expert",
+        _ => "Unknown"
+    };
+
+    // Flag for when to use light text
+    Func<int?, bool> isDarkBackground = id => id is 2 or 3 or 4;
+
+    ViewData["IsCourses"] = true;
+}
+
+<h2 class="mb-4 text-success">Available Courses</h2>
+
+@if(!Model.Any())
+{
+    <div class="alert alert-info">No courses available at the moment.</div>
+}
+else
+{
+    <div class="row">
+        @foreach(var course in Model)
+        {
+            var bgClass = getBackgroundClass(course.DifficultyLevelID);
+            var difficultyLabel = getDifficultyLabel(course.DifficultyLevelID);
+            var isDark = isDarkBackground(course.DifficultyLevelID);
+
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm border-0 @bgClass text-@(isDark ? "white" : "dark")">
+                    <a href="@Url.Action("Details", "Home", new { id = course.CourseID })" class="ratio ratio-16x9">
+                        <img src="@(string.IsNullOrEmpty(course.ImageUrl) ? defaultImage : course.ImageUrl)"
+                             class="img-fluid rounded-top object-fit-cover"
+                             alt="Course Image"
+                             data-bs-toggle="tooltip"
+                             data-bs-placement="top"
+                             title="@(!string.IsNullOrEmpty(course.Description) ? course.Description : "Course description not available")" />
+                    </a>
+                    <div class="card-body">
+                        <!-- Difficulty Label -->
+                        <span class="badge bg-secondary mb-2">@difficultyLabel</span>
+
+                        <!-- Course Title -->
+                        <h5 class="card-title">
+                            <a href="@Url.Action("Details", "Course", new { id = course.CourseID })"
+                               class="text-decoration-none text-@(isDark ? "white" : "dark")">
+                                @course.CourseName
+                            </a>
+                        </h5>
+
+                        <!-- Course Info -->
+                        <p class="mb-1">Category: @course.Category?.CategoryName</p>
+                        <p class="small mb-2">Course ID: @course.CourseID</p>
+
+                        <!-- Favorite Button or Badge -->
+                        @if(userCourseIds.Contains(course.CourseID))
+                        {
+                            <br>
+                            <span class="badge bg-success">✔ Added to favorites</span>
+                        }
+                        else
+                        {
+                            <a href="@Url.Action("FavoriteCourse", "Home", new { id = course.CourseID })"
+                               class="btn btn-sm btn-outline-light @(isDark ? "" : "text-dark border-dark") mt-2">
+                                ❤ Add to favorites
+                            </a>
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}

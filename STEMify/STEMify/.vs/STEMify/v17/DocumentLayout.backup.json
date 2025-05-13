@@ -1,0 +1,1630 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\p.shuuya\\AppData\\Local\\Temp\\.vsdbgsrc\\198bf116f7049a2e3e03f29a33fa5180331819d2741ad4116d0479027e6bf834\\PhysicalFileProvider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\views\\account\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\views\\account\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\views\\course\\difficultylevels.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\views\\course\\difficultylevels.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\views\\course\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\views\\course\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\views\\quiz\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\views\\quiz\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\data\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\data\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\views\\home\\indexadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\views\\home\\indexadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.203\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\models\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\models\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\data\\interfaces\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\data\\interfaces\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\data\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\data\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\data\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\data\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\views\\course\\categories.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\views\\course\\categories.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\views\\account\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\views\\account\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\raimo\\AppData\\Local\\SourceServer\\83e49b49b3e6d82cd99704655978bb220d223db0fe7491c69d3b3d43fca017c8\\src\\Mvc\\Mvc.Core\\src\\Infrastructure\\ActionMethodExecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\models\\viewmodels\\resetpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\models\\viewmodels\\resetpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\views\\account\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\views\\account\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\views\\quiz\\questions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\views\\quiz\\questions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\models\\quizzes\\quizquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\models\\quizzes\\quizquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\views\\quiz\\addquestion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\views\\quiz\\addquestion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\models\\quizzes\\quizresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\models\\quizzes\\quizresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\models\\quizzes\\useranswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\models\\quizzes\\useranswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\raimo\\AppData\\Local\\SourceServer\\38e007a032d11800b17da1a8ff10eac80553356e12f3fc2050e854c7413ed8af\\src\\Mvc\\Mvc.Core\\src\\Infrastructure\\ResourceInvoker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\models\\quizzes\\questiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\models\\quizzes\\questiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\models\\quizzes\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\models\\quizzes\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\views\\quiz\\edittruefalse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\views\\quiz\\edittruefalse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\views\\quiz\\fillintheblank.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\views\\quiz\\fillintheblank.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\views\\quiz\\editfillintheblank.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\views\\quiz\\editfillintheblank.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\views\\quiz\\multiplechoice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\views\\quiz\\multiplechoice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\views\\quiz\\editmultiplechoice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\views\\quiz\\editmultiplechoice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\views\\quiz\\truefalse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\views\\quiz\\truefalse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\views\\quiz\\_questiontypes\\_truefalse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\views\\quiz\\_questiontypes\\_truefalse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\views\\quiz\\_questiontypes\\_multiplechoice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\views\\quiz\\_questiontypes\\_multiplechoice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\views\\quiz\\_questiontypes\\_fillintheblank.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\views\\quiz\\_questiontypes\\_fillintheblank.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\raimo\\AppData\\Local\\Temp\\.vsdbgsrc\\a611fe3348ad46b6ce1eef3fbac86b25df2487668bf3a9645b7ea8838c4b9331\\ResourceInvoker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\raimo\\AppData\\Local\\Temp\\.vsdbgsrc\\c19e97453b12fdf7cb229a32d4206b5ecbc83ec074c9e9298d066b38372e86d7\\ViewResult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\raimo\\AppData\\Local\\Temp\\.vsdbgsrc\\440b8f0d51df60dd635a6c69d212f275b78959305b35ade9c99228dea16fcd0c\\ViewResultExecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\raimo\\AppData\\Local\\Temp\\.vsdbgsrc\\4a05b8e6420357241794c90bac01120bf8f4f2f05257fd742c4e69a3965515f0\\ViewExecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\data\\interfaces\\iquizquestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\data\\interfaces\\iquizquestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\views\\quiz\\addquestiontype.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\views\\quiz\\addquestiontype.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\data\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\data\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\data\\repositories\\truefalsequestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\data\\repositories\\truefalsequestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\data\\interfaces\\itruefalsequestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\data\\interfaces\\itruefalsequestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\data\\repositories\\quizquestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\data\\repositories\\quizquestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\data\\repositories\\multiplechoicequestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\data\\repositories\\multiplechoicequestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\data\\repositories\\difficultylevelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\data\\repositories\\difficultylevelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\data\\interfaces\\iquestiontyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\data\\interfaces\\iquestiontyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\data\\interfaces\\imultiplechoicequestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\data\\interfaces\\imultiplechoicequestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\data\\interfaces\\ifillintheblankquestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\data\\interfaces\\ifillintheblankquestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\data\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\data\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\data\\repositories\\fillintheblankquestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\data\\repositories\\fillintheblankquestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\data\\interfaces\\idifficultylevelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\data\\interfaces\\idifficultylevelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\data\\repositories\\testrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\data\\repositories\\testrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\data\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\data\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\data\\repositories\\questiontyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\data\\repositories\\questiontyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\raimo\\AppData\\Local\\Temp\\.vsdbgsrc\\1c565a1e7ec70f2b5b4a6482c2fe5c7bd23c3ad01a1b720eda9bc16d771b9a9b\\MultiSelectList.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\views\\quiz\\editquiz.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\views\\quiz\\editquiz.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\views\\course\\createcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\views\\course\\createcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\views\\course\\createdifficultylevels.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\views\\course\\createdifficultylevels.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\views\\quiz\\addquiz.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\views\\quiz\\addquiz.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\raimo\\AppData\\Local\\Temp\\.vsdbgsrc\\78bdcd7e131d1ad2795a40227da45555dd99a59333741d6ee6192ddd7756c7a0\\ControllerActionInvoker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\data\\interfaces\\iquizrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\data\\interfaces\\iquizrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\views\\quiz\\submitanswer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\views\\quiz\\submitanswer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\views\\quiz\\saveresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\views\\quiz\\saveresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\models\\quizzes\\completenesstracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\models\\quizzes\\completenesstracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\data\\repositories\\quizresultrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\data\\repositories\\quizresultrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\data\\interfaces\\iquizresultrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\data\\interfaces\\iquizresultrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\data\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\data\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\data\\repositories\\quizrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\data\\repositories\\quizrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\data\\repositories\\useranswerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\data\\repositories\\useranswerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\data\\interfaces\\iuseranswerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\data\\interfaces\\iuseranswerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\data\\interfaces\\itestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\data\\interfaces\\itestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\raimo\\Downloads\\files (4)\\Repositories\\QuizRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\raimo\\Downloads\\files (4)\\Repositories\\IQuizRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\raimo\\Downloads\\files (4)\\Repositories\\UnitOfWork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\raimo\\Downloads\\files (4)\\Repositories\\IUnitOfWork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|c:\\users\\p.shuuya\\downloads\\software-processes-2025\\stemify\\stemify\\wwwroot\\css\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B343AF9B-92BB-4A3C-BFDE-1E9DFB72ECC5}|STEMify\\STEMify.csproj|solutionrelative:stemify\\wwwroot\\css\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{65ddf8c3-8f89-4077-a6c6-dbb8853aab13}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{605322a2-17ae-43f4-b60f-766556e46c87}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{be4d7042-ba3f-11d2-840e-00c04f9902c1}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QuizController.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Controllers\\QuizController.cs",
+              "RelativeDocumentMoniker": "STEMify\\Controllers\\QuizController.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Controllers\\QuizController.cs",
+              "RelativeToolTip": "STEMify\\Controllers\\QuizController.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAUwIUAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T20:29:07.599Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "STEMify\\Controllers\\CourseController.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "STEMify\\Controllers\\CourseController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAowFcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T18:47:15.593Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PhysicalFileProvider.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\AppData\\Local\\Temp\\.vsdbgsrc\\198bf116f7049a2e3e03f29a33fa5180331819d2741ad4116d0479027e6bf834\\PhysicalFileProvider.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\198bf116f7049a2e3e03f29a33fa5180331819d2741ad4116d0479027e6bf834\\PhysicalFileProvider.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\AppData\\Local\\Temp\\.vsdbgsrc\\198bf116f7049a2e3e03f29a33fa5180331819d2741ad4116d0479027e6bf834\\PhysicalFileProvider.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\198bf116f7049a2e3e03f29a33fa5180331819d2741ad4116d0479027e6bf834\\PhysicalFileProvider.cs [Read Only]",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAjwGsAAAADAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T13:05:06.344Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "STEMify\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "STEMify\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-02T16:34:39.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "STEMify\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "STEMify\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAwJIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-23T20:50:47.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Users.cshtml",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Account\\Users.cshtml",
+              "RelativeDocumentMoniker": "STEMify\\Views\\Account\\Users.cshtml",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Account\\Users.cshtml",
+              "RelativeToolTip": "STEMify\\Views\\Account\\Users.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T16:47:23.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Course\\Index.cshtml",
+              "RelativeDocumentMoniker": "STEMify\\Views\\Course\\Index.cshtml",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Course\\Index.cshtml",
+              "RelativeToolTip": "STEMify\\Views\\Course\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-23T18:57:50.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\appsettings.json",
+              "RelativeDocumentMoniker": "STEMify\\appsettings.json",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\appsettings.json",
+              "RelativeToolTip": "STEMify\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-27T14:25:11.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DifficultyLevels.cshtml",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Course\\DifficultyLevels.cshtml",
+              "RelativeDocumentMoniker": "STEMify\\Views\\Course\\DifficultyLevels.cshtml",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Course\\DifficultyLevels.cshtml",
+              "RelativeToolTip": "STEMify\\Views\\Course\\DifficultyLevels.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAswFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-23T18:48:47.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Course\\Create.cshtml",
+              "RelativeDocumentMoniker": "STEMify\\Views\\Course\\Create.cshtml",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Course\\Create.cshtml",
+              "RelativeToolTip": "STEMify\\Views\\Course\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-23T19:29:09.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Home\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "STEMify\\Views\\Home\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Home\\Dashboard.cshtml",
+              "RelativeToolTip": "STEMify\\Views\\Home\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T16:20:37.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "STEMify\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "STEMify\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwA4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T18:47:14.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "STEMify\\Views\\Account\\AccessDenied.cshtml",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeToolTip": "STEMify\\Views\\Account\\AccessDenied.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T16:22:56.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Quiz\\Index.cshtml",
+              "RelativeDocumentMoniker": "STEMify\\Views\\Quiz\\Index.cshtml",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Quiz\\Index.cshtml",
+              "RelativeToolTip": "STEMify\\Views\\Quiz\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T18:57:30.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IndexAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Home\\IndexAdmin.cshtml",
+              "RelativeDocumentMoniker": "STEMify\\Views\\Home\\IndexAdmin.cshtml",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Home\\IndexAdmin.cshtml",
+              "RelativeToolTip": "STEMify\\Views\\Home\\IndexAdmin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-02T16:40:44.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CourseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Repositories\\CourseRepository.cs",
+              "RelativeDocumentMoniker": "STEMify\\Data\\Repositories\\CourseRepository.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Repositories\\CourseRepository.cs",
+              "RelativeToolTip": "STEMify\\Data\\Repositories\\CourseRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAhwBsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:24:17.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "STEMify\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "STEMify\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T14:26:40.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "STEMify\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "STEMify\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAGgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-02T17:25:09.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "STEMify\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\appsettings.Development.json",
+              "RelativeToolTip": "STEMify\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-02T18:23:29.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Program.cs",
+              "RelativeDocumentMoniker": "STEMify\\Program.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Program.cs",
+              "RelativeToolTip": "STEMify\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T14:26:02.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "STEMify\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "STEMify\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T16:30:23.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "STEMify\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "STEMify\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T16:14:13.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Microsoft.PackageDependencyResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.203\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.203\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ViewState": "AgIAAPIAAAAAAAAAAAAawAkBAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-05-02T17:58:48.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Models\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "STEMify\\Models\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Models\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "STEMify\\Models\\ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T16:58:08.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "STEMify\\Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "STEMify\\Controllers\\BaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T14:26:39.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Interfaces\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "STEMify\\Data\\Interfaces\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Interfaces\\ICategoryRepository.cs",
+              "RelativeToolTip": "STEMify\\Data\\Interfaces\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:22:02.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "STEMify\\Data\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "STEMify\\Data\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T19:00:33.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ICourseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Interfaces\\ICourseRepository.cs",
+              "RelativeDocumentMoniker": "STEMify\\Data\\Interfaces\\ICourseRepository.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Interfaces\\ICourseRepository.cs",
+              "RelativeToolTip": "STEMify\\Data\\Interfaces\\ICourseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:30:34.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Account\\Delete.cshtml",
+              "RelativeDocumentMoniker": "STEMify\\Views\\Account\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Account\\Delete.cshtml",
+              "RelativeToolTip": "STEMify\\Views\\Account\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-02T16:08:53.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RolesController.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Controllers\\RolesController.cs",
+              "RelativeDocumentMoniker": "STEMify\\Controllers\\RolesController.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Controllers\\RolesController.cs",
+              "RelativeToolTip": "STEMify\\Controllers\\RolesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T18:50:59.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "STEMify\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Models\\Category.cs",
+              "RelativeToolTip": "STEMify\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T16:45:42.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Categories.cshtml",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Course\\Categories.cshtml",
+              "RelativeDocumentMoniker": "STEMify\\Views\\Course\\Categories.cshtml",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Course\\Categories.cshtml",
+              "RelativeToolTip": "STEMify\\Views\\Course\\Categories.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAIwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-23T19:18:55.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "STEMify\\Models\\Course.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Models\\Course.cs",
+              "RelativeToolTip": "STEMify\\Models\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T15:31:44.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "QuizResult.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Models\\Quizzes\\QuizResult.cs",
+              "RelativeDocumentMoniker": "STEMify\\Models\\Quizzes\\QuizResult.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Models\\Quizzes\\QuizResult.cs",
+              "RelativeToolTip": "STEMify\\Models\\Quizzes\\QuizResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T16:00:42.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "STEMify\\Views\\Account\\ResetPassword.cshtml",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeToolTip": "STEMify\\Views\\Account\\ResetPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T19:45:35.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ActionMethodExecutor.cs",
+              "DocumentMoniker": "C:\\Users\\raimo\\AppData\\Local\\SourceServer\\83e49b49b3e6d82cd99704655978bb220d223db0fe7491c69d3b3d43fca017c8\\src\\Mvc\\Mvc.Core\\src\\Infrastructure\\ActionMethodExecutor.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\raimo\\AppData\\Local\\SourceServer\\83e49b49b3e6d82cd99704655978bb220d223db0fe7491c69d3b3d43fca017c8\\src\\Mvc\\Mvc.Core\\src\\Infrastructure\\ActionMethodExecutor.cs",
+              "ToolTip": "C:\\Users\\raimo\\AppData\\Local\\SourceServer\\83e49b49b3e6d82cd99704655978bb220d223db0fe7491c69d3b3d43fca017c8\\src\\Mvc\\Mvc.Core\\src\\Infrastructure\\ActionMethodExecutor.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\raimo\\AppData\\Local\\SourceServer\\83e49b49b3e6d82cd99704655978bb220d223db0fe7491c69d3b3d43fca017c8\\src\\Mvc\\Mvc.Core\\src\\Infrastructure\\ActionMethodExecutor.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAhwIMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T19:13:27.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "UserAnswer.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Models\\Quizzes\\UserAnswer.cs",
+              "RelativeDocumentMoniker": "STEMify\\Models\\Quizzes\\UserAnswer.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Models\\Quizzes\\UserAnswer.cs",
+              "RelativeToolTip": "STEMify\\Models\\Quizzes\\UserAnswer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T16:03:13.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Account\\Edit.cshtml",
+              "RelativeDocumentMoniker": "STEMify\\Views\\Account\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Account\\Edit.cshtml",
+              "RelativeToolTip": "STEMify\\Views\\Account\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T19:41:35.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ResetPasswordViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Models\\ViewModels\\ResetPasswordViewModel.cs",
+              "RelativeDocumentMoniker": "STEMify\\Models\\ViewModels\\ResetPasswordViewModel.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Models\\ViewModels\\ResetPasswordViewModel.cs",
+              "RelativeToolTip": "STEMify\\Models\\ViewModels\\ResetPasswordViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T19:47:26.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AddQuestion.cshtml",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Quiz\\AddQuestion.cshtml",
+              "RelativeDocumentMoniker": "STEMify\\Views\\Quiz\\AddQuestion.cshtml",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Quiz\\AddQuestion.cshtml",
+              "RelativeToolTip": "STEMify\\Views\\Quiz\\AddQuestion.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAUwBwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T12:30:29.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Questions.cshtml",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Quiz\\Questions.cshtml",
+              "RelativeDocumentMoniker": "STEMify\\Views\\Quiz\\Questions.cshtml",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Quiz\\Questions.cshtml",
+              "RelativeToolTip": "STEMify\\Views\\Quiz\\Questions.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAIBZwBUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T20:58:46.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "QuizQuestion.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Models\\Quizzes\\QuizQuestion.cs",
+              "RelativeDocumentMoniker": "STEMify\\Models\\Quizzes\\QuizQuestion.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Models\\Quizzes\\QuizQuestion.cs",
+              "RelativeToolTip": "STEMify\\Models\\Quizzes\\QuizQuestion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:20:14.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ResourceInvoker.cs",
+              "DocumentMoniker": "C:\\Users\\raimo\\AppData\\Local\\SourceServer\\38e007a032d11800b17da1a8ff10eac80553356e12f3fc2050e854c7413ed8af\\src\\Mvc\\Mvc.Core\\src\\Infrastructure\\ResourceInvoker.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\raimo\\AppData\\Local\\SourceServer\\38e007a032d11800b17da1a8ff10eac80553356e12f3fc2050e854c7413ed8af\\src\\Mvc\\Mvc.Core\\src\\Infrastructure\\ResourceInvoker.cs",
+              "ToolTip": "C:\\Users\\raimo\\AppData\\Local\\SourceServer\\38e007a032d11800b17da1a8ff10eac80553356e12f3fc2050e854c7413ed8af\\src\\Mvc\\Mvc.Core\\src\\Infrastructure\\ResourceInvoker.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\raimo\\AppData\\Local\\SourceServer\\38e007a032d11800b17da1a8ff10eac80553356e12f3fc2050e854c7413ed8af\\src\\Mvc\\Mvc.Core\\src\\Infrastructure\\ResourceInvoker.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAuwFcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T12:39:32.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "EditTrueFalse.cshtml",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Quiz\\EditTrueFalse.cshtml",
+              "RelativeDocumentMoniker": "STEMify\\Views\\Quiz\\EditTrueFalse.cshtml",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Quiz\\EditTrueFalse.cshtml",
+              "RelativeToolTip": "STEMify\\Views\\Quiz\\EditTrueFalse.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T11:32:24.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Quiz.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Models\\Quizzes\\Quiz.cs",
+              "RelativeDocumentMoniker": "STEMify\\Models\\Quizzes\\Quiz.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Models\\Quizzes\\Quiz.cs",
+              "RelativeToolTip": "STEMify\\Models\\Quizzes\\Quiz.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:18:51.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "QuestionType.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Models\\Quizzes\\QuestionType.cs",
+              "RelativeDocumentMoniker": "STEMify\\Models\\Quizzes\\QuestionType.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Models\\Quizzes\\QuestionType.cs",
+              "RelativeToolTip": "STEMify\\Models\\Quizzes\\QuestionType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T15:59:47.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "FillInTheBlank.cshtml",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Quiz\\FillInTheBlank.cshtml",
+              "RelativeDocumentMoniker": "STEMify\\Views\\Quiz\\FillInTheBlank.cshtml",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Quiz\\FillInTheBlank.cshtml",
+              "RelativeToolTip": "STEMify\\Views\\Quiz\\FillInTheBlank.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T10:09:59.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "EditFillInTheBlank.cshtml",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Quiz\\EditFillInTheBlank.cshtml",
+              "RelativeDocumentMoniker": "STEMify\\Views\\Quiz\\EditFillInTheBlank.cshtml",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Quiz\\EditFillInTheBlank.cshtml",
+              "RelativeToolTip": "STEMify\\Views\\Quiz\\EditFillInTheBlank.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T11:33:21.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "MultipleChoice.cshtml",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Quiz\\MultipleChoice.cshtml",
+              "RelativeDocumentMoniker": "STEMify\\Views\\Quiz\\MultipleChoice.cshtml",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Quiz\\MultipleChoice.cshtml",
+              "RelativeToolTip": "STEMify\\Views\\Quiz\\MultipleChoice.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T09:50:22.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "EditMultipleChoice.cshtml",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Quiz\\EditMultipleChoice.cshtml",
+              "RelativeDocumentMoniker": "STEMify\\Views\\Quiz\\EditMultipleChoice.cshtml",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Quiz\\EditMultipleChoice.cshtml",
+              "RelativeToolTip": "STEMify\\Views\\Quiz\\EditMultipleChoice.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T11:33:57.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "TrueFalse.cshtml",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Quiz\\TrueFalse.cshtml",
+              "RelativeDocumentMoniker": "STEMify\\Views\\Quiz\\TrueFalse.cshtml",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Quiz\\TrueFalse.cshtml",
+              "RelativeToolTip": "STEMify\\Views\\Quiz\\TrueFalse.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T11:11:57.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "_FillInTheBlank.cshtml",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Quiz\\_QuestionTypes\\_FillInTheBlank.cshtml",
+              "RelativeDocumentMoniker": "STEMify\\Views\\Quiz\\_QuestionTypes\\_FillInTheBlank.cshtml",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Quiz\\_QuestionTypes\\_FillInTheBlank.cshtml",
+              "RelativeToolTip": "STEMify\\Views\\Quiz\\_QuestionTypes\\_FillInTheBlank.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T21:33:17.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "_TrueFalse.cshtml",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Quiz\\_QuestionTypes\\_TrueFalse.cshtml",
+              "RelativeDocumentMoniker": "STEMify\\Views\\Quiz\\_QuestionTypes\\_TrueFalse.cshtml",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Quiz\\_QuestionTypes\\_TrueFalse.cshtml",
+              "RelativeToolTip": "STEMify\\Views\\Quiz\\_QuestionTypes\\_TrueFalse.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T21:33:43.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "_MultipleChoice.cshtml",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Quiz\\_QuestionTypes\\_MultipleChoice.cshtml",
+              "RelativeDocumentMoniker": "STEMify\\Views\\Quiz\\_QuestionTypes\\_MultipleChoice.cshtml",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Quiz\\_QuestionTypes\\_MultipleChoice.cshtml",
+              "RelativeToolTip": "STEMify\\Views\\Quiz\\_QuestionTypes\\_MultipleChoice.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T21:33:03.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "ViewResultExecutor.cs",
+              "DocumentMoniker": "C:\\Users\\raimo\\AppData\\Local\\Temp\\.vsdbgsrc\\440b8f0d51df60dd635a6c69d212f275b78959305b35ade9c99228dea16fcd0c\\ViewResultExecutor.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\raimo\\AppData\\Local\\Temp\\.vsdbgsrc\\440b8f0d51df60dd635a6c69d212f275b78959305b35ade9c99228dea16fcd0c\\ViewResultExecutor.cs",
+              "ToolTip": "C:\\Users\\raimo\\AppData\\Local\\Temp\\.vsdbgsrc\\440b8f0d51df60dd635a6c69d212f275b78959305b35ade9c99228dea16fcd0c\\ViewResultExecutor.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\raimo\\AppData\\Local\\Temp\\.vsdbgsrc\\440b8f0d51df60dd635a6c69d212f275b78959305b35ade9c99228dea16fcd0c\\ViewResultExecutor.cs",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAqwKsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T09:20:34.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ResourceInvoker.cs",
+              "DocumentMoniker": "C:\\Users\\raimo\\AppData\\Local\\Temp\\.vsdbgsrc\\a611fe3348ad46b6ce1eef3fbac86b25df2487668bf3a9645b7ea8838c4b9331\\ResourceInvoker.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\raimo\\AppData\\Local\\Temp\\.vsdbgsrc\\a611fe3348ad46b6ce1eef3fbac86b25df2487668bf3a9645b7ea8838c4b9331\\ResourceInvoker.cs",
+              "ToolTip": "C:\\Users\\raimo\\AppData\\Local\\Temp\\.vsdbgsrc\\a611fe3348ad46b6ce1eef3fbac86b25df2487668bf3a9645b7ea8838c4b9331\\ResourceInvoker.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\raimo\\AppData\\Local\\Temp\\.vsdbgsrc\\a611fe3348ad46b6ce1eef3fbac86b25df2487668bf3a9645b7ea8838c4b9331\\ResourceInvoker.cs",
+              "ViewState": "AgIAACsFAAAAAAAAAAArwDcFAAADAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T09:20:34.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "ViewResult.cs",
+              "DocumentMoniker": "C:\\Users\\raimo\\AppData\\Local\\Temp\\.vsdbgsrc\\c19e97453b12fdf7cb229a32d4206b5ecbc83ec074c9e9298d066b38372e86d7\\ViewResult.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\raimo\\AppData\\Local\\Temp\\.vsdbgsrc\\c19e97453b12fdf7cb229a32d4206b5ecbc83ec074c9e9298d066b38372e86d7\\ViewResult.cs",
+              "ToolTip": "C:\\Users\\raimo\\AppData\\Local\\Temp\\.vsdbgsrc\\c19e97453b12fdf7cb229a32d4206b5ecbc83ec074c9e9298d066b38372e86d7\\ViewResult.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\raimo\\AppData\\Local\\Temp\\.vsdbgsrc\\c19e97453b12fdf7cb229a32d4206b5ecbc83ec074c9e9298d066b38372e86d7\\ViewResult.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAqwB0AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T09:20:34.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "ViewExecutor.cs",
+              "DocumentMoniker": "C:\\Users\\raimo\\AppData\\Local\\Temp\\.vsdbgsrc\\4a05b8e6420357241794c90bac01120bf8f4f2f05257fd742c4e69a3965515f0\\ViewExecutor.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\raimo\\AppData\\Local\\Temp\\.vsdbgsrc\\4a05b8e6420357241794c90bac01120bf8f4f2f05257fd742c4e69a3965515f0\\ViewExecutor.cs",
+              "ToolTip": "C:\\Users\\raimo\\AppData\\Local\\Temp\\.vsdbgsrc\\4a05b8e6420357241794c90bac01120bf8f4f2f05257fd742c4e69a3965515f0\\ViewExecutor.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\raimo\\AppData\\Local\\Temp\\.vsdbgsrc\\4a05b8e6420357241794c90bac01120bf8f4f2f05257fd742c4e69a3965515f0\\ViewExecutor.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAqwE8AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T21:16:19.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "IQuizQuestionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Interfaces\\IQuizQuestionRepository.cs",
+              "RelativeDocumentMoniker": "STEMify\\Data\\Interfaces\\IQuizQuestionRepository.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Interfaces\\IQuizQuestionRepository.cs",
+              "RelativeToolTip": "STEMify\\Data\\Interfaces\\IQuizQuestionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T20:27:14.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "STEMify\\Data\\Repositories\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Repositories\\UnitOfWork.cs",
+              "RelativeToolTip": "STEMify\\Data\\Repositories\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T19:00:38.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "AddQuestionType.cshtml",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Quiz\\AddQuestionType.cshtml",
+              "RelativeDocumentMoniker": "STEMify\\Views\\Quiz\\AddQuestionType.cshtml",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Quiz\\AddQuestionType.cshtml",
+              "RelativeToolTip": "STEMify\\Views\\Quiz\\AddQuestionType.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T21:26:33.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "TrueFalseQuestionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Repositories\\TrueFalseQuestionRepository.cs",
+              "RelativeDocumentMoniker": "STEMify\\Data\\Repositories\\TrueFalseQuestionRepository.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Repositories\\TrueFalseQuestionRepository.cs",
+              "RelativeToolTip": "STEMify\\Data\\Repositories\\TrueFalseQuestionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T08:46:44.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "ITrueFalseQuestionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Interfaces\\ITrueFalseQuestionRepository.cs",
+              "RelativeDocumentMoniker": "STEMify\\Data\\Interfaces\\ITrueFalseQuestionRepository.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Interfaces\\ITrueFalseQuestionRepository.cs",
+              "RelativeToolTip": "STEMify\\Data\\Interfaces\\ITrueFalseQuestionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T08:48:16.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "QuizQuestionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Repositories\\QuizQuestionRepository.cs",
+              "RelativeDocumentMoniker": "STEMify\\Data\\Repositories\\QuizQuestionRepository.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Repositories\\QuizQuestionRepository.cs",
+              "RelativeToolTip": "STEMify\\Data\\Repositories\\QuizQuestionRepository.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAQwEMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:33:56.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "MultipleChoiceQuestionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Repositories\\MultipleChoiceQuestionRepository.cs",
+              "RelativeDocumentMoniker": "STEMify\\Data\\Repositories\\MultipleChoiceQuestionRepository.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Repositories\\MultipleChoiceQuestionRepository.cs",
+              "RelativeToolTip": "STEMify\\Data\\Repositories\\MultipleChoiceQuestionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T08:44:02.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "DifficultyLevelRepository.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Repositories\\DifficultyLevelRepository.cs",
+              "RelativeDocumentMoniker": "STEMify\\Data\\Repositories\\DifficultyLevelRepository.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Repositories\\DifficultyLevelRepository.cs",
+              "RelativeToolTip": "STEMify\\Data\\Repositories\\DifficultyLevelRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T16:08:27.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "IQuestionTypeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Interfaces\\IQuestionTypeRepository.cs",
+              "RelativeDocumentMoniker": "STEMify\\Data\\Interfaces\\IQuestionTypeRepository.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Interfaces\\IQuestionTypeRepository.cs",
+              "RelativeToolTip": "STEMify\\Data\\Interfaces\\IQuestionTypeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T16:04:21.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "IMultipleChoiceQuestionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Interfaces\\IMultipleChoiceQuestionRepository.cs",
+              "RelativeDocumentMoniker": "STEMify\\Data\\Interfaces\\IMultipleChoiceQuestionRepository.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Interfaces\\IMultipleChoiceQuestionRepository.cs",
+              "RelativeToolTip": "STEMify\\Data\\Interfaces\\IMultipleChoiceQuestionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T08:45:32.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "IFillInTheBlankQuestionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Interfaces\\IFillInTheBlankQuestionRepository.cs",
+              "RelativeDocumentMoniker": "STEMify\\Data\\Interfaces\\IFillInTheBlankQuestionRepository.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Interfaces\\IFillInTheBlankQuestionRepository.cs",
+              "RelativeToolTip": "STEMify\\Data\\Interfaces\\IFillInTheBlankQuestionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T08:27:05.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "STEMify\\Data\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "STEMify\\Data\\Repositories\\CategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:28:00.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "FillInTheBlankQuestionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Repositories\\FillInTheBlankQuestionRepository.cs",
+              "RelativeDocumentMoniker": "STEMify\\Data\\Repositories\\FillInTheBlankQuestionRepository.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Repositories\\FillInTheBlankQuestionRepository.cs",
+              "RelativeToolTip": "STEMify\\Data\\Repositories\\FillInTheBlankQuestionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T08:24:03.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "IDifficultyLevelRepository.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Interfaces\\IDifficultyLevelRepository.cs",
+              "RelativeDocumentMoniker": "STEMify\\Data\\Interfaces\\IDifficultyLevelRepository.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Interfaces\\IDifficultyLevelRepository.cs",
+              "RelativeToolTip": "STEMify\\Data\\Interfaces\\IDifficultyLevelRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T16:17:26.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "TestRepository.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Repositories\\TestRepository.cs",
+              "RelativeDocumentMoniker": "STEMify\\Data\\Repositories\\TestRepository.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Repositories\\TestRepository.cs",
+              "RelativeToolTip": "STEMify\\Data\\Repositories\\TestRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T16:09:31.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "STEMify\\Data\\Repositories\\Repository.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Repositories\\Repository.cs",
+              "RelativeToolTip": "STEMify\\Data\\Repositories\\Repository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T20:34:21.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "QuestionTypeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Repositories\\QuestionTypeRepository.cs",
+              "RelativeDocumentMoniker": "STEMify\\Data\\Repositories\\QuestionTypeRepository.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Repositories\\QuestionTypeRepository.cs",
+              "RelativeToolTip": "STEMify\\Data\\Repositories\\QuestionTypeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T16:06:51.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "MultiSelectList.cs",
+              "DocumentMoniker": "C:\\Users\\raimo\\AppData\\Local\\Temp\\.vsdbgsrc\\1c565a1e7ec70f2b5b4a6482c2fe5c7bd23c3ad01a1b720eda9bc16d771b9a9b\\MultiSelectList.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\raimo\\AppData\\Local\\Temp\\.vsdbgsrc\\1c565a1e7ec70f2b5b4a6482c2fe5c7bd23c3ad01a1b720eda9bc16d771b9a9b\\MultiSelectList.cs",
+              "ToolTip": "C:\\Users\\raimo\\AppData\\Local\\Temp\\.vsdbgsrc\\1c565a1e7ec70f2b5b4a6482c2fe5c7bd23c3ad01a1b720eda9bc16d771b9a9b\\MultiSelectList.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\raimo\\AppData\\Local\\Temp\\.vsdbgsrc\\1c565a1e7ec70f2b5b4a6482c2fe5c7bd23c3ad01a1b720eda9bc16d771b9a9b\\MultiSelectList.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAqwF8AAAADAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T21:17:24.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "CreateDifficultyLevels.cshtml",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Course\\CreateDifficultyLevels.cshtml",
+              "RelativeDocumentMoniker": "STEMify\\Views\\Course\\CreateDifficultyLevels.cshtml",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Course\\CreateDifficultyLevels.cshtml",
+              "RelativeToolTip": "STEMify\\Views\\Course\\CreateDifficultyLevels.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-23T19:27:24.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "CreateCategory.cshtml",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Course\\CreateCategory.cshtml",
+              "RelativeDocumentMoniker": "STEMify\\Views\\Course\\CreateCategory.cshtml",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Course\\CreateCategory.cshtml",
+              "RelativeToolTip": "STEMify\\Views\\Course\\CreateCategory.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T20:49:11.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "EditQuiz.cshtml",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Quiz\\EditQuiz.cshtml",
+              "RelativeDocumentMoniker": "STEMify\\Views\\Quiz\\EditQuiz.cshtml",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Quiz\\EditQuiz.cshtml",
+              "RelativeToolTip": "STEMify\\Views\\Quiz\\EditQuiz.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T20:55:27.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "AddQuiz.cshtml",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Quiz\\AddQuiz.cshtml",
+              "RelativeDocumentMoniker": "STEMify\\Views\\Quiz\\AddQuiz.cshtml",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Quiz\\AddQuiz.cshtml",
+              "RelativeToolTip": "STEMify\\Views\\Quiz\\AddQuiz.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T16:43:22.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "ControllerActionInvoker.cs",
+              "DocumentMoniker": "C:\\Users\\raimo\\AppData\\Local\\Temp\\.vsdbgsrc\\78bdcd7e131d1ad2795a40227da45555dd99a59333741d6ee6192ddd7756c7a0\\ControllerActionInvoker.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\raimo\\AppData\\Local\\Temp\\.vsdbgsrc\\78bdcd7e131d1ad2795a40227da45555dd99a59333741d6ee6192ddd7756c7a0\\ControllerActionInvoker.cs",
+              "ToolTip": "C:\\Users\\raimo\\AppData\\Local\\Temp\\.vsdbgsrc\\78bdcd7e131d1ad2795a40227da45555dd99a59333741d6ee6192ddd7756c7a0\\ControllerActionInvoker.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\raimo\\AppData\\Local\\Temp\\.vsdbgsrc\\78bdcd7e131d1ad2795a40227da45555dd99a59333741d6ee6192ddd7756c7a0\\ControllerActionInvoker.cs",
+              "ViewState": "AgIAAOoBAAAAAAAAAAAQwPQBAAADAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T19:07:11.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "IQuizRepository.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Interfaces\\IQuizRepository.cs",
+              "RelativeDocumentMoniker": "STEMify\\Data\\Interfaces\\IQuizRepository.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Interfaces\\IQuizRepository.cs",
+              "RelativeToolTip": "STEMify\\Data\\Interfaces\\IQuizRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:21:14.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "SubmitAnswer.cshtml",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Quiz\\SubmitAnswer.cshtml",
+              "RelativeDocumentMoniker": "STEMify\\Views\\Quiz\\SubmitAnswer.cshtml",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Quiz\\SubmitAnswer.cshtml",
+              "RelativeToolTip": "STEMify\\Views\\Quiz\\SubmitAnswer.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T16:44:29.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "SaveResult.cshtml",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Quiz\\SaveResult.cshtml",
+              "RelativeDocumentMoniker": "STEMify\\Views\\Quiz\\SaveResult.cshtml",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Views\\Quiz\\SaveResult.cshtml",
+              "RelativeToolTip": "STEMify\\Views\\Quiz\\SaveResult.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAABRwBoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T16:44:54.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "CompletenessTracker.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Models\\Quizzes\\CompletenessTracker.cs",
+              "RelativeDocumentMoniker": "STEMify\\Models\\Quizzes\\CompletenessTracker.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Models\\Quizzes\\CompletenessTracker.cs",
+              "RelativeToolTip": "STEMify\\Models\\Quizzes\\CompletenessTracker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:17:41.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "QuizResultRepository.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Repositories\\QuizResultRepository.cs",
+              "RelativeDocumentMoniker": "STEMify\\Data\\Repositories\\QuizResultRepository.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Repositories\\QuizResultRepository.cs",
+              "RelativeToolTip": "STEMify\\Data\\Repositories\\QuizResultRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T16:21:42.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "IQuizResultRepository.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Interfaces\\IQuizResultRepository.cs",
+              "RelativeDocumentMoniker": "STEMify\\Data\\Interfaces\\IQuizResultRepository.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Interfaces\\IQuizResultRepository.cs",
+              "RelativeToolTip": "STEMify\\Data\\Interfaces\\IQuizResultRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T16:05:29.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "STEMify\\Data\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "STEMify\\Data\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T20:34:17.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "QuizRepository.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Repositories\\QuizRepository.cs",
+              "RelativeDocumentMoniker": "STEMify\\Data\\Repositories\\QuizRepository.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Repositories\\QuizRepository.cs",
+              "RelativeToolTip": "STEMify\\Data\\Repositories\\QuizRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAwwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:22:19.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "UserAnswerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Repositories\\UserAnswerRepository.cs",
+              "RelativeDocumentMoniker": "STEMify\\Data\\Repositories\\UserAnswerRepository.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Repositories\\UserAnswerRepository.cs",
+              "RelativeToolTip": "STEMify\\Data\\Repositories\\UserAnswerRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwAIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T16:20:26.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "IUserAnswerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Interfaces\\IUserAnswerRepository.cs",
+              "RelativeDocumentMoniker": "STEMify\\Data\\Interfaces\\IUserAnswerRepository.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Interfaces\\IUserAnswerRepository.cs",
+              "RelativeToolTip": "STEMify\\Data\\Interfaces\\IUserAnswerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T16:04:48.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "ITestRepository.cs",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Interfaces\\ITestRepository.cs",
+              "RelativeDocumentMoniker": "STEMify\\Data\\Interfaces\\ITestRepository.cs",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\Data\\Interfaces\\ITestRepository.cs",
+              "RelativeToolTip": "STEMify\\Data\\Interfaces\\ITestRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T16:05:14.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "QuizRepository.cs",
+              "DocumentMoniker": "C:\\Users\\raimo\\Downloads\\files (4)\\Repositories\\QuizRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\raimo\\Downloads\\files (4)\\Repositories\\QuizRepository.cs",
+              "ToolTip": "C:\\Users\\raimo\\Downloads\\files (4)\\Repositories\\QuizRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\raimo\\Downloads\\files (4)\\Repositories\\QuizRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:20:55.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "IQuizRepository.cs",
+              "DocumentMoniker": "C:\\Users\\raimo\\Downloads\\files (4)\\Repositories\\IQuizRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\raimo\\Downloads\\files (4)\\Repositories\\IQuizRepository.cs",
+              "ToolTip": "C:\\Users\\raimo\\Downloads\\files (4)\\Repositories\\IQuizRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\raimo\\Downloads\\files (4)\\Repositories\\IQuizRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:20:54.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\raimo\\Downloads\\files (4)\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\raimo\\Downloads\\files (4)\\Repositories\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\raimo\\Downloads\\files (4)\\Repositories\\UnitOfWork.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\raimo\\Downloads\\files (4)\\Repositories\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:20:55.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\raimo\\Downloads\\files (4)\\Repositories\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\raimo\\Downloads\\files (4)\\Repositories\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\raimo\\Downloads\\files (4)\\Repositories\\IUnitOfWork.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\raimo\\Downloads\\files (4)\\Repositories\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:20:55.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "dashboard.css",
+              "DocumentMoniker": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\wwwroot\\css\\dashboard.css",
+              "RelativeDocumentMoniker": "STEMify\\wwwroot\\css\\dashboard.css",
+              "ToolTip": "C:\\Users\\p.shuuya\\Downloads\\Software-Processes-2025\\STEMify\\STEMify\\wwwroot\\css\\dashboard.css",
+              "RelativeToolTip": "STEMify\\wwwroot\\css\\dashboard.css",
+              "ViewState": "AgIAABsAAAAAAAAAAIBJwI8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-23T20:53:05.729Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 570,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
